@@ -75,7 +75,7 @@ class trainingCorpus:
                     if word and word not in stop:
                     #y = gensim.models.doc2vec.TaggedDocument(words = y, labels = [""])
                     #y = models.Doc2Vec.LabeledSentence(words = y)
-                    sentanceToAdd.append(word)
+                        sentanceToAdd.append(word)
                 sentances.append(sentanceToAdd)
 
         return sentances

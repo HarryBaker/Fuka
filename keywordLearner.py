@@ -2,6 +2,8 @@ __author__ = 'loaner'
 from gensim import models
 from addDoc import trainingCorpus
 
+from cleanTxtFiles import Cleaner
+
 
 #working with one model
 class solutionTrainer:
@@ -69,12 +71,24 @@ if __name__ == '__main__':
     #t.addDoc('SquareRootWiki')
     t.addDoc('backup')
 
+
+
+    t.addDoc(Clearer('completeSquare.txt'))
+    t.addDoc('eliminationMethod.txt')
+    t.addDoc('factorQuadratic.txt')
+    t.addDoc('quadraticFormula.txt')
+    t.addDoc('substitutionMethod.txt')
+    t.addDoc('takeSquareRoot.txt')
+
+
     sentences = t.createSentances()
     stuff = solutionTrainer(sentences, .3)
     stuff.possibleSolutions.append('quadratic formula')
     stuff.possibleSolutions.append('complete the square')
     stuff.possibleSolutions.append('take square root')
     stuff.possibleSolutions.append('factor the quadratic')
+    stuff.possibleSolutions.append('elimination method')
+    stuff.possibleSolutions.append('substitution method')
 
 
     y = stuff.predictMethod("i want to break apart the function.")
