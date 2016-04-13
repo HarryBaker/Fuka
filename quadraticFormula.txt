@@ -1,0 +1,412 @@
+Often, the simplest way to solve "ax2 + bx + c = 0" for the value of x is to factor the quadratic, set each factor equal to zero, and then solve each factor. But sometimes the quadratic is too messy, or it doesn't factor at all, or you just don't feel like factoring. While factoring may not always be successful, the Quadratic Formula can always find the solution.
+
+The Quadratic Formula uses the "a", "b", and "c" from "ax2 + bx + c", where "a", "b", and "c" are just numbers; they are the "numerical coefficients" of the quadratic equation they've given you to solve. The Quadratic Formula is derived from the process of completing the square, and is formally stated as:
+
+ For ax2 + bx + c = 0, the value of x is given by:
+
+  
+
+ x = [ -b ± sqrt(b^2 - 4ac) ] / 2a
+
+For the Quadratic Formula to work, you must have your equation arranged in the form "(quadratic) = 0". Also, the "2a" in the denominator of the Formula is underneath everything above, not just the square root. And it's a "2a" under there, not just a plain "2". Make sure that you are careful not to drop the square root or the "plus/minus" in the middle of your calculations, or I can guarantee that you will forget to "put them back" on your test, and you'll mess yourself up. Remember that "b2" means "the square of ALL of b, including its sign", so don't leave b2 being negative, even if b is negative, because the square of a negative is a positive.
+
+In other words, don't be sloppy and don't try to take shortcuts, because it will only hurt you in the long run. Trust me on this!
+
+Here are some examples of how the Quadratic Formula works:
+
+Solve x2 + 3x – 4 = 0
+This quadratic happens to factor:
+
+x2 + 3x – 4 = (x + 4)(x – 1) = 0
+
+...so I already know that the solutions are x = –4 and x = 1. How would my solution look in the Quadratic Formula? Using a = 1, b = 3, and c = –4, my solution looks like this:
+
+x = -4, x = 1
+
+Then, as expected, the solution is x = –4, x = 1.
+
+Suppose you have ax2 + bx + c = y, and you are told to plug zero in for y. The corresponding x-values are the x-intercepts of the graph. So solving ax2 + bx + c = 0 for x means, among other things, that you are trying to find x-intercepts. Since there were two solutions for x2 + 3x – 4 = 0, there must then be two x-intercepts on the graph. Graphing, we get the curve below:
+
+ 
+
+ADVERTISEMENT
+
+ 
+
+y = x^2 + 3x - 4
+
+As you can see, the x-intercepts (the red dots above) match the solutions, crossing the x-axis at 
+x = –4 and x = 1. This shows the connection between graphing and solving: When you are solving "(quadratic) = 0", you are finding the x-intercepts of the graph. This can be useful if you have a graphing calculator, because you can use the Quadratic Formula (when necessary) to solve a quadratic, and then use your graphing calculator to make sure that the displayed x-intercepts have the same decimal values as do the solutions provided by the Quadratic Formula.
+
+Note, however, that the calculator's display of the graph will probably have some pixel-related round-off error, so you'd be checking to see that the computed and graphed values were reasonably close; don't expect an exact match.   Copyright © Elizabeth Stapel 2000-2011 All Rights Reserved 
+Solve 2x2 – 4x – 3 = 0.  Round your answer to two decimal places, if necessary.
+There are no factors of (2)(–3) = –6 that add up to –4, so I know that this quadratic cannot be factored. I will apply the Quadratic Formula. In this case, a = 2, b = –4, and c = –3:
+
+x = -0.58, 2.58
+
+Then the answer is x = –0.58, x = 2.58, rounded to two decimal places.
+
+Warning: The "solution" or "roots" or "zeroes" of a quadratic are usually required to be in the "exact" form of the answer. In the example above, the exact form is the one with the square roots of ten in it. You'll need to get a calculator approximation in order to graph the x-intercepts or to simplify the final answer in a word problem. But unless you have a good reason to think that the answer is supposed to be a rounded answer, always go with the exact form.
+
+  
+
+Compare the solutions of 2x2 – 4x – 3 = 0 with the x-intercepts of the graph:
+
+  
+
+Just as in the previous example, the x-intercepts match the zeroes from the Quadratic Formula. This is always true. The "solutions" of an equation are also the x-intercepts of the corresponding graph.
+In elementary algebra, the quadratic formula is the solution of the quadratic equation. There are other ways to solve the quadratic equation instead of using the quadratic formula, such as factoring, completing the square, or graphing. Using the quadratic formula is often the most convenient way.
+
+The general quadratic equation is
+
+ax^2+bx+c=0.
+Here x represents an unknown, while a, b, and c are constants with a not equal to 0. One can verify that the quadratic formula satisfies the quadratic equation, by inserting the former into the latter. Each of the solutions given by the quadratic formula is called a root of the quadratic equation.
+
+Geometrically, these roots represent the x values at which any parabola, explicitly given as y = ax2 + bx + c, crosses the x-axis. As well as being a formula that will yield the zeros of any parabola, the quadratic equation will give the axis of symmetry of the parabola, and it can be used to immediately determine how many zeros to expect the parabola to have.
+The solutions of some quadratic equations,  (), are not rational, and cannot be obtained by factoring.  For such equations, the most common method of solution is the quadratic formula. 
+
+Note:  The quadratic formula can be used to solve ANY quadratic equation, even those that can be factored.  Be sure you know this very useful formula!!!
+
+
+Examples:
+
+1.   
+
+By factoring 
+(this equation is factorable):
+	By Quadratic Formula:  a = 1,  b = 2,  c = -8
+	
+Hints:
+Be careful with the signs of the values a, b and c.  Don't drop the sign when substituting into the formula. 
+
+Also remember your rules for multiplying and adding signed numbers as you solve the formula.
+
+ 
+
+2.   
+
+This equation cannot be solved by factoring.
+By Quadratic Formula:  a = 3,  b = -10,  c = 5
+	Hints:  
+Notice how the value for b was substituted into the formula using parentheses (-10).   This helps you to remember to deal with the negative value of b.
+Also, notice how the (-10)2 is actually a positive value.  When you square a value, the answer is always positive.
+
+If needed, these answers can be estimated as decimal values, such as (rounded to 3 decimal places):
+x = 2.721;        x = 0.613
+The radical answers are the "exact" answers.
+The decimal answers are "approximate" answers.
+
+ 
+
+3.   
+
+This equation cannot be solved by factoring.
+By Quadratic Formula:  a = 1,  b = 4,  c = 5
+	Hints:
+Remember that a negative value under the radical is creating an imaginary number (a number with an i).
+ 
+ 
+
+4.   
+
+By factoring 
+(this equation is factorable):
+	By Quadratic Formula:  a = 1,  b = -4,  c = 4
+	Hints:
+When the value under the radical turns to zero, there will appear to be only one answer to the problem (since the plus/minus option is gone).  This really means that the one root is repeating itself, as seen in the factoring solution.
+ 
+
+5.   
+
+Whoa!!  Stop the presses!!!
+This problem cannot be solved using the Quadratic Formula
+until it is set equal to zero.
+
+By Quadratic Formula:  a = 2,  b = 1,  c = -1/2
+	
+Hints:
+
+
+
+
+
+
+ 
+
+
+Deriving the Quadratic Formula:
+
+The quadratic formula is derived from the quadratic equation by a process called "completing the square".  Here is how it was developed:
+
+	The process used here is explained in more detail under completing the square .
+Isolate the variable terms.  Move the constant, c,  to the right.
+
+Prepare to form a perfect square on the left.
+
+To obtain the constant value needed for the perfect square, take half of the coefficient of the x-term and square it.  Add this value to both sides of the equation.
+
+Find a common denominator on the right.
+
+Combine terms on the right.
+
+Write the perfect square on the left.
+
+Take the square root of both sides.
+
+Simplify the denominator from the square root.
+
+Subtract the constant away from the x.
+
+Finally, the quadratic formula appears.  Whew!!!
+Derivation of Quadratic Formula
+
+A Quadratic Equation looks like this:
+
+Quadratic Equation
+
+And it can be solved using the Quadratic Formula:
+
+Quadratic Formula
+
+That formula looks like magic, but you can follow the steps to see how it comes about.
+
+1. Complete the Square
+
+ax2 + bx + c has "x" in it twice, which is hard to solve.
+
+But there is a way to rearrange it so that "x" only appears once. It is called Completing the Square (please read that first!).
+
+Our aim is to get something like x2 + 2dx + d2, which can then be simplified to (x+d)2
+
+So, let's go:
+
+Start with	
+Divide the equation by a	
+Put c/a on other side	
+Add (b/2a)2 to both sides	
+
+The left hand side is now in the x2 + 2dx + d2 format, where "d" is "b/2a"
+So we can re-write it this way:
+
+"Complete the Square"	 
+Now x only appears once and we are making progress.
+
+2. Now Solve For "x"
+
+Now we just need to rearrange the equation to leave "x" on the left
+Start with	 
+Square root	
+Move b/2a to right	
+
+That is actually solved! But let's simplify it a bit:
+
+Multiply right by 2a/2a	
+Simplify:	
+
+Which is the Quadratic formula we all know and love:
+
+ 	Quadratic Formula
+Using the quadratic formula
+
+Using the technique of completing the square, you can make a formula which works for all quadratic equations.
+The most general way to write a quadratic equation is:
+ax2 + bx + c = 0
+Here a, b and c are numbers that vary for different equations.
+So if the equation was:
+2x2 + 7x + 11 = 0
+then a = 2, b = 7, c = 11.
+The formula for the solution is:
+X = - b plus minus square root of b to the power 2 - 4 a c over 2 a
+This formula will work for all equations that can be solved.
+Always try to factorise first. If the equation factorises, this is the easier method. In an exam, any question that asks for an answer to a quadratic equation correct to x decimal places should be solved using this formula. Take a look at this example:
+Solve 2x2 - 5x - 6 = 0
+Here a = 2, b = -5, c = -6
+Substituting these values in the formula, gives you:
+solution
+What is the quadratic formula?
+
+The quadratic formula is used to solve a very specific type of equation, called a quadratic equation. These equations are usually written in the following form:
+
+Ax2 + Bx + C = 0
+
+Quadratic Equations
+
+We may use the quadratic formula to solve quadratic equations, which are second order polynomials (the highest exponent is two). In simple terms, that means that there's an x2 term, but no x3 or x4 terms etc.
+
+They only have one variable, which is often named x. In the equation shown above, the letters a,b,c represent numbers (constants). For example, this is a typical quadratic equation:
+
+ax2 + bx + c = 0
+2x2 - 8x + 7 = 0
+
+Notice that I've replaced "a" with 2, "b" with -8, and "c" with 7. Now, how would you solve that equation for x? There's no way to easily manipulate that equation into an x= form. This is where the quadratic formula comes in handy.
+
+The Quadratic Formula
+
+The Quadratic Formula
+
+It looks really complicated, I know. Once you use it a lot you'll learn the formula by heart, but until then keep trying. Actually using it isn't that hard -- just plug in your numbers step-by-step. Just insert the values for a,b,c and you'll be left with two possible answers for x.
+
+Confused? Try to follow this example:
+
+Example:
+
+Solve this equation for x: x2 - 4x + 4 = 0
+
+Solution:
+
+What are the three coefficients (a,b,c)? Remember that "a" is the coefficient in front of the x2 term, b is the coefficient in front of x, and c is that constant at the end.
+
+Therefore, for this equation, a=1, b= -4, and c= 4.
+
+Plug those values into the quadratic formula and solve for x:
+
+example of a quadratic formula
+
+ 
+
+Notice what happened to the +/- sign in that example. Because we were adding or subtracting 0, BOTH answers are the same. There are actually TWO answers for any quadratic formula, and in this case they are both 2.
+
+Check out another example using the quadratic formula where there are two different answers:
+
+Example:
+
+Solve for x: x2 + 2x = 3
+
+Solution:
+
+This equation isn't in the proper form -- we first need to subtract 3 from each side so there's a 0 on the right:
+
+x2 + 2x - 3 = 0
+
+Now we can just use the quadratic formula to get our answers, given that a=1, b=2, c= -3:
+
+another example
+
+ 
+
+As you can see, we got two answers for this equation. It might seem weird that x could be two different answers, but if you look at the graph for this type of equation, it makes sense. Quadratic equations look like parabolas when graphed, and a parabola can certainly cross the y axis twice (meaning y=0 in two places).
+
+What if you get a negative number inside the square root? That means there are NO possible real answers. This is also possible, and something to look out for. If b2 is not larger than 4ac then the term will be negative and you have no real answers for x.
+
+The quadratic formula is complicated, but if you just follow the steps you'll have no trouble. Memorizing it might take a while, but it's something that will come in very handy.
+
+Try some other lessons on the quadratic formula available from other websites: PurpleMath, SOSMath, wikipedia. Consider asking for more help from our free message board -- the beginning algebra category might be best.
+Quadratic Formula
+The quadratic formula, first discovered by the Babylonians four thousand years ago, gives you a surefire way to solve quadratic equations of the form
+
+0 = ax2 + bx + c.
+
+Plugging in the values of a, b, and c, you will get the desired values of x.
+
+
+
+If the expression under the square root sign (b2 – 4ac, also called the discriminant) is negative, then there are no real solutions. (You need complex numbers to deal with this case properly. These are usually taught in Algebra 2.)
+
+If the discriminant is zero, there is only one solution. If the discriminant is positive, then the ± symbol means you get two answers.
+
+Example 1:
+
+Solve the quadratic equation.
+
+x2 – x – 12 = 0
+
+Here a = 1, b = –1, and c = –12. Substituting, we get:
+
+
+
+Simplify.
+
+
+
+The discriminant is positive, so we have two solutions:
+
+ 
+
+x = 4 and x = –3
+
+In this example, the discriminant was 49, a perfect square, so we ended up with rational answers. Often, when using the quadratic formula, you end up with answers which still contain radicals.
+
+Example 2:
+
+Solve the quadratic equation.
+
+3x2 + 2x + 1 = 0
+
+Here a = 3, b = 2, and c = 1. Substituting, we get:
+
+
+
+Simplify.
+
+
+
+The discriminant is negative, so this equation has no real solutions.
+
+ 
+
+Example 3:
+
+Solve the quadratic equation.
+
+
+
+Here a = 1, b = -4, and c = 2. Substituting, we get:
+
+
+
+Simplify.
+
+
+
+The discriminant is positive but not a perfect square, so we have two real solutions:
+
+
+
+The Quadratic Formula
+
+Trinomials are not always easy to factor. In fact, some trinomials cannot be factored. Thus, we need a different way to solve quadratic equations. Herein lies the importance of the quadratic formula:
+Given a quadratic equation ax 2 + bx + c = 0 , the solutions are given by the equation
+x = 	   
+
+Example 1: Solve for x : x 2 + 8x + 15.75 = 0 
+
+a = 1 , b = 8 , and c = 15.75 .
+x =  
+=  
+=  
+=  
+=  or   
+= -  or -  
+Thus, x = -  or x = -  .
+Example 2: Solve for x : 3x 2 - 10x - 25 = 0 .
+
+a = 3 , b = - 10 , and c = - 25 .
+x =  
+=  
+=  
+=  
+=  
+=  or   
+= 5 or -  
+Thus, x = 5 or x = -  .
+Example 3: Solve for x : -3x 2 - 24x - 48 = 0 .
+
+a = - 3 , b = - 24 , and c = - 48 .
+x =  
+=  
+=  
+=  
+=  
+=  = - 4 
+Thus, x = - 4 .
+Example 4: Solve for x : 2x 2 - 4x + 7 .
+
+a = 2 , b = - 4 , and c = 7 .
+x =  
+=  
+=  
+=  
+Since we cannot take the square root of a negative number, there are no solutions. (The graph of this quadratic polynomial will therefore be a parabola that never touches the x -axis.)
+The Discriminant
+
+As we have seen, there can be 0 , 1 , or 2 solutions to a quadratic equation, depending on whether the expression inside the square root sign, (b 2 - 4ac) , is positive, negative, or zero. This expression has a special name: the discriminant.

@@ -1,0 +1,1749 @@
+The elimination method for solving linear systems
+Another way of solving a linear system is to use the elimination method. In the elimination method you either add or subtract the equations to get an equation in one variable.
+When the coefficients of one variable are opposites you add the equations to eliminate a variable and when the coefficients of one variable are equal you subtract the equations to eliminate a variable.
+Example
+\left\{\begin{matrix} 3y+2x=6\\ 5y-2x=10 \end{matrix}\right
+\left\{\begin{matrix} 3y+2x=6\\ 5y-2x=10 \end{matrix}\right
+We can eliminate the x-variable by addition of the two equations.
+3y+2x=6
+3
+y
+2
+x
+6
++5y−2x=10⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+5
+y
+2
+x
+10
+=8y=16
+8
+y
+16
+y=2
+y2
+The value of y can now be substituted into either of the original equations to find the value of x
+3y+2x=6
+3
+y
+2
+x
+6
+3⋅2+2x=6
+3
+2
+2
+x
+6
+6+2x=6
+6
+2
+x
+6
+x=0
+x
+0
+The solution of the linear system is (0, 2).
+To avoid errors make sure that all like terms and equal signs are in the same columns before beginning the elimination.
+If you don't have equations where you can eliminate a variable by addition or subtraction you directly you can begin by multiplying one or both of the equations with a constant to obtain an equivalent linear system where you can eliminate one of the variables by addition or subtraction.
+Example
+\left\{\begin{matrix} 3x+y=9\\ 5x+4y=22 \end{matrix}\right
+\left\{\begin{matrix} 3x+y=9\\ 5x+4y=22 \end{matrix}\right
+Begin by multiplying the first equation by -4 so that the coefficients of y are opposites
+{\color{green} {-4\}\cdot \left (3x+y\right )=9\cdot {\color{green} {-4}
+{\color{green} {-4\}\cdot \left (3x+y\right )=9\cdot {\color{green} {-4}
+5x+4y=22
+5
+x
+4
+y
+22
+−12x−4y=−36
+12
+x
+4
+y
+36
++5x+4y=22⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+5
+x
+4
+y
+22
+=−7x=−14
+7
+x
+14
+x=2
+x2
+Substitute x in either of the original equations to get the value of y
+3x+y=9
+3
+x
+y
+9
+3⋅2+y=9
+3
+2
+y
+9
+6+y=9
+6
+y
+9
+y=3
+y
+3
+The solution of the linear system is (2, 3)
+ 
+
+Index of lessons | Purplemath's lessons in offline form | 
+Forums | Print this page (print-friendly version) | Find local tutors
+
+ 
+
+
+Systems of Linear Equations: 
+  Solving by Addition / Elimination (page 5 of 7)
+
+Sections: Definitions, Solving by graphing, Substitition, Elimination/addition, Gaussian elimination.
+
+
+Solving Systems of Equations by Addition on MathHelp.com
+ 
+Solving Systems by Addition
+
+The addition method of solving systems of equations is also called the method of elimination. This method is similar to the method you probably learned for solving simple equations.
+
+If you had the equation "x + 6 = 11", you would write "–6" under either side of the equation, and then you'd "add down" to get "x = 5" as the solution.
+
+x + 6 = 11
+    –6    –6
+x       =   5
+
+You'll do something similar with the addition method.
+
+Solve the following system using addition.
+2x + y = 9
+3x – y = 16
+
+Note that, if I add down, the y's will cancel out. So I'll draw an "equals" bar under the system, and add down:
+
+2x + y = 9
+3x – y = 16
+5x      = 25
+
+Now I can divide through to solve for x = 5, and then back-solve, using either of the original equations, to find the value of y. The first equation has smaller numbers, so I'll back-solve in that one:
+
+2(5) + y = 9
+  10 + y = 9
+          y = –1
+
+Then the solution is (x, y) = (5, –1).
+
+It doesn't matter which equation you use for the backsolving; you'll get the same answer either way. If I'd used the second equation, I'd have gotten:
+
+3(5) – y = 16
+  15 – y = 16
+        –y = 1
+          y = –1
+
+...which is the same result as before.
+
+Solve the following system using addition.
+x – 2y = –9
+x + 3y = 16
+
+Note that the x-terms would cancel out if only they'd had opposite signs. I can create this cancellation by multiplying either one of the equations by –1, and then adding down as usual. It doesn't matter which equation I choose, as long as I am careful to multiply the –1 through the entire equation. (That means both sides of the "equals" sign!)
+
+I'll multiply the second equation.
+
+[x - 2y = -9] + [-x - 3y = -16] = [-5y = -25]
+
+The "–1R2" notation over the arrow indicates that I multiplied row 2 by –1. Now I can solve the equation "–5y = –25" to get y = 5. Back-solving in the first equation, I get:
+
+x – 2(5) = –9
+x – 10 = –9
+x = 1
+
+Then the solution is (x, y) = (1, 5).
+
+A very common temptation is to write the solution in the form "(first number I found, second number I found)". Sometimes, though, as in this case, you find the y-value first and then the x-value second, and of course in points the x-value comes first. So just be careful to write the coordinates for your solutions correctly. Copyright © Elizabeth Stapel 2003-2011 All Rights Reserved
+
+Solve the following system using addition.
+2x –   y =     9
+3x + 4y = –14
+
+Nothing cancels here, but I can multiply to create a cancellation. I can multiply the first equation by 4, and this will set up the y-terms to cancel.
+
+[3x - 4y = 36] + [8x + 4y = -16] = [11x = 22]
+
+Solving this, I get that x = 2. I'll use the first equation for backsolving, because the coefficients are smaller.
+
+2(2) – y = 9
+4 – y = 9
+–y = 5
+y = –5
+
+The solution is (x, y) = (2, –5).
+
+Solve the following system using addition.
+ 
+
+ADVERTISEMENT
+
+ 
+
+4x – 3y = 25
+–3x + 8y = 10
+
+Hmm... nothing cancels. But I can multiply to create a cancellation. In this case, neither variable is the obvious choice for cancellation. I can multiply to convert the x-terms to 12x's or the y-terms to 24y's. Since I'm lazy and 12 is smaller than 24, I'll multiply to cancel the x-terms. (I would get the same answer in the end if I set up the y-terms to cancel. It's not that how I'm doing it is "the right way"; it was just my choice. You could make a different choice, and that would be just as correct.)
+
+I will multiply the first row by 3 and the second row by 4; then I'll add down and solve.
+
+[12x -; 9y = 75] + [-;12x + 32y = 40] = [23y = 115]
+Solving, I get that y = 5. Neither equation looks particularly better than the other for back-solving, so I'll flip a coin and use the first equation.
+
+4x – 3(5) = 25
+4x – 15 = 25
+4x = 40
+x = 10
+
+Remembering to put the x-coordinate first in the solution, I get:
+
+(x, y) = (10, 5)
+
+Usually when you are solving "by addition", you will need to create the cancellation. Warning: The most common mistake is to forget to multiply all the way through the equation, multiplying on both sides of the "equals" sign. Be careful of this.
+
+Solve the following using addition.
+12x –  13y =   2
+–6x + 6.5y = –2
+
+I think I'll multiply the second equation by 2; this will at least get rid of the decimal place.
+
+[12x - 13y = 2] + [-2x + 13y = -4] = [0 = -2]
+
+Oops! This result isn't true! So this is an inconsistent system (two parallel lines) with no solution (with no intersection point).
+
+no solution
+
+Solve the following using addition.
+12x – 3y = 6
+  4x –   y = 2
+
+I think it'll be simplest to cancel off the y-terms, so I'll multiply the second row by –3.
+
+[12x - 3y = 6] + [-12x + 3y = -6] = [0 = 0]
+
+Well, yes, but...? I already knew that zero equals zero. So this is a dependent system, and, solving for "y =", the solution is:
+
+y = 4x – 2
+
+(Your text may format the answer as "(s, 4s – 2)", or something like that.)
+
+Remember the difference: a nonsense answer (like "0 = –2" in the previous problem) means an inconsistent system with no solution; a useless answer (like "0 = 0" above) means a dependent system where the whole line is the solution.
+
+Some books use only "x" and "y" for their variables, but many use additional variables. When you write the solution for an x,y-point, you know that the x-coordinate goes first and the y-coordinate goes second. When you are dealing with other variables, assume (unless explicitly told otherwise) that those variables are written in alphabetical order. For instance, if the variables in a given system are a and b, the solution point would be (a, b); it would not be (b, a). Unless otherwise specified, the variables are written in alphabetical order.
+The elimination method of solving systems of equations is also called the addition method. To solve a system of equations by elimination we transform the system such that one variable "cancels out".
+Example 1: Solve the system of equations by elimination
+Elimination Method Example
+Solution:
+In this example we will "cancel out" the y term. To do so, we can add the equations together.
+Elimination Method Solution
+Now we can find: x = 2
+In order to solve for y, take the value for x and substitute it back into either one of the original equations.
+Elimination Method Solution
+The solution is (x, y) = (2, 1).
+
+Example 2: Solve the system using elimination
+Elimination Method step 1
+Solution:
+Look at the x - coefficients. Multiply the first equation by -4, to set up the x-coefficients to cancel.
+Elimination Method step 2
+Now we can find: y = -2
+Take the value for y and substitute it back into either one of the original equations.
+Elimination Method step 3
+The solution is (x, y) = (1, -2).
+
+Example 3: Solve the system using elimination method
+Elimination Method example
+Solution:
+In this example, we will multiply the first row by -3 and the second row by 2; then we will add down as before.
+Elimination Method solution
+Now we can find: y = -1
+Substitute y = -1 back into first equation:
+Elimination Method step 3
+The solution is (x, y) = (3, -1).
+Learning Objective(s)
+·         Solve a system of equations when no multiplication is necessary to eliminate a variable.
+·         Solve a system of equations when multiplication is necessary to eliminate a variable.
+·         Recognize systems that have no solution or an infinite number of solutions.
+·         Solve application problems using the elimination method.
+ 
+Introduction
+The elimination method for solving systems of linear equations uses the addition property of equality. You can add the same value to each side of an equation.
+ 
+So if you have a system: x – 6 = −6 and x + y = 8, you can add x + y to the left side of the first equation and add 8 to the right side of the equation. And since x + y = 8, you are adding the same value to each side of the first equation.
+ 
+Using Addition to Eliminate a Variable
+If you add the two equations, x – y = −6 and x + y = 8 together, as noted above, watch what happens.
+ 
+
+ 
+You have eliminated the y term, and this equation can be solved using the methods for solving equations with one variable.
+ 
+Let’s see how this system is solved using the elimination method.
+ 
+ 
+Example
+Problem
+Use elimination to solve the system.
+   x – y = −6
+x + y = 8
+ 
+ 
+
+Add the equations.
+ 
+2x = 2
+x = 1
+Solve for x.
+ 
+x + y = 8
+1 + y = 8
+y = 8 – 1
+y = 7
+Substitute x = 1 into one of the original equations and solve for y.
+ 
+x – y = −6
+1 – 7 = −6
+−6 = −6
+ 
+TRUE
+x + y = 8
+1 + 7 = 8
+8 = 8
+ 
+TRUE
+Be sure to check your answer in both equations!
+ 
+ 
+The answers check.
+Answer
+The solution is (1, 7).
+ 
+ 
+ 
+Unfortunately not all systems work out this easily. How about a system like 2x + y = 12 and −3x + y = 2. If you add these two equations together, no variables are eliminated.
+ 
+
+ 
+But you want to eliminate a variable. So let’s add the opposite of one of the equations to the other equation.
+ 
+ 2x + y =12      →        2x + y = 12      →       2x + y = 12
+           −3x + y = 2      →      − (−3x + y) = −(2)   →  3x – y = −2
+                                                                                    5x + 0y = 10
+ 
+You have eliminated the y variable, and the problem can now be solved. See the example below.
+ 
+ 
+Example
+Problem
+Use elimination to solve the system.
+2x + y = 12
+                                −3x + y =  2
+ 
+ 
+2x + y = 12
+            −3x + y =  2
+You can eliminate the y-variable if you add the opposite of one of the equations to the other equation.
+ 
+ 2x + y = 12
+            3x – y =  −2
+5x = 10
+Rewrite the second equation as its opposite.
+Add.
+ 
+x = 2
+Solve for x.
+ 
+2(2) + y = 12
+4 + y = 12
+y = 8
+Substitute y = 2 into one of the original equations and solve for y.
+ 
+2x + y = 12
+2(2) + 8 = 12
+4 + 8 = 12
+12 = 12
+ 
+            TRUE
+−3x + y =  2
+−3(2) + 8 = 2
+−6 + 8 = 2
+2 = 2
+ 
+TRUE
+Be sure to check your answer in both equations!
+ 
+ 
+ 
+The answers check.
+Answer
+The solution is (2, 8).
+ 
+ 
+ 
+The following are two more examples showing how to solve linear systems of equations using elimination.
+ 
+ 
+Example
+Problem
+Use elimination to solve the system.
+−2x  + 3y = −1
+   2x  + 5y = 25
+ 
+ 
+ 
+−2x
++
+3y
+=
+−1
+ 
+ 
+ 
+2x
++
+5y
+=
+25
+ 
+Notice the coefficients of each variable in each equation. If you add these two equations, the x term will be eliminated since
+−2x + 2x = 0.
+ 
+ 
+ 
+−2x
++
+3y
+=
+−1
+ 
+ 
+ 
+2x
++
+5y
+=
+25
+ 
+ 
+ 
+ 
+ 
+8y
+=
+24
+ 
+ 
+ 
+ 
+ 
+y
+=
+3
+ 
+Add and solve for y.
+ 
+2x + 5y = 25
+2x + 5(3) = 25
+2x + 15 = 25
+2x = 10
+x = 5
+Substitute y = 3 into one of the original equations.
+ 
+−2x + 3y = −1
+−2(5) + 3(3) = −1
+−10 + 9 = −1
+−1 = −1
+ 
+TRUE
+2x + 5y = 25
+2(5) + 5(3) = 25
+10 + 15 = 25
+25 = 25
+ 
+TRUE
+Check solutions.
+ 
+ 
+ 
+ 
+The answers check.
+Answer
+The solution is (5, 3).
+ 
+ 
+ 
+Example
+Problem
+Use elimination to solve for x and y.
+4x  + 2y = 14
+5x  + 2y = 16
+ 
+ 
+ 
+ 
+4x
++
+2y
+=
+14
+ 
+ 
+ 
+5x
++
+2y
+=
+16
+ 
+Notice the coefficients of each variable in each equation. You will need to add the opposite of one of the equations to eliminate the variable y, as 2y + 2y = 4y, but
+2y + (−2y) = 0.
+ 
+4x
++
+2y
+=
+14
+ 
+−5x
+–
+2y
+=
+−16
+ 
+−x
+ 
+ 
+=
+−2
+ 
+ 
+ 
+x
+=
+2
+ 
+ 
+Change one of the equations to its opposite, add and solve for x.
+ 
+ 
+4x + 2y = 14
+4(2) + 2y = 14
+8 + 2y = 14
+2y = 6
+y = 3
+Substitute x = 2 into one of the original equations and solve for y.
+Answer
+The solution is (2, 3).
+ 
+ 
+ 
+Go ahead and check this last example—substitute (2, 3) into both equations. You get two true statements: 14 = 14 and 16 = 16!
+ 
+Notice that you could have used the opposite of the first equation rather than the second equation and gotten the same result.
+ 
+Using Multiplication and Addition to Eliminate a Variables
+ 
+Many times adding the equations or adding the opposite of one of the equations will not result in eliminating a variable. Look at the system below.
+ 
+3x + 4y = 52
+5x + y = 30
+ 
+If you add the equations above, or add the opposite of one of the equations, you will get an equation that still has two variables. So let’s now use the multiplication property of equality first. You can multiply both sides of one of the equations by a number that will result in the coefficient of one of the variables being the opposite of the same variable in the other equation.
+ 
+This is where multiplication comes in handy. Notice that the first equation contains the term 4y, and the second equation contains the term y. If you multiply the second equation by −4, when you add both equations the y variables will add up to 0.
+ 
+3x + 4y = 52    →        3x + 4y = 52                →             3x + 4y =   52
+5x + y = 30      →      −4(5x + y) = −4(30)      →        −20x – 4y = −120
+                                                                                                −17x + 0y = −68
+ 
+See the example below.
+ 
+ 
+Example
+Problem
+Solve for x and y.
+Equation A: 3x + 4y = 52
+Equation B: 5x + y = 30
+ 
+ 
+ 
+3x
++
+4y
+=
+52
+ 
+ 
+ 
+5x
++
+y
+=
+30
+ 
+ 
+ 
+ 
+Look for terms that can be eliminated. The equations do not have any x or y terms with the same coefficients.
+ 
+ 
+ 
+3x
++
+4y
+=
+52
+ 
+−4(
+5x
++
+y)
+=
+−4
+(30)
+Multiply the second equation by −4 so they do have the same coefficient.
+ 
+ 
+ 
+3x
++
+4y
+=
+52
+ 
+ 
+ 
+−20x
+–
+4y
+=
+−120
+ 
+ 
+ 
+Rewrite the system, and add the equations.
+ 
+ 
+ 
+−17x
+ 
+ 
+=
+-68
+ 
+ 
+ 
+ 
+ 
+x 
+=
+4
+ 
+ 
+Solve for x.
+ 
+3x + 4y = 52
+3(4) + 4y = 52
+12 + 4y = 52
+4y = 40
+y = 10
+Substitute x = 4 into one of the original equations to find y.
+ 
+3x + 4y = 52
+3(4) + 4(10) = 52
+12 + 40 = 52
+52 = 52
+ 
+TRUE
+5x + y = 30
+5(4) + 10 = 30
+20 + 10 = 30
+30 = 30
+ 
+TRUE
+Check your answer.
+ 
+ 
+ 
+ 
+The answers check.
+Answer
+The solution is (4, 10).
+ 
+ 
+ 
+There are other ways to solve this system. Instead of multiplying one equation in order to eliminate a variable when the equations were added, you could have multiplied both equations by different numbers.
+ 
+Let’s remove the variable x this time. Multiply Equation A by 5 and Equation B by −3.
+ 
+ 
+Example
+Problem
+Solve for x and y.
+3x + 4y = 52
+5x + y = 30
+ 
+ 
+ 
+ 
+3x
++
+4y
+=
+52
+ 
+ 
+ 
+5x
++
+y
+=
+30
+ 
+ 
+ 
+ 
+Look for terms that can be eliminated. The equations do not have any x or y terms with the same coefficient.
+ 
+ 
+5
+(3x
++
+4y)
+=
+5
+(52)
+5x
++
+y  
+=
+0
+ 
+ 
+15x
++
+20y
+=
+260
+5x
++
+y
+=
+30
+In order to use the elimination method, you have to create variables that have the same coefficient—then you can eliminate them. Multiply the top equation by 5.
+ 
+15x
++
+20y
+=
+260
+ 
+    -3 (5x
++
+y)
+=
+−3
+(30)
+ 
+15x
++
+20y
+=
+260
+−15x
+–
+3y
+=
+−90
+Now multiply the bottom equation by −3.
+ 
+15x
++
+20y
+=
++
+260
+ 
+−15x
+–
+3y
+=
+–
+90
+ 
+17y
+=
+ 
+170
+ 
+y
+=
+ 
+10
+ 
+Next add the equations, and solve for y.
+ 
+3x + 4y = 52
+3x + 4(10) = 52
+3x + 40 = 52
+3x = 12
+x = 4
+Substitute y = 10 into one of the original equations to find x.
+Answer
+The solution is (4, 10).
+You arrive at the same solution as before.
+ 
+ 
+These equations were multiplied by 5 and −3 respectively, because that gave you terms that would add up to 0. Be sure to multiply all of the terms of the equation.
+ 
+ 
+Felix needs to find x and y in the following system.
+Equation A: 7y − 4x = 5
+Equation B: 3y + 4x = 25
+ 
+If he wants to use the elimination method to eliminate one of the variables, which is the most efficient way for him to do so?
+ 
+A) Add Equation A and Equation B
+ 
+B) Add 4x to both sides of Equation A
+ 
+C) Multiply Equation A by 5
+ 
+D) Multiply Equation B by −1
+ 
+Show/Hide Answer
+ 
+ 
+ 
+Special Situations
+Just as with the substitution method, the elimination method will sometimes eliminate both variables, and you end up with either a true statement or a false statement. Recall that a false statement means that there is no solution.
+ 
+Let’s look at an example.
+ 
+ 
+Example
+Problem
+Solve for x and y.
+-x – y = -4
+x + y = 2
+ 
+ 
+-x – y  = -4
+x + y   =  2
+0 = −2
+Add the equations to eliminate the
+x-term.
+Answer
+There is no solution.
+ 
+ 
+ 
+Graphing these lines shows that they are parallel lines and as such do not share any point in common, verifying that there is no solution.
+ 
+
+ 
+If both variables are eliminated and you are left with a true statement, this indicates that there are an infinite number of ordered pairs that satisfy both of the equations. In fact, the equations are the same line.
+ 
+ 
+Example
+Problem
+Solve for x and y.
+x + y = 2
+-x − y = -2
+ 
+x + y  =  2
+-x − y = -2
+ 0 =   0  
+Add the equations to eliminate the
+x-term.
+Answer
+There are an infinite number of solutions.
+ 
+ 
+Graphing these two equations will help to illustrate what is happening.
+ 
+
+ 
+Solving Application Problems Using the Elimination Method
+ 
+The elimination method can be applied to solving systems of equations that model real situations. Two examples of using the elimination method in problem solving are shown below.
+ 
+ 
+Example
+Problem
+The sum of two numbers is 10. Their difference is 6. What are the two numbers?
+ 
+x + y  = 10
+  x – y  =   6
+Write a system of equations to model the situation.
+x = one number
+y = the other number
+ 
+x + y = 10
+  +  x – y =   6
+2x = 16
+x  = 8
+Add the equations to eliminate the y-term and then solve for x.
+ 
+x + y = 10
+8 + y = 10
+ y  = 2
+Substitute the value for x into one of the original equations to find y.
+ 
+x + y  = 10
+8 + 2 = 10
+10 = 10
+ 
+TRUE
+x – y = 6
+8 – 2 = 6
+6 = 6
+ 
+TRUE
+Check your answer by substituting x = 8 and y = 2 into the original system.
+ 
+The answers check.
+Answer
+The numbers are 8 and 2.
+ 
+ 
+Example
+Problem
+A theater sold 800 tickets for Friday night’s performance. One child ticket costs $4.50 and one adult ticket costs $6.00.The total amount collected was $4,500. How many of each type of ticket were sold?
+ 
+The total number of tickets sold is 800.
+a + c  =  800
+The amount of money collected is $4,500
+   6a  + 4.5c  =  4,500
+ 
+System of equations:
+a + c  =  800
+6a + 4.5c  =  4,500
+Write a system of equations to model the ticket sale situation.
+a = number of adult tickets sold
+c = number of child tickets sold
+ 
+6(a + c) = 6(800)
+6a  + 4.5c  =  4,500
+ 
+6a  +   6c  = 4,800
+6a  + 4.5c = 4,500
+Use multiplication to re-write the first equation.
+ 
+ 
+   6a    +   6c  =    4,800
+    −6a  –  4.5c  =  −4,500
+1.5c  =       300
+ 
+c = 200
+Add the opposite of the second equation to eliminate a term and solve for c.
+ 
+a + 200  =  800
+    −200    −200
+a   = 600
+Substitute 200 in for c in one of the original equations.
+ 
+a + c  =  800
+600 + 200 = 800
+800 = 800
+ 
+TRUE
+ 
+6a  + 4.5c  =  4,500
+6(600) + 4.5(200) = 4,500
+3,600 + 900 = 4,500
+4500 = 4,500
+ 
+TRUE
+Check your answer by substituting
+a = 600 and
+c = 200 into the original system. The answers check.
+Answer
+600 adult tickets and 200 child tickets were sold.
+ 
+ 
+ 
+Summary
+Combining equations is a powerful tool for solving a system of equations. Adding or subtracting two equations in order to eliminate a common variable is called the elimination (or addition) method. Once one variable is eliminated, it becomes much easier to solve for the other one. Multiplication can be used to set up matching terms in equations before they are combined. When using the multiplication method, it is important to multiply all the terms on both sides of the equation—not just the one term you are trying to eliminate.
+Elimination Method
+
+To solve the simultaneous equations, make the coefficients of one of the variables the same value in both equations. Then either add the equations or subtract one equation from the other (whichever is appropriate) to form a new equation that only contains one variable. This is referred to as eliminating the variable.
+Solve the equation thus obtained. Then substitute the value found for the variable in one of the given equations and solve it for the other variable. Write the solution as an ordered pair.
+
+
+Example 4
+
+Solve the following simultaneous equations by using the elimination method:
+
+2x + 3y = 15 and 4x - 3y = 3
+
+Solution:
+
+Label the equations as follows:
+
+2x + 3y = 15   ...(1)     and     4x - 3y = 3   (2)
+
+Notice that 3y appears on the left-hand side of both equations.  Adding the left-hand side of (1) and (2), and then the right-hand sides, gives:
+
+2x + 3y + 4x - 3y = 15 + 3, so we find x = 3   
+
+Note:
+
+We have added equals to equals, and addition eliminates y.
+
+
+Substituting x = 3 in (1) gives:
+
+2(3) + 3y = 15, so we find y = 3
+
+So, the solution is (3, 3).
+
+
+Example 5
+
+Solve the following simultaneous equations by using the elimination method:
+
+11x + 6y = 79 and 11x + 3y = 67
+
+Solution:
+
+Label the equations as follows:
+
+11x + 6y = 79   ...(1)     and     11x + 3y = 67   ...(2)
+
+Subtracting (2) from (1) gives:
+
+11x + 6y - 11x - 3y = 79 - 67, so we find y = 4   
+
+Substituting y = 4 in (1) gives:
+
+11x + 6(4) = 79, so we find x = 5
+
+So, the solution is (5, 4)
+
+
+Example 6
+
+Solve the following simultaneous equations by using the elimination method:
+
+2x + 3y = 13     and     3x + 2y = 12
+
+Solution:
+
+Label the equations as follows:
+
+2x + 3y = 13   ...(1)     and     3x + 2y = 12   ...(2)
+
+Multiplying (1) by 2 and (2) by 3 gives:
+
+4x + 6y = 26   ...(3)     and     9x + 6y = 36   ...(4)   
+
+Subtracting (3) from (4) gives:
+
+9x + 6y - 4x - 6y = 36 - 26, so x = 2
+
+Substituting x = 2 in (1) gives 2(2) + 3y = 13, so we find y = 3
+
+So, the solution is (2, 3).
+
+
+Equations Containing Fractions
+
+If either or both equations contain fractions, then it is desirable to remove the denominators before solving them simultaneously.
+
+Example 7
+
+Solve the following simultaneous equations by using the elimination method:
+
+x / 2 + y / 3 = 6   and   2x - y = 3
+
+Solution:
+
+Label the equations as follows:
+
+x / 2 + y / 3 = 6   ...(1)     and     2x - y = 3   ...(2)
+
+To simplify equation (1), multiply both sides by 6, the lowest common denominator of 2 and 3.
+
+3x + 2y = 36   ...(3)        {Equation 3 replaces equation 1}
+
+The equations are now:
+
+3x + 2y = 36   ...(3)         2x - y = 3   ...(2)
+
+Multiplying (2) by 2 gives:
+
+4x - 2y = 6   ...(4)     {Equation (4) replaces (2)}
+
+Adding (3) and (4) gives:
+
+7x = 42, so x = 6
+
+Substituting x = 6 in (2) gives:
+
+2(6) - y = 3 so y = 9
+
+So, the solution is (6, 9).
+Elimination Method for Solving Equations
+  
+In math, Elimination method is used in algebra course. In algebra, we use elimination method for solving systems of equations. There are two easy methods for solving systems of equations. They are substitution method and elimination method. Elimination method is sometimes more convenient than the substitution method.
+
+ 
+Addition Elimination MethodBack to Top
+Elimination method is a way to solve also known as Addition or subtraction method. In elimination method, one variable in the equation is eliminated by adding or subtracting the two equations.
+In this method, we eliminate one of the unknowns.
+
+Step 1 :- Multiply the given equations by suitable numbers so as to make the coefficients of one of the unknowns, numerically equal
+
+Step 2 :- Add the new equations, if the numerically equal coefficients are opposite in sign, otherwise, subtract them.
+
+Step 3 :- The resulting equation is linear in one unknown. Solve it to obtain the value of one of the unknowns.
+
+Step 4 :- Substitute the value of this unknown in any of the given equations. Solve it to vet the value of the other unknown.
+
+Along with Elimination method for solving equations, students can also learn solving simultaneous equations by substitution method.
+
+Elimination Method ExamplesBack to Top
+Here is more examples on how to use elimination method for solving equations:
+
+Example 1:-
+
+Solve 5/x + 6y = 13, 3/x + 4y = 7
+Solution : The given equations are
+
+5x
+5
+x
+ + 6y = 13 …(i)
+
+3x
+3
+x
+ + 4y = 7 …(ii)
+
+Multiplying (i) by 3 and (ii) by 5, we get
+
+15x
+15
+x
+ + 18y = 39 …(iii)
+
+15x
+15
+x
+ + 20y = 35 …(iv)
+
+Subtracting (iv) from (iii), we get - 2y = 4 ⇒ y = - 2
+
+Subtracting y = - 2 in (i), we get
+
+5x
+5
+x
+ + 6 × (- 2) = 13 ⇒ 5x
+5
+x
+ - 12 = 13 ⇒ 5x
+5
+x
+ = 251
+25
+1
+ ⇒ 25x = 5 ⇒ x = 525
+5
+25
+ = 15
+1
+5
+Hence, x = 1/5 and y = - 2 is the solution of the given equations
+
+
+Example 2:
+
+Solve 17x
+1
+7
+x
+ + 16y
+1
+6
+y
+ = 3, 12x
+1
+2
+x
+ - 13y
+1
+3
+y
+ = 5
+
+Solution : The given equations are
+
+17x
+1
+7
+x
+ + 16y
+1
+6
+y
+ = 3 …(i)
+
+12x
+1
+2
+x
+ - 13y
+1
+3
+y
+ = 5 …(ii)
+
+Putting 1x
+1
+x
+ = u and 1y
+1
+y
+ = v, these equations become
+
+17u
+1
+7
+u
+ + 16v
+1
+6
+v
+ = 3 ⇒ 6u + 7v = 126 …(iii)
+
+12u
+1
+2
+u
+ - 13v
+1
+3
+v
+ = 5 ⇒ 3u - 2v = 30 …(iv)
+
+Multiplying (iv) by 2, we get 6u - 4v = 60 …(v)
+
+Subtracting (v) from (iii), we get 11v = 66 ⇒ v = 6611
+66
+11
+ = 6
+
+Subtracting v = 6 in (iii), we get 6u + 7 × 6 = 126 ⇒ 6u = 126 - 42 ⇒ 6u= 84 ⇒ u = 846
+84
+6
+ = 14
+
+Therefore u = 14 ⇒ 1x
+1
+x
+ = 14 ⇒ x = 114
+1
+14
+And, v = 6 ⇒ 1y
+1
+y
+ = 6 ⇒ y = 16
+1
+6
+Hence, x = 1/14 and y = 1/6 is the solution of the given equations
+7.3 - The Elimination Method
+
+Click here if you want instructions on using the Algebra Coach to carry out the elimination method.
+
+In this section we explain the elimination method. This method makes use of the fact that the solution of an equation is not changed if we
+multiply both sides of the equation by the same factor. 
+
+subtract equal quantities from both sides of an equation.
+This means that we can take one equation and subtract a multiple of another equation from it without changing the solution of the equations.
+
+The elimination method uses this fact to solve a system of linear equations. Suppose we start with a system of n equations in n unknowns. Pick the first equation and subtract suitable multiples of it from the other n − 1 equations. In each case the multiple is chosen so that the subtraction cancels or eliminates the same variable, say x. The result is that the n − 1 equations contain only n − 1 unknowns (x no longer appears).
+
+We repeat this elimination process until we get 1 equation in 1 unknown, which is then easily solved.
+
+The final step is to back-substitute the solution already obtained for the 1 unknown into the previous equations to find the values of all the other unknowns. 
+
+
+
+Example: Solve this system of equations by elimination:
+
+Solution: Let’s take twice the first equation, namely:
+2 x + 2 y = 8
+and subtract it from the second equation, like this:
+
+The result is one equation in the one unknown, y. The other unknown, x, has been eliminated. Solving this equation yields y = 0.4.
+
+It remains to find x. If we back-substitute y = 0.4 into either of the original equations we get x = 3.6. Thus the solution is:
+{ x = 3.6, y = 0.4 }.
+(Note that we could have found x without back-substitution if we had subtracted 3 times the first equation from the second equation, since this eliminates y.)
+
+
+
+
+Gauss and Gauss-Jordan Elimination
+
+We have explained the essence of elimination. For larger systems we need a systematic procedure to avoid getting mixed up. Gauss elimination and Gauss-Jordan elimination are two such procedures.
+
+First, some short-hand. A system of equations such as:
+
+will be represented by a rectangular array of numbers called an augmented matrix:
+
+
+
+Definitions:
+The individual numbers in the matrix are called elements. 
+
+Columns run down the matrix. e.g. the 4th column contains the elements 80, 7 and 22. 
+
+Rows run across. The 3rd row contains 3, −1, 2 and 22. Note that the number of columns in an augmented matrix is always 1 more than the number of rows. 
+
+The diagonal is the set of elements that starts at the top, left corner of the matrix and runs diagonally down and to the right. The diagonal of the above matrix consists of the numbers 4, 1 and 2. 
+
+Any numbers in position D are said to be on the diagonal, any in position a are above the diagonal, and any in position b are below the diagonal.
+
+
+
+
+The Elementary Row Operations
+
+We have seen that the solution of a system of equations is not changed if we:
+divide an both sides of an equation by a constant, or 
+
+subtract a multiple of one equation from another equation.
+These same operations can be applied to the rows of an augmented matrix, since each row just represents an equation. They are then called Elementary Row Operations.
+
+
+
+The Elementary Row Operations (E.R.O.’s) are:
+E.R.O.#1: Choose a row of the augmented matrix and divide (every element of) the row by a constant. 
+
+E.R.O.#2: Choose any row of the augmented matrix and subtract a multiple of any other row from it (element by element).
+You may apply these E.R.O.’s to an augmented matrix as often as you like without changing the solution of the equations represented by the matrix. 
+
+
+
+Example: This example shows how we apply E.R.O.#1 and the notation we use to indicate it. We will divide the first row of the augmented matrix on the left by 2 to produce the new augmented matrix on the right:
+
+Note:   ← ÷ by 2   means “divide the row being pointed to by 2 to produce the new matrix”.
+
+
+Example: This example shows how we apply E.R.O.#2 and the notation we use to indicate it. In the augmented matrix on the left we will take the second row and from it subtract 3 times the first row to produce the new augmented matrix on the right:
+
+Note:   ← R 2 − 3 · R 1 means “take the row being pointed to (row 2) and subtract 3 times row 1 from it to produce the new row 2.” 
+
+
+
+The Gauss elimination procedure is a certain sequence of E.R.O.’s which transforms the augmented matrix into Gauss form (also known as triangular echelon form):
+
+This form is characterized by 1’s on the diagonal, 0’s below the diagonal and any numbers above the diagonal. This new augmented matrix represents the system of equations:
+
+It is solved by back-substitution. Plugging z = 3 into the second equation gives y = 5. Then plugging both z = 3 and y = 5 into the first equation gives x = 7.
+
+
+The Gauss-Jordan elimination procedure is a slightly different sequence of E.R.O.’s which transforms the augmented matrix into Gauss-Jordan form (also known as row-reduced echelon form):
+
+This form is characterized by 1’s on the diagonal, 0’s above and below the diagonal on the LHS of the vertical line, and any numbers on the RHS of the vertical line. This new augmented matrix represents the system of equations:
+
+This system is already solved: x = 7, y = 5, z = 3. Back-substitution is not required. However, about twice as many E.R.O.’s are required to produce the Gauss-Jordan form as the Gauss form.
+
+
+
+The Gauss and the Gauss-Jordan Elimination Procedures
+
+We transform one column at a time into the desired form, either Gauss or Gauss-Jordan. The column presently being transformed is called the pivot column. We proceed systematically, letting the pivot column be the first column, then the second column, etc. until the last column before the vertical line of the augmented matrix. For each pivot column, we do the following two steps before moving on to the next pivot column:
+First, locate the diagonal element in the pivot column. This element is called the pivot. The row containing the pivot is called the pivot row. Divide every element in the pivot row by the pivot (ie. use E.R.O. #1) to get a new pivot row with a 1 in the pivot position. 
+
+The second step differs for the two procedures. In the Gauss procedure we get a 0 in each position below the pivot position by subtracting a suitable multiple of the pivot row from each of the rows below it (ie. by using E.R.O. #2). In the Gauss-Jordan procedure we get a 0 in each position above and below the pivot position by subtracting a suitable multiple of the pivot row from each of the rows above and below it.
+When all the columns before the vertical line have been transformed using the Gauss procedure the augmented matrix will be in Gauss form and we solve the system by back-substitution.
+
+When all the columns before the vertical line have been transformed using the Gauss-Jordan procedure the augmented matrix will be in Gauss-Jordan form and we simply read the solution from the column to the right of the vertical line. 
+
+
+
+Example: Use Gauss elimination to solve the system of equations:
+
+Solution: Perform this sequence of E.R.O.’s on the augmented matrix:
+
+Set the pivot column to column 1. Get a 1 in the diagonal position (in red):
+
+
+
+Next, get 0’s below the pivot (in red):
+
+
+Now, let pivot column = second column.
+
+First, get a 1 in the diagonal position:
+
+
+Next, get a 0 in the position below the pivot:
+
+
+Now, let pivot column = third column. Get a 1 in the diagonal position:
+
+
+This matrix, which is now in Gauss form, represents this system of 3 equations:
+
+
+It is solved by back-substitution. Plugging z = 3 into the second equation we get y = 5. And plugging z = 3 and y = 5 into the first equation we get x = 7. Thus the solution is:
+{ x = 7, y = 5, z = 3 }.
+
+
+
+
+Example: Use Gauss-Jordan elimination to solve the system of equations:
+
+Solution: Perform this sequence of E.R.O.’s on the augmented matrix. Set the pivot column to column 1. Get a 1 in the diagonal position (in red) by using E.R.O. # 1:
+
+Next, get 0’s below the pivot (in red) by using E.R.O. # 2:
+
+Now, let pivot column = second column. First, get a 1 in the diagonal position by using E.R.O. # 1:
+
+Next, get 0’s in the positions above and below the pivot (in red) by using E.R.O. # 2:
+
+Now, let pivot column = third column. Get a 1 in the diagonal position by using E.R.O. # 1:
+
+Next, get 0’s in the positions above the pivot (in red) by using E.R.O. # 2:
+
+This matrix, which is now in Gauss-Jordan or row-reduced echelon form, represents the solution:
+{x = 49, y = −18, z = 8}.
+
+
+Less equations than unknowns
+
+If the number of equations in the system is less than the number of unknowns then you will reach a point in the Gauss or Gauss-Jordan procedure where you cannot transform the pivot column because you have run out of pivot rows. Here is an example:
+
+The third column has no pivot and no pivot row so you have to stop. This augmented matrix represents this system of equations:
+
+In the second form we see that if a value is given for z then x and y can be expressed in terms of it. The next matrix shows that giving a value for z, say z = 5, amounts to having another row:
+
+Try the exercises, which contain examples of systems with less equations than unknowns. 
+
+
+
+Recognizing Redundant or Inconsistent Systems
+
+If the number of equations is greater than the number of unknowns then the systems is guaranteed to be either redundant or inconsistent. But if the number of equations is equal to or less than the number of unknowns then you will generally not recognize a system as being redundant or inconsistent until the very end of the calculation. This is especially true if the system is large.
+
+If you are solving the system of equations by the substitution method and the system is redundant, then you will end up with a final equation that states 0 = 0. Or if the system is inconsistent, then you will end up with one that states a contradiction like 0 = 5. Something similar happens when using Gauss or Gauss-Jordan elimination. If the system is redundant, then at the end of the elimination procedure, when you have the augmented matrix in Gauss or Gauss-Jordan form, the last row of the augmented matrix will be:
+
+This last row represents the equation 0 = 0, a useless piece of information.
+
+If the system is inconsistent then the last row of the augmented matrix will look something like:
+
+The last row represents the equation 0 = 5, a contradiction. Try the exercises, which contain examples of redundant and inconsistent systems of equations. 
+There are three ways to find values of 'x' and 'y' when dealing with systems of two linear equations. In this lesson, we will be learning one of these methods, elimination.
+Systems of Linear Equations: What Are We Solving For?
+A System of Linear Equations is when we have two or three equations, with two or three variables. In this lesson, we will be working with a two-equation system, we will be solving for both x and y. This answer, graphically, is where the two lines cross. If they do not cross, then we have parallel lines and there will be no answer for x and y. If the equations, are the same one, we have graphically, one line sitting on another, and we have an infinite number of solutions.
+
+When dealing with Systems of Linear Equations, there are three ways to solve for x and y. Graphing, substitution, or elimination. In this lesson, we will be looking at the elimination method for solving a system of 2 linear equations.
+
+The Elimination Method: Solving a System of Equations
+The elimination method is where you actually eliminate one of the variables by adding the two equations. In this way, you eliminate one variable so you can solve for the other variable. In a two-equation system, since you have two variables, eliminating one makes the process of solving for the other quite easy. Let's try one:
+
+Elimination Method Example 1
+In this example, you can see you have two equations with two variables. The goal is to have one variable that is positive and one negative in the two equations, so it is easy to eliminate. In this instance, we have -5y and 5y, so we can add the two equations, which eliminates the y-term. Once the y-term is eliminated, we use our basic Algebra skills to solve for the x-term.
+
+Elimination Method
+Now that we have the x-term, we can use substitution to solve for the y-term. Plug 2 into either of the original equations to solve for y.
+
+Elimination Method, substitution step
+From the graph you can see the two lines intersect at the point (2,3). This is the solution for this system of equations.
+
+Graph of Example 1 Solution
+Graph of Example 1
+Elimination Method: Creating Opposites
+Sometimes you will encounter a system of equations, where you will need to create a system where you can eliminate a variable. This is done by multiplying values through the entire equation to set up one positive variable and one negative variable. Let's try this one:
+
+Elimination Example 2
+As you look at this example, think about which variable you want to eliminate. If we want to eliminate the x-term, we need to make sure we have a positive and a negative of the same term. I could multiply the first equation through by -3 which will allow me to eliminate the x-term.
+
+Step 1 of example 1
+Now I can eliminate the x-term, then solve for the y-term:
+
+Solution to Example 2
+Here is the graphic solution showing the two lines crossing at the point (-3,-6).
+
+Graph of Example 2
+Graph of Ex. 2
+When two lines intersect, there is at least one solution, this is called a consistent system. A consistent solution with exactly one solution is called independent.
+
+System with infinite solutions
+When solving for systems of equations, sometimes we encounter equations that have an infinite number of solutions. These equations end up being the exact same equation. Perhaps one equation is twice the other, but when simplified the two equations are the same. Using the same technique for elimination you will end up with a true statement and both variables will be eliminated. Let's try one:
+
+Elimination Method Infinite Solutions
+Using the same technique, we can multiply the second equation through by 2 to eliminate the x-term.
+
+Elimination Example 3 step 1
+Notice we now have exactly the same equation. If I took the next step of adding the two equations we would end up with both variables eliminated and a true statement.
+
+Example 3 Final Step
+The elimination method is used to eliminate a variable in order to more simply solve for the remaining variable(s).
+
+LEARNING OBJECTIVE[ edit ]
+
+Solve systems of equations in two variables using elimination
+
+KEY POINTS[ edit ]
+
+In order to easily solve the system of equations, it helps to first set the equations up in similar way. For example, x+y=-1 and 2y+x=-4 should be written: x+ y=-1 and x+2y=-4.
+Once, the values for the remaining variables have been found successfully, then go back and plug that result into one of the original equation and find the correct value for the other variable.
+Always check the work. This is done by plugging both values into one or both of the original equations.
+TERMS[ edit ]
+
+system of equations
+A set of equations with multiple variables which can be solved using a specific set of values.
+
+elimination method
+Method of solving a system of equations by eliminating one variable in order to more simply solve for the remaining variable.
+
+EXAMPLE[ edit ]
+
+Given the following system of equations:  and . First, set the system up in a way that makes it easier to manipulate by writing one equation immediately above the other. Then choose a variable to eliminate. You can choose either variable, but we will choose x because it is the easiest to eliminate in this system of equations. Looking at the first equation  find a way to express x in terms of only y and a number. In this case, . Now plug in that value of x wherever you see an x in the second equation.  which simplifies to  and now you can solve for y  therefore, y=1. You can now use that value of y to solve for x and you find that x=4-2(1)=2. Check to make sure these values satisfy the original equations. 2+2(1)=4, and 3(2)-1=5. They do.
+Give us feedback on this content:  
+Register for FREE to remove ads and unlock more features! Learn more 
+FULL TEXT[ edit ]
+
+A system of equations, also known as simultaneous equations, are a set of at least two equations containing multiple variables. The system can be solved using a specific set of values corresponding to the variables. This section will focus on systems of equations with just two variables. It is important to first learn how to solve simple systems in order to understand the basic concept before moving on to more complex systems of equations with more variables. The values of the variables are often written in the following notation: (x,y). The most basic methods for solving a system of equations are:
+
+The graphical method
+The substitution method
+and the elimination method
+In this section, the elimination method will be explored.
+
+The elimination method, also known as elimination by addition, is a way to eliminate one of the variables to more simply evaluate the remaining variable. Once, the values for the remaining variables have been found successfully, then go back and plug that result into one of the original equation and find the correct value for the other variable.
+
+This elimination method can be demonstrated by using a simple example:
+
+Using two equations, both with two variables; and , the first thing that needs to be done is to write the variables in the same manner, so that the similar variables line up, like so: .In this example, one variable, y, can easily eliminate using the elimination method, just subtract the bottom equation from the top equation. The remaining variable are: minus equals .Then go back to one of the original equations and substitute the value we found for x. It is easiest to pick the simplest equation, but either equation will work: . It has been found, using the method of elimination, that (x,y) is equal to (2,4). It is also easy to go back and check the answer by plugging both of these values in for their respective variables into one of the equations: .
+
+Although, this is a very simplified example, make sure to follow these steps, and it will be easy to solve any system of equations with two variables. Now, imagine that there is a more difficult problem, such as:  and . This system of equations is shown in . The best way to start every problem is to simplify the equation. Set the equation up so that one of the variables will easily go away. Start by making one of the variables consistent in both equations. This can be done by multiplying the second equation by 2. Don't forget, the same thing has to be done to both sides of the equation: becomes .After the equations are placed on top of each other, the equation will be: . Add the equations together the same way as in the first example.
+
+ 5=3x−y «  »
+1
+4=x+2y «  »
+2
+3
+Interactive Graph: System of Equations with Two Variables
+
+Graph of system of equations with two variables with the equations and . This graph demonstrates that the system of equations has a specific set of values which will solve BOTH equations.
+Also, it is crucially important to check the work, especially when it is simple to check for a system of equations.
+
+
+
+Source: Boundless. “The Elimination Method.” Boundless Algebra. Boundless, 21 Jul. 2015. Retrieved 12 Apr. 2016 from https://www.boundless.com/algebra/textbooks/boundless-algebra-textbook/systems-of-equations-and-matrices-6/systems-of-equations-in-two-variables-40/the-elimination-method-192-4336/
+Elimination method
+
+System of linear equations can also be solved using the elimination method.We will show with examples.
+
+Before you learn this lesson, make sure you understand how to solve linear equations 
+
+Here are the steps to follow:
+
+Step 1
+
+Try to eliminate a variable as you add the left sides and the right sides of the two equations
+
+Step 2
+
+Set the sum resulting from adding the left sides equal to the sum resulting from adding the right sides
+
+Step 3
+
+Solve for the variable that was not cancelled or eliminated
+
+Step 4
+
+Use the answer found in step 3 to solve for the other variable by substituting this value in one of the two equations
+
+Example #1: Solve the following system using the elimination method
+
+x + y = 20
+x − y = 10
+
+Step 1
+
+Examine the two equations carefully.Then, you will try to eliminate or cancel a variable by adding the left sides (x + y and x − y). 
+
+However, since you are adding the left sides, you have to the right sides (20 and 10) of the two equations also
+
+For the equations above, it turns out that it is easy to eliminate y while adding the left sides since x + y + x − y = x + x + y − y = x + x + 0 = 2x
+
+Step 2
+
+The sum for the left sides is 2x and the sum for the right sides is 20 + 10 = 30
+
+Setting them equal, we get 2x = 30
+
+Step 3
+
+2x = 30 Solve for x by dividing both sides of this equation by 2
+
+(2/2)x = 30/2
+
+x = 15
+
+Step 4
+
+You can substitute 15 for x in either x + y = 20 or x − y = 10 to get y
+
+Choosing the first one, we get 15 + y = 20
+
+Minus 15 from both sides to get y = 5
+
+Now check yourself that the answer is still the same if you had chosen to substitute 15 for x in x − y = 10
+
+Example #2: Solve the following system using the elimination method
+
+ 3x + y = 10
+-4x − 2y = 2
+
+Step 1
+
+First, notice that nothing can be eliminated when adding the left sides since
+
+3x + y + -4x − 2y = -1x + 3y
+
+However, in 3x + y = 10, if I can turn y into 2y, I could elimnate y by adding 2y to -2y in -4x − 2y = 2
+
+Therefore, turn y into 2y by multiplying the whole equation by 2. 
+
+2 × ( 3x + y = 10) gives the new equation 6x + 2y = 20
+
+Adding the left side of this equation to the left side of -4x − 2y = 2 gives what you see below:
+
+6x + 2y + -4x − 2y = 6x + -4x + 2y − 2y = 2x + 0 = 2x
+
+Adding the right gives us 20 + 2 = 22
+
+Step 2
+
+The sum for the left sides is 2x and the sum for the right sides is 20 + 2 = 22
+
+Setting them equal, we get 2x = 22
+
+Step 3
+
+2x = 22
+
+Solve for x by dividing both sides of this equation by 2
+
+(2/2)x = 22/2
+
+x = 11
+
+Step 4
+
+You can substitute 11 for x in either  3x + y = 10 or -4x − 2y = 2 to get y
+
+Choosing the first one, we get 3 × 11 + y = 10
+
+33 + y = 10
+
+Minus 33 from both sides to get y = -23
+
+You should have noticed that the reason we call this method the elimination method is because the first thing you do is eliminate a variable 
+Linear Equations: Solutions Using Elimination with Three Variables
+
+Systems of equations with three variables are only slightly more complicated to solve than those with two variables. The two most straightforward methods of solving these types of equations are by elimination and by using 3 × 3 matrices.
+
+To use elimination to solve a system of three equations with three variables, follow this procedure:
+
+Write all the equations in standard form cleared of decimals or fractions.
+
+Choose a variable to eliminate; then choose any two of the three equations and eliminate the chosen variable.
+
+Select a different set of two equations and eliminate the same variable as in Step 2.
+
+Solve the two equations from steps 2 and 3 for the two variables they contain.
+
+Substitute the answers from Step 4 into any equation involving the remaining variable.
+
+Check the solution with all three original equations.
+
+Example 1
+
+Solve this system of equations using elimination.
+
+equation
+
+All the equations are already in the required form.
+
+Choose a variable to eliminate, say x, and select two equations with which to eliminate it, say equations (1) and (2).
+
+equation
+
+Select a different set of two equations, say equations (2) and (3), and eliminate the same variable.
+
+equation
+
+Solve the system created by equations (4) and (5).
+
+equation
+
+Now, substitute z = 3 into equation (4) to find y.
+
+equation
+
+Use the answers from Step 4 and substitute into any equation involving the remaining variable.
+
+Using equation (2), equation
+
+Check the solution in all three original equations.
+
+equation
+
+equation
+
+equation
+
+The solution is x = –1, y = 2, z = 3.
+
+Example 2
+
+Solve this system of equations using the elimination method.
+
+equation
+
+Write all equations in standard form.
+
+equation
+
+Notice that equation (1) already has the y eliminated. Therefore, use equations (2) and (3) to eliminate y. Then use this result, together with equation (1), to solve for x and z. Use these results and substitute into either equation (2) or (3) to find y.
+
+equation
+
+equation
+
+Substitute z = 3 into equation (1).
+
+equation
+
+Substitute x = 4 and z = 3 into equation (2).
+
+equation
+
+Use the original equations to check the solution (the check is left to you).
+
+The solution is x = 4, y = –2, z = 3.

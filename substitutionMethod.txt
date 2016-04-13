@@ -1,0 +1,559 @@
+Systems of Linear Equations: 
+  Solving by Substitution (page 4 of 7)
+
+Sections: Definitions, Solving by graphing, Substitition, Elimination/addition, Gaussian elimination.
+
+
+Solving Systems of Equations by Substitution on MathHelp.com
+ 
+Solving Systems by Substitution
+
+The method of solving "by substitution" works by solving one of the equations (you choose which one) for one of the variables (you choose which one), and then plugging this back into the other equation, "substituting" for the chosen variable and solving for the other. Then you back-solve for the first variable.
+
+Here is how it works. (I'll use the same systems as were in a previous page.)
+
+Solve the following system by substitution.
+2x – 3y = –2
+4x +   y = 24
+
+The idea here is to solve one of the equations for one of the variables, and plug this into the other equation. It does not matter which equation or which variable you pick. There is no right or wrong choice; the answer will be the same, regardless. But — some choices may be better than others.
+
+For instance, in this case, can you see that it would probably be simplest to solve the second equation for "y =", since there is already a y floating around loose in the middle there? I could solve the first equation for either variable, but I'd get fractions, and solving the second equation for x would also give me fractions. It wouldn't be "wrong" to make a different choice, but it would probably be more difficult. Being lazy, I'll solve the second equation for y:
+
+4x + y = 24
+y = –4x + 24
+
+Now I'll plug this in ("substitute it") for "y" in the first equation, and solve for x:
+
+2x – 3(–4x + 24) = –2
+2x + 12x – 72 = –2
+14x = 70
+x = 5 Copyright © Elizabeth Stapel 2003-2011 All Rights Reserved
+
+Now I can plug this x-value back into either equation, and solve for y. But since I already have an expression for "y =", it will be simplest to just plug into this:
+
+y = –4(5) + 24 = –20 + 24 = 4
+
+Then the solution is (x, y) = (5, 4).
+
+Warning: If I had substituted my "–4x + 24" expression into the same equation as I'd used to solve for "y =", I would have gotten a true, but useless, statement:
+
+4x + (–4x + 24) = 24
+4x – 4x + 24 = 24
+24 = 24
+
+Twenty-four does equal twenty-four, but who cares? So when using substitution, make sure you substitute into the other equation, or you'll just be wasting your time.
+
+Solve the following system by substitution.
+y = 36 – 9x
+3x + y/3 = 12
+
+We already know (from the previous lesson) that these equations are actually both the same line; that is, this is a dependent system. We know what this looks like graphically: we get two identical line equations, and a graph with just one line displayed. But what does this look like algebraically?
+
+ 
+
+ADVERTISEMENT
+
+ 
+
+The first equation is already solved for y, so I'll substitute that into the second equation:
+
+3x + (36 – 9x)/3 = 12
+3x + 12 – 3x = 12
+12 = 12
+
+Well, um... yes, twelve does equal twelve, but so what?
+
+I did substitute the first equation into the second equation, so this unhelpful result is not because of some screw-up on my part. It's just that this is what a dependent system looks like when you try to find a solution. Remember that, when you're trying to solve a system, you're trying to use the second equation to narrow down the choices of points on the first equation. You're trying to find the one single point that works in both equations. But in a dependent system, the "second" equation is really just another copy of the first equation, and all the points on the one line will work in the other line.
+
+In other words, I got an unhelpful result because the second line equation didn't tell me anything new. This tells me that the system is actually dependent, and that the solution is the whole line:
+
+solution:  y = 36 – 9x
+
+This is always true, by the way. When you try to solve a system and you get a statement like "12 = 12" or "0 = 0" — something that's true, but unhelpful (I mean, duh!, of course twelve equals twelve!) — then you have a dependent system. We already knew, from the previous lesson, that this system was dependent, but now you know what the algebra looks like.
+
+(Keep in mind that your text may format the answer to look something like "(t, 36 – 9t)", or something similar, using some variable, some "parameter", other than "x". But this "parametrized" form of the solution means the exact same thing as "the solution is the line y = 36 – 9x".)
+
+Solve the following system by substitution.
+    7x + 2y = 16
+–21x – 6y = 24
+
+Neither of these equations is particularly easier than the other for solving.  I'll get fractions, no matter which equation and which variable I choose. So, um... I guess I'll take the first equation, and I'll solve it for, um, y, because at least the 2 (from the "2y") will divide evenly into the 16.
+
+7x + 2y = 16
+2y = –7x + 16
+y = –( 7/2 )x + 8
+
+Now I'll plug this into the other equation:
+
+–21x – 6(–( 7/2 )x + 8) = 24
+–21x + 21x – 48 = 24
+–48 = 24
+
+Um... I don't think so....
+
+In this case, I got a nonsense result. All my math was right, but I got an obviously wrong answer. So what happened?
+
+Keep in mind that, when solving, you're trying to find where the lines intersect. What if they don't intersect? Then you're going to get some kind of wrong answer when you assume that there is a solution (as I did when I tried to find that solution). We knew, from the previous lesson, that this system represents two parallel lines. But I tried, by substitution, to find the intersection point anyway. And I got a "garbage" result. Since there wasn't any intersection point, my attempt led to utter nonsense.
+
+solution: no solution (inconsistent system)
+
+This is always true, by the way. When you get a nonsense result, this is the algebraic indication that the system of equations is inconsistent.
+
+Note that this is quite different from the previous example. Warning: A true-but-useless result (like "12 = 12") is quite different from a nonsense "garbage" result (like "–48 = 24"), just as two identical lines are quite different from two parallel lines. Don't confuse the two. A useless result means a dependent system which has a solution (the whole line); a nonsense result means an inconsistent system which has no solution of any kind.
+The substitution method is most useful for systems of 2 equations in 2 unknowns. The main idea here is that we solve one of the equations for one of the unknowns, and then substitute the result into the other equation.
+Substitution method can be applied in four steps
+Step 1:
+Solve one of the equations for either x = or y = .
+Step 2:
+Substitute the solution from step 1 into the other equation.
+Step 3:
+Solve this new equation.
+Step 4:
+Solve for the second variable.
+
+Example 1: Solve the following system by substitution
+Substitution Method Example
+Solution:
+Step 1: Solve one of the equations for either x = or y = . We will solve second equation for y.
+solution step 1
+Step 2: Substitute the solution from step 1 into the second equation.
+solution step 2
+Step 3: Solve this new equation.
+solution step 3
+Step 4: Solve for the second variable
+solution step 4
+The solution is: (x, y) = (10, -5)
+Note: It does not matter which equation we choose first and which second. Just choose the most convenient one first!
+
+Example 2: Solve by substitution
+Substitution Method Example
+Solution:
+Step 1: Solve one of the equations for either x = or y =. Since the coefficient of y in equation 2 is -1, it is easiest to solve for y in equation 2.
+solution step 1
+Step 2: Substitute the solution from step 1 into the second equation.
+solution step 2
+Step 3: Solve this new equation ( for x ).
+solution step 3
+Step 4: Solve for the second variable
+solution step 4
+The solution is: (x, y) = (1, 2)
+Exercise: Solve the following systems by substitution
+
+Level 1
+Exercise 1		answer 1
+	answer 2
+	answer 3
+	answer 4
+Level 2
+Exercise 2		answer 1
+	answer 2
+	answer 3
+	answer 4
+Solving Systems of Linear Equations Using Substitution
+Systems of Linear equations:
+
+A system of linear equations is just a set of two or more linear equations.
+
+In two variables (xandy)
+x
+ 
+ 
+and
+ 
+ 
+y
+, the graph of a system of two equations is a pair of lines in the plane.
+
+There are three possibilities:
+
+The lines intersect at zero points. (The lines are parallel.)
+The lines intersect at exactly one point. (Most cases.)
+The lines intersect at infinitely many points. (The two equations represent the same line.)
+How to Solve a System Using The Substitution Method
+
+Step 1
+1
+: First, solve one linear equation for y
+y
+ in terms of x
+x
+.
+Step 2
+2
+: Then substitute that expression for y
+y
+ in the other linear equation. You'll get an equation in x
+x
+.
+Step 3
+3
+: Solve this, and you have the x
+x
+-coordinate of the intersection.
+Step 4
+4
+: Then plug in x
+x
+ to either equation to find the corresponding y
+y
+-coordinate.
+Note 1
+1
+: If it's easier, you can start by solving an equation for x
+x
+ in terms of y
+y
+, also – same difference!
+
+Example:
+
+Solve the system {3x+2y=167x+y=19
+3x2y16
+7xy19
+
+Solve the second equation for y
+y
+.
+
+y=19−7x
+y
+19
+7
+x
+
+Substitute 19−7x
+19
+7
+x
+ for y
+y
+ in the first equation and solve for x
+x
+.
+
+3x+2(19−7x)=163x+38−14x=16−11x=−22x=2
+3x2197x16
+3x3814x16
+11x22
+x2
+
+Substitute 2
+2
+ for x
+x
+ in y=19−7x
+y
+19
+7
+x
+ and solve for y
+y
+.
+
+y=19−7(2)y=5
+y1972
+y5
+
+The solution is (2,5)
+2
+5
+.
+ 
+
+Note 2
+2
+: If the lines are parallel, your x
+x
+-terms will cancel in step 2
+2
+, and you will get an impossible equation, something like 0=3
+0
+3
+.
+
+Note 3
+3
+: If the two equations represent the same line, everything will cancel in step 2
+2
+, and you will get a redundant equation, 0=0
+0
+0
+.Solving Systems of Equations by Substitution Method
+Substitution is the most elementary of all the methods of solving systems of equations. Substitution method, as the method indicates, involves substituting something into the equations to make them much simpler to solve. So what do we substitute? We express one of the variables in terms of the other until we have only one equation with only one variable. We then solve for that variable and after we obtain its value, we perform what is called Back Substitution to solve for the other missing variable(s).
+
+Solving Two Variable Equations by Substitution Method
+Let's work some actual examples to understand better how to solve two variable equations using substitution method.
+
+Example 1
+Solve the following system of equations
+
+
+
+ 
+Example 2
+Solve the following system of equations by substitution
+
+
+
+ 
+Solving Three Variable Equations by Substitution Method
+Similar to solving two variable equations, when solving for three variables, we express one variable in terms of another and substitute until we obtain a single equation with only one variable. The final equation tends to be rather large and at times complicated making substitution method not a very ideal method for solving three variable systems of equations. However, substitution method's simplicity overshadows all the complications and makes the method a very fundamental method for solving systems of equations.
+
+Let's try a few examples to see how the method actually works.
+
+Example 3
+Solve the following system of equations
+
+
+
+ 
+Example 4:
+Solve for the variables in the following system of equations
+
+
+System of linear equations can also be solved using the substitution method.We will show with examples.
+
+Before you learn this lesson, make sure you understand how to solve linear equations 
+
+Example #1: Solve the following system using the substitution method
+
+x + y = 20
+x − y = 10
+
+Step 1
+
+You have two equations. Pick either the first or the second equation and solve for either x or y
+
+Since I am the one solving it, I have decided to choose the equation at the bottom (x − y = 10) and I will solve for x
+
+x − y = 10
+
+Add y to both sides
+
+x − y + y = 10 + y
+
+x = 10 + y
+
+Step 2
+
+Since you used the equation at the bottom to solve for x, you will substitute x into the equation on top (x + y = 20)
+
+Using x + y = 20, erase x and write 10 + y since x = 10 + y
+
+We get 10 + y + y = 20
+
+10 + 2y = 20
+
+Minus 10 from both sides
+
+10 − 10 + 2y = 20 − 10 
+
+2y = 10
+
+Divide both sides by 2
+
+y = 5
+
+Now you have y, you can replace its value into either equation to get x
+
+Replacing y into x + y = 20 gives
+
+x + 5 = 20
+
+Minus 5 from both sides
+
+x + 5 − 5 = 20 − 5
+
+x = 15
+
+The solution to the system is x = 15 and y = 5
+
+Indeed 15 + 5 = 20 and 15 − 5 = 10
+
+Example #2: Solve the following system using the substitution method
+
+ 3x + y = 10
+-4x − 2y = 2
+
+Step 1
+
+You have two equations. Pick either the first or the second equation and solve for either x or y
+
+I have decided to choose the equation on top (3x + y = 10) and I will solve for y
+
+3x + y = 10
+
+Subtract 3x from both sides
+
+3x − 3x + y = 10 − 3x
+
+y = 10 − 3x
+
+Step 2
+
+Since you used the equation on top to solve for y, you will substitute y into the equation at the bottom (-4x − 2y = 2)
+
+Using -4x − 2y = 2, erase y and write 10 − 3x keeping in mind that there is a multiplication between 2 and y 
+
+We get -4x − 2 ×(10 − 3x ) = 2
+
+-4x − 2 ×(10 − 3x ) = 2
+
+-4x − 20 + 6x = 2    (After multiplying -2 by 10 and -2 by -3x)
+
+2x − 20 = 2
+
+Add 20 to both sides
+
+2x − 20 + 20 = 2 + 20 
+
+2x = 22
+
+Divide both sides by 2
+
+x = 11
+
+Now you have x, you can replace its value into either equation to get y
+
+Replacing x into 3x + y = 10 gives
+
+3 × 11 + y = 10
+
+33 + y = 10
+
+Minus 33 from both sides
+
+33 − 33 + y = 10 − 33
+
+y = -23
+
+The solution to the system is x = 11 and y = -23
+
+Indeed, 3 × 11 + -23 = 33 + -23 = 10 and -4 × 11 − 2 × -23 = -44 + 46 = 2
+
+You should have noticed that the reason we call this method the substitution method is because after you have solve for a variable in one equation, you substitute the value of that variable into the other equation
+SUBSTITUTION METHOD
+
+When we used the Addition Method to solve a system of equations, we still had to do a substitution to solve for the remaining variable. With the substitution method, we solve one of the equations for one variable in terms of the other, and then substitute that into the other equation. This makes more sense with an example:
+
+Example:
+
+2y + x = 3
+
+(1)
+
+4y – 3x = 1
+
+(2)
+
+Equation 1 looks like it would be easy to solve for x, so we take it and isolate x:
+
+2y + x = 3
+
+ 
+
+x = 3 – 2y
+
+(3)
+
+Now we can use this result and substitute 3 - 2y in for x in equation 2:
+
+
+
+Now that we have y, we still need to substitute back in to get x. We could substitute back into any of the previous equations, but notice that equation 3 is already conveniently solved for x:
+
+
+
+And so the solution is (1, 1).
+
+As a rule, the substitution method is easier and quicker than the addition method when one of the equations is very simple and can readily be solved for one of the variables.
+Substitution Method
+
+One way to solve systems of equations is by substitution. In this method, solve an equation for one variable, then substitute that solution in the other equation, and solve. Use substitution as a method for solving a system of equations when the number of equations and variables is equal (if two variables, there must be two equations; three variables, three equations, etc.) and one of the equations can easily be solved for one variable. If there is no solution to the system of equations (parallel lines), the substitution method will result in something nonsensical, such as . One of the strengths of the substitution method is that it works for systems of equations that are difficult or impossible to graph.
+There are two basic ways to solve n equations with n unknowns: substitution and elimination.  Each of them can have variations.  For example, matrix methods are extensions of the elimination method.  In this section, we will explore substitution.
+
+Substitution Method
+
+Three variables and Three unknowns
+
+Let the variables be x, y, and z.  The equations are eq.1, eq.2, and eq.3.  The substitution method has these basic steps:
+
+Solve eq.1 for z.
+Substitute the whole right-hand side of the equation (the one you just wrote) in place of "z" in eq.2. You should use parentheses around the substituted expression to keep everything orderly.
+Solve the equation you wrote in step 2 for y.
+Substitute the whole right-hand side of the equation you wrote in step 1 in place of "z" in eq.3.  Then substitute the whole right-hand side of the equation you wrote in step 3 in place of "y" in eq.3.
+Solve the equation you wrote in step 4 for x.  You should get a numeric value of x.
+Use this value of x in the equation you wrote in step 3 to solve for y.  You should get a numeric value of y.
+Use these values of x and y in the equation you wrote in step 1 to solve for z.  You should get a numeric value of z.
+Now I will apply these steps to an example, and I will label them so you can understand what I'm doing at each step.
+
+Example: three variables and three unknowns
+
+3x-z+120=y
+y-2z=30
+x+y+z=180
+
+Step 1: Solve eq.1 for z.
+  3x-z+120=y
+  z=3x+120-y
+
+Step 2: Substitute z in eq.2
+  y-2z=30
+  y-2(3x+120-y)=30
+
+Step 3: Solve the equation you wrote in step 2 for y.
+  y-2(3x+120-y)=30
+  y-6x-240+2y=30
+  3y-6x=270
+  y-2x=90
+  y=90+2x
+
+Step 4: Substitute z, then substitute y in eq.3.
+  x+y+z=180
+  x+y+(3x+120-y)=180
+  x+(90+2x)+(3x+120-(90+2x))=180
+
+Step 5: Solve the equation you wrote in step 4 to get the value of x.
+  x+(90+2x)+(3x+120-(90+2x))=180
+  x+90+2x+3x+120-90-2x=180
+  4x+120=180
+  x=15
+
+Step 6: Use this value of x in the equation you wrote in step 3 to solve for y.
+  y=90+2x
+  y=90+2(15)
+  y=120
+
+Step 7: Use these values of x and y in the equation you wrote in step 1 to solve for z.
+  z=3x+120-y
+  z=3(15)+120-120
+  z=45+120-120
+  z=45
+
+Now you should check your answers in the original equations.
+
+3x-z+120=y
+3(15)-45+120=120
+45-45+120=120
+120=120
+True.
+
+y-2z=30
+120-2(45)=30
+120-90=30
+30=30
+True.
+
+x+y+z=180
+15+120+45=180
+180=180
+True.
+
+You should be able to see how this generalizes to n equations in n unknowns.  You would solve the first equation for the first unknown, then substitute this in the second equation, and solve for the second unknown.  Then substitute both variables in the third equation, and solve for the third unknown.  Then substitute all three variables in the fourth equation, and solve for the fourth unknown, etc.  When you get to the last equation, and solve it for the last unknown, you should be down to a numeric answer.  Then work backwards through the odd-numbered steps, getting numeric answers for each variable in turn.Now you can substitute what y equals in for the variable y in the first equation. So when you replace y with (-47), you get this:
+
+3x2 + 2(-47) = 11.
+
+Which you can then solve for x and complete the problem (you already know y = -47). Remember that you should get two answers for x.
+
+For more examples of using the substitution method to solve two simultaneous equations, use our Quick Search and look for substitution.

@@ -1,0 +1,619 @@
+Some quadratics are fairly simple to solve because they are of the form "something-with-x squared equals some number", and then you take the square root of both sides.
+
+An example would be:
+
+   (x – 4)2 = 5 
+  x – 4 = ± sqrt(5) 
+  x = 4 ± sqrt(5) 
+  x = 4 – sqrt(5)  and  x = 4 + sqrt(5)
+
+Unfortunately, most quadratics don't come neatly squared like this. For your average everyday quadratic, you first have to use the technique of "completing the square" to rearrange the quadratic into the neat "(squared part) equals (a number)" format demonstrated above. For example:
+
+Find the x-intercepts of y = 4x2 – 2x – 5.
+First off, remember that finding the x-intercepts means setting y equal to zero and solving for the x-values, so this question is really asking you to "Solve 4x2 – 2x – 5 = 0".
+
+This is the original problem.	4x2 – 2x – 5 = 0
+Move the loose number over to the other side.	4x2 – 2x = 5
+Divide through by whatever is multiplied on the squared term.
+Take half of the coefficient (don't forget the sign!) of the x-term, and square it. Add this square to both sides of the equation.
+
+Convert the left-hand side to squared form, and simplify the right-hand side. (This is where you use that sign that you kept track of earlier. You plug it into the middle of the parenthetical part.)
+
+(x – 1/4)^2 = 21/16
+Square-root both sides, remembering the "±" on the right-hand side.  Simplify as necessary.	x – 1/4 = ± sqrt(21)/4
+Solve for "x =".	x = 1/4 ± sqrt(21)/4
+Remember that the "±" means that you have two values for x.	x = 1/4 – sqrt(21)/4 and x = 1/4 + sqrt(21)/4
+The answer can also be written in rounded form as 
+
+ 
+
+ADVERTISEMENT
+
+ 
+
+You will need rounded form for "real life" answers to word problems, and for graphing. But (warning!) in most other cases, you should assume that the answer should be in "exact" form, complete with all the square roots.
+
+When you complete the square, make sure that you are careful with the sign on the x-term when you multiply by one-half. If you lose that sign, you can get the wrong answer in the end, because you'll forget what goes inside the parentheses. Also, don't be sloppy and wait to do the plus/minus sign until the very end. On your tests, you won't have the answers in the back, and you will likely forget to put the plus/minus into the answer. Besides, there's no reason to go ticking off your instructor by doing something wrong when it's so simple to do it right. On the same note, make sure you draw in the square root sign, as necessary, when you square root both sides. Don't wait until the answer in the back of the book "reminds" you that you "meant" to put the square root symbol in there. If you get in the habit of being sloppy, you'll only hurt yourself!
+
+Solve x2 + 6x – 7 = 0 by completing the square.
+Do the same procedure as above, in exactly the same order. (Study tip: Always working these problems in exactly the same way will help you remember the steps when you're taking your tests.) Copyright © Elizabeth Stapel 1999-2009 All Rights Reserved
+
+This is the original equation.	x2 + 6x – 7 = 0
+Move the loose number over to the other side.	x2 + 6x      = 7
+Take half of the x-term (that is, divide it by two) (and don't forget the sign!), and square it. Add this square to both sides of the equation.	completing-the-square animation
+Convert the left-hand side to squared form.  Simplify the right-hand side.	(x + 3)2 = 16
+Square-root both sides. Remember to do "±" on the right-hand side.	x + 3 = ± 4
+Solve for "x =". Remember that the "±" gives you two solutions. Simplify as necessary.	
+   x = – 3 ± 4
+      = – 3 – 4, –3 + 4
+      = –7, +1
+
+If you are not consistent with remembering to put your plus/minus in as soon as you square-root both sides, then this is an example of the type of exercise where you'll get yourself in trouble. You'll write your answer as "x = –3 + 4 = 1", and have no idea how they got "x = –7", because you won't have a square root symbol "reminding" you that you "meant" to put the plus/minus in. That is, if you're sloppy, these easier problems will embarrass you!
+In elementary algebra, completing the square is a technique for converting a quadratic polynomial of the form
+
+ax^2 + bx + c\,\!
+to the form
+
+ a(\cdots\cdots)^2 + \mbox{constant}.\, 
+In this context, "constant" means not depending on x. The expression inside the parenthesis is of the form (x + constant). Thus
+
+ax^2 + bx + c\,\! is converted to
+ a(x + h)^2 + k\, 
+for some values of h and k.
+
+Completing the square is used in
+
+solving quadratic equations,
+graphing quadratic functions,
+evaluating integrals in calculus, such as Gaussian integrals with a linear term in the exponent
+finding Laplace transforms.
+In mathematics, completing the square is often applied in any computation involving quadratic polynomials. Completing the square is also used to derive the quadratic formula.
+"Completing the Square" is where we ... 
+... take a Quadratic Equation like this:		and turn it into this:
+ax2 + bx + c = 0
+
+a(x+d)2 + e = 0
+
+
+For those of you in a hurry, I can tell you that:	 		 
+and:	 		 
+
+But if you have time, let me show you how to "Complete the Square" yourself.
+
+Completing the Square
+
+Say we have a simple expression like x2 + bx. Having x twice in the same expression can make life hard. What can we do?
+
+Well, with a little inspiration from Geometry we can convert it, like this:
+
+Completing the Square Geometry
+
+As you can see x2 + bx can be rearranged nearly into a square ...
+
+... and we can complete the square with (b/2)2
+
+In Algebra it looks like this:
+
+x2 + bx	 	+ (b/2)2	=	(x+b/2)2
+ 	 	"Complete the Square"	 	 
+So, by adding (b/2)2 we can complete the square.
+
+And (x+b/2)2 has x only once, which is easier to use.
+
+Keeping the Balance
+
+Now ... we can't just add (b/2)2 without also subtracting it too! Otherwise the whole value changes.
+
+So let's see how to do it properly with an example:
+
+Start with:		 
+ 	("b" is 6 in this case)	 
+ 	 	 
+Complete the Square:
+
+
+Also subtract the new term
+
+ 
+Simplify it and we are done.
+
+ 		 
+The result:
+
+x2 + 6x + 7   =   (x+3)2 − 2
+
+And now x only appears once, and our job is done!
+
+A Shortcut Approach
+
+Let us look at the result we want: (x+d)2 + e
+
+When we expand (x+d)2 we get x2 + 2dx + d2, so:
+
+
+
+Now we can "force" an answer:
+
+We know that 6x must end up as 2dx, so d must be 3
+Next we see that 7 must become d2 + e = 9 + e, so e must be −2
+And we get the same result (x+3)2 − 2 as above!
+
+ 
+
+Now, let us look at a useful application: solving Quadratic Equations ...
+
+Solving General Quadratic Equations by Completing the Square
+
+We can complete the square to solve a Quadratic Equation (find where it is equal to zero).
+
+But a general Quadratic Equation can have a coefficient of a in front of x2:
+
+ax2 + bx + c = 0
+
+But that is easy to deal with ... just divide the whole equation by "a" first, then carry on:
+
+x2 + (b/a)x + c/a = 0
+
+Steps
+
+Now we can solve a Quadratic Equation in 5 steps:
+
+Step 1 Divide all terms by a (the coefficient of x2).
+Step 2 Move the number term (c/a) to the right side of the equation.
+Step 3 Complete the square on the left side of the equation and balance this by adding the same value to the right side of the equation.
+We now have something that looks like (x + p)2 = q, which can be solved rather easily:
+
+Step 4 Take the square root on both sides of the equation.
+Step 5 Subtract the number that remains on the left side of the equation to find x.
+Examples
+
+Here are two examples:
+
+Example 1: Solve x2 + 4x + 1 = 0
+
+Step 1 can be skipped in this example since the coefficient of x2 is 1
+
+Step 2 Move the number term to the right side of the equation:
+
+x2 + 4x = -1
+Step 3 Complete the square on the left side of the equation and balance this by adding the same number to the right side of the equation.
+
+(b/2)2 = (4/2)2 = 22 = 4
+
+x2 + 4x + 4 = -1 + 4
+(x + 2)2 = 3
+Step 4 Take the square root on both sides of the equation:
+
+x + 2 = ±√3 = ±1.73 (to 2 decimals)
+Step 5 Subtract 2 from both sides:
+
+x = ±1.73 – 2 = -3.73 or -0.27
+And here is an interesting and useful thing.
+
+At the end of step 3 we had the equation:
+
+(x + 2)2 = 3
+It gives us the vertex (turning point) of x2 + 4x + 1: (-2, -3)
+
+ 	graph
+ 
+
+Example 2: Solve 5x2 – 4x – 2 = 0
+
+Step 1 Divide all terms by 5
+
+x2 – 0.8x – 0.4 = 0
+Step 2 Move the number term to the right side of the equation:
+
+x2 – 0.8x = 0.4
+Step 3 Complete the square on the left side of the equation and balance this by adding the same number to the right side of the equation:
+
+(b/2)2 = (0.8/2)2 = 0.42 = 0.16
+
+x2 – 0.8x + 0.16 = 0.4 + 0.16
+(x – 0.4)2 = 0.56
+Step 4 Take the square root on both sides of the equation:
+
+x – 0.4 = ±√0.56 = ±0.748 (to 3 decimals)
+Step 5 Subtract (-0.4) from both sides (in other words, add 0.4):
+
+x = ±0.748 + 0.4 = -0.348 or 1.148
+Why "Complete the Square"?
+
+Why complete the square when we can just use the Quadratic Formula to solve a Quadratic Equation?
+
+Well, one reason is given above, where the new form not only shows us the vertex, but makes it easier to solve.
+
+There are also times when the form ax2 + bx + c may be part of a larger question and rearranging it as a(x+d)2 + e makes the solution easier, because x only appears once.
+
+For example "x" may itself be a function (like cos(z)) and rearranging it may open up a path to a better solution.
+
+Also Completing the Square is the first step in the Derivation of the Quadratic Formula
+
+Just think of it as another tool in your mathematics toolbox.
+
+An equation in which one side is a perfect square trinomial can be easily solved by taking the square root of each side. 
+Consider the example at the right:
+                                         
+
+
+
+It is this method of solution that is the basis of a process called "completing the square".
+
+Consider the equation:   .
+  Our solution strategy will be to "force" a  perfect square trinomial of the form
+ 
+on the left hand side of the equation.
+This method of "forcing" the existence of a perfect square trinomial is completing the square.
+
+Steps for Completing the Square:
+
+1.  Be sure that the coefficient of the highest power is one.
+If it is not, divide each term by that value to create a leading coefficient of one.	
+
+
+2.  Move the constant term to the right hand side.	
+
+
+3.  Prepare to add the needed value to create the perfect square trinomial.  Be sure to balance the equation.  The boxes may help you remember to balance.	
+4.  To find the needed value for the perfect square trinomial, take half of the coefficient of the middle term (x-term), square it, and add that value to both sides of the equation.
+                        	
+5.  Factor the perfect square trinomial.	
+6.  Take the square root of each side and solve.  Remember to consider both plus and minus results.	
+
+
+
+
+ 
+
+Examples:  Solve each example by completing the square.
+
+1:     
+
+	Keep all x related terms on one side.  Move the constant to the right.
+Get ready to create a perfect square on the left.  Balance the equation.
+
+Take half of the x-term coefficient and square it.  Add this value to both sides.
+
+Factor and write the perfect square on the left.
+
+Take the square root of both sides.  Be sure to allow for both plus and minus.
+
+Solve for x.
+
+ 
+
+ 
+
+2:     
+
+	This equation needs some re-arranging.
+Divide through by 2 to create the leading coefficient of 1 (for p2).
+
+Keep all p related terms on one side.  Move the constant to the right.
+
+Get ready to create a perfect square on the left.  Balance the equation.
+
+Take half of the p-term coefficient and square it.  Add this value to both sides.
+
+Factor and write the perfect square on the left.
+
+Take the square root of both sides.  Be sure to allow for both plus and minus.
+
+Solve for p.  Be sure to express the negative radical as an imaginary number.
+
+ 
+
+ 
+
+There are other applications of completing the square.  In the section on Equations of Circles, we will see how completing the square is used  to change the equation of a circle from general form to center-radius form.
+IN LESSON 18 we saw a technique called completing the square.  We will now see how to apply it to solving a quadratic equation.
+Completing the square
+If we try to solve this quadratic equation by factoring,
+x2 + 6x + 2	=	0
+ we cannot.  Therefore, we will complete the square.  We will make the quadratic into the form
+a2 + 2ab + b2	=	(a + b)2 .
+This technique is valid only when the coefficient of x2 is 1.
+1)   Transpose the constant term to the right
+x2 + 6x = −2.
+ 	2)  	Add a square number to both sides -- add the square of half the coefficient of x.  In this case, add the square of half of 6; that is, add the square of 3, which is 9:
+x2 + 6x + 9 = −2 + 9.
+The left-hand side is now the perfect square of  (x + 3).
+(x + 3)2  =  7.
+3 is half of the coefficient 6.
+That equation has the form
+a2	 = 	b
+  which implies
+a	 = 	±square root.
+         Therefore,
+x + 3	 = 	±square root
+ 
+x	 = 	−3 ±square root.
+That is, the solutions to
+x2 + 6x + 2  =  0
+are the conjugate pair,
+−3 + square root,  −3 − square root.
+For a method of checking these roots, see the theorem of the sum and product of the roots:  Lesson 10 of Topics in Precalculus,
+In Lesson 18 there are examples and problems in which the coefficient of x is odd.  Also, some of the quadratics below have complex roots, and some involve simplifying radicals.
+Problem 6.   Solve each quadratic equation by completing the square.
+To see the answer, pass your cursor from left to right
+over the colored area. 
+To cover the answer again, click "Refresh" ("Reload").
+Do the problem yourself first!
+
+   a)  	x2 − 2x − 2	 = 	0	 	b)  	x2 − 10x + 20	 = 	0
+ 
+ 	x2 − 2x	 = 	2	 	x2 − 10x	 = 	−20
+ 
+ 	x2 − 2x + 1	 = 	2 + 1	 	x2 − 10x + 25	 = 	−20 + 25
+ 
+ 	(x − 1)2	 = 	3	 	(x − 5)2	 = 	5
+ 
+ 	x − 1	 = 	±square root	 	x − 5	 = 	±square root
+ 
+ 	x	 = 	1 ± square root	 	x	 = 	5 ± square root
+   c)  	x2 − 4x + 13	 = 	0	 	d)  	x2 + 6x + 29	 = 	0
+ 
+ 	x2 − 4x	 = 	−13	 	x2 + 6x	 = 	−29
+ 
+ 	x2 − 4x + 4	 = 	−13 + 4	 	x2 + 6x + 9	 = 	−29+ 9
+ 
+ 	(x − 2)2	 = 	−9	 	(x + 3)2	 = 	−20
+ 
+ 	x − 2	 = 	±3i	 	x + 3	 = 	±square root
+ 
+ 	x	 = 	2 ± 3i	 	x	 = 	−3 ± 2isquare root
+   e)  	x2 − 5x − 5	 = 	0	 	f)  	x2 + 3x + 1	 = 	0
+ 
+ 	x2 − 5x	 = 	5	 	x2 + 3x	 = 	−1
+ 
+ 	x2 − 5x + 25/4	 = 	5 + 25/4	 	x2 + 3x + 9/4	 = 	−1 + 9/4
+ 
+ 	(x − 5/2)2	 = 	5 + 25/4	 	(x + 3/2)2	 = 	− 1 + 9/4
+ 
+ 	x − 5/2	 = 	±square root	 	x + 3/2	 = 	±square root
+ 
+ 	x	 = 	square root	 	x	 = 	square root
+Problem 7.   Find two numbers whose sum is 10 and whose product is 20.
+According to the theorem of the sum and products of the roots, they are the solutions to Problem 6b.
+The quadratic formula
+Here is a formula for finding the roots of any quadratic. It is proved by completing the squareexclamation In other words, the quadratic formula completes the square for us.
+Theorem.    If
+ax2 + bx + c = 0,
+then
+square root
+The two roots are on the right. One root has the plus sign; the other, the minus sign.  If the square root term is irrational, then the two roots are a conjugate pair.
+If we call those two roots r1 and r2 , then the quadratic can be factored as
+(x − r1)(x − r2).
+We will prove the quadratic formula below.
+Example 4.   Use the quadratic formula to solve this quadratic equation:
+3x2 + 5x − 8  =  0
+Solution.   We have:   a  =  3,  b  =  5,  c  =  −8.
+Therefore, according to the formula:
+x	=	square root
+ 
+ 	=	square root
+ 
+ 	=	square root
+ 
+ 	=	square root
+That is,
+x	=	−5 + 11
+     6	 or  	−5 − 11
+     6
+x 	   =  	6
+6	   or   	−16
+  6
+x 	   =  	1	   or   −	8
+3	.
+Those are the two roots.  And they are rational.  When the roots are rational, we could have solved the equation by factoring, which is always the simplest method.
+3x2 + 5x − 8 	 = 	(3x + 8)(x − 1)
+ 
+x	 = 	−	8
+3	  or  1.
+Completing the square
+
+This is another way to solve a quadratic equation if the equation will not factorise.
+It is often convenient to write an algebraic expression as a square plus another term. The other term is found by dividing the coefficient of x by 2, and squaring it.
+Any quadratic equation can be rearranged so that it can be solved in this way.
+Have a look at this example.
+Example 1
+Rewrite x2 + 6x as a square plus another term.
+The coeffient of x is 6. Dividing 6 by 2 and squaring it gives 9.
+x2 + 6x = (x2 + 6x + 9) - 9
+= (x + 3)2 - 9
+Example 2
+We have seen in the previous example that x2 + 6x = (x + 3)2 - 9
+So work out x2 + 6x - 2
+x2 + 6x - 2 = ( x2 + 6x + 9 ) - 9 - 2 = (x + 3)2 - 11
+Now try one for yourself.
+Question
+Solve x2 + 6x - 2 = 0
+toggle answer
+
+Example 3
+Rewrite 2x2 + 20x + 3
+Rewrite to get x2 on its own.
+2( x2 + 10x ) + 3
+The coefficient of x is 10. Divide 10 by 2, and square to get 25.
+= 2 ( ( x + 5)2 - 25) + 3
+= 2 (x + 5)2 - 50 + 3
+= 2 (x + 5)2 - 47
+Completing the square
+mc-TY-completingsquare2-2009-1
+In this unit we consider how quadratic expressions can be written in an equivalent form using the technique known as completing the square. This technique has applications in a number of areas, but we will see an example of its use in solving a quadratic equation.
+In order to master the techniques explained here it is vital that you undertake plenty of practice exercises so that all this becomes second nature. To help you to achieve this, the unit includes a substantial number of such exercises.
+After reading this text, and/or viewing the video tutorial on this topic, you should be able to: • write a quadratic expression as a complete square, plus or minus a constant
+• solve a quadratic equation by completing the square
+In this unit we look at a process called completing the square. It can be used to write a quadratic expression in an alternative form. Later in the unit we will see how it can be used to solve a quadratic equation.
+2. Some simple equations
+Example
+Consider the quadratic equation x2 = 9. We can solve this by taking the square root of both sides:
+x=3 or −3
+remembering that when we take the square root there will be two possible answers, one positive
+and one negative. This is often written in the briefer form x = ±3.
+This process for solving x2 = 9 is very straightforward, particularly because:
+• 9 is a ‘square number’, or ‘complete square’. This means that it is the result of squaring another number, or term, in this case the result of squaring 3 or −3.
+• x2 is a complete square - it is the result of squaring x.
+So simply square-rooting both sides solves the problem.
+Example
+Consider the equation x2 = 5.
+Again, we can solve this by taking the square root of both sides:
+x = √5 or − √5
+In this example, the right-hand side of x2 = 5, is not a square number. But we can still solve the equation in the same way. It is usually better to leave your answer in this exact form, rather than use a calculator to give a decimal approximation.
+Example
+Suppose we wish to solve the equation
+(x−7)2 =3
+Again, we can solve this by taking the square root of both sides. The left-hand side is a complete
+  square because it results from squaring x − 7.
+x − 7 = √3 or − √3
+By adding 7 to each side we can obtain the values for x:
+x = 7 + √3 or 7 − √3
+We could write this in the briefer form x = 7 ± √3. www.mathcentre.ac.uk 2
+⃝c mathcentre 2009
+      
+Example
+Suppose we wish to solve
+(x+3)2 =5
+Again the left-hand side is a complete square. Taking the square root of both sides:
+x + 3 = √5 or − √5 By subtracting 3 from each side we can obtain the values for x: x = −3 + √5 or − 3 − √5
+Exercises
+1. Solve the following quadratic equations
+a) x2=25 b) x2=10 c) x2=2 d) (x+1)2=9
+e) (x+3)2 =16 f) (x−2)2 =100 g) (x−1)2 =5 h) (x+4)2 =2 3. The basic technique
+Now suppose we wanted to try to apply the method used in the three previous examples to
+x2 + 6x = 4
+In each of the previous examples, the left-hand side was a complete square. This means that in each case it took the form (x + a)2 or (x − a)2. This is not the case now and so we cannot just take the square-root. What we try to do instead is rewrite the expression so that it becomes a complete square - hence the name completing the square.
+Observe that complete squares such as (x + a)2 or (x − a)2 can be expanded as follows:
+          complete squares:
+Key Point
+(x+a)2 = (x+a)(x+a) = x2+2ax+a2
+(x−a)2 = (x−a)(x−a) = x2−2ax+a2
+   www.mathcentre.ac.uk 3 ⃝c mathcentre 2009
+We will use these expansions to help us to complete the square in the following examples.
+Example
+Consider the quadratic expression
+x2 +6x−4 We compare this with the complete square
+x2 +2ax+a2
+Clearly the coefficients of x2 in both expressions are the same.
+We would like to match up the term 2ax with the term 6x. To do this note that 2a must be 6, so that a=3.
+Recall that
+terms, x2 +6x, by (x+3)2 −9. So
+x2 +6x−4 = (x+3)2 −9−4
+= (x+3)2−13
+We have now written the expression x2 + 6x − 4 as a complete square plus or minus a constant. We have completed the square. It is important to note that the constant term, 3, in brackets is half the coefficient of x in the original expression.
+Example
+Suppose we wish to complete the square for the quadratic expression x2 − 8x + 7.
+We want to try to rewrite this so that it takes the form of a complete square plus or minus a
+constant. We compare
+x2 −8x+7 with the standard form x2 −2ax+a2
+The coefficients of x2 are the same. To make the coefficients of x the same we must choose a
+to be 4. Recall that Then with a = 4
+(x−a)2 =x2 −2ax+a2 (x−4)2 =x2 −8x+16
+(x+a)2 =x2 +2ax+a2 (x+3)2 =x2 +6x+9
+Then with a = 3
+This means that when trying to complete the square for x2 + 6x − 4 we can replace the first two
+This means that when trying to complete the square for x2 − 8x + 7 we can replace the first two terms, x2 −8x, by (x−4)2 −16.
+So
+x2 −8x+7 = (x−4)2 −16+7 = (x−4)2−9
+We have now written the expression x2 − 8x + 7 as a complete square plus or minus a constant. We have completed the square. Again note that the constant term, −4, in brackets is half the coefficient of x in the original expression.
+ www.mathcentre.ac.uk 4 ⃝c mathcentre 2009
+Example
+Suppose we wish to complete the square for the quadratic expression x2 + 5x + 3.
+This means we want to try to rewrite it so that it has the form of a complete square plus or minus a constant. In the examples we have just worked through we have seen how this can be done by comparing with the standard forms (x + a)2 and (x − a)2. We would like to be able to ‘complete the square’ without writing down all the working we did in the previous examples. The key point to remember is that the number in the bracket of the complete square is half the coefficient of x in the quadratic expression.
+2   5 2
+So with x +5x+3 we know that the complete square will be x+ 2 . This has the same
+x2 and x terms as the given quadratic expression but the constant term is different. We must balance the constant term by a) subtracting the extra constant that our complete square has
+ 5 2
+introduced, that is 2 , and b) putting in the constant term from our quadratic, that is 3.
+Putting this together we have
+2   5 2  5 2
+x +5x+3= x+2 − 2 +3 (1)
+To finish off we just combine the two constants
+        and so
+ 5 2 25 12 13 − 2 +3=−4+4=−4
+2   5 2 13 x+5x+3=x+2 −4
+  We have now written the expression x2 + 5x + 3 as a complete square plus or minus a constant. We have completed the square. Again note that the constant term, 5, in brackets is half the
+2
+coefficient of x in the original expression.
+The explanation given above is really just an outline of our thought process; when we complete the square in practice we would not write it all down. We would probably go straight to equation (1). The ability to do this will come with practice.
+Exercises
+2 Completing the square for the following quadratic expressions
+ a) x2 +2x+2 b) e) x2 −6x+8 f) i) x2 +5x+4 j)
+x2 +2x+5 c) x2 +x+1 g) x2 +6x+9 k)
+x2 +2x−1 d) x2 −x−1 h) x2 −2x+6 l)
+x2 +6x+8 x2 +10x−1 x2 −3x+1
+4. Cases in which the coefficient of x2 is not 1.
+We now know how to complete the square for quadratic expressions for which the coefficient of x2 is 1. When faced with a quadratic expression where the coefficient of x2 is not 1 we can still use this technique but we put in an extra step first - we factor out this coefficient.
+ www.mathcentre.ac.uk 5 ⃝c mathcentre 2009
+Suppose we wish to complete the square for the expression 3x2 − 9x + 50.
+We begin by factoring out the coefficient of x2, in this case 3. It does not matter that 3 is not
+a factor of 50; we can still do this by writing the expression as
+3  x2 − 3x + 50   3
+Now the expression in brackets is a quadratic with coefficient of x2 equal to 1 and so we can proceed as before. The number in the complete square will be half the coefficient of x, so we will
+  3 2
+use x − 2 . Then we must balance up the constant term just as we did before by subtracting
+ 3 2
+the extra constant we have introduced, that is 2 , and putting in the constant from the
+quadratic expression, that is 50. 3
+  2 50     3 2  3 2 50  3x−3x+3 =3 x−2 −2 +3
+The arithmetic to tidy up the constants is a bit messy:
+         3 250 950 −2 +3=−4+3
+= −27 + 200 12 12
+173 12
+2 50   3 2 173 x−3x+3=x−2 +12
+  2 50     3 2 173  3x−3x+3 =3 x−2 +12
+      So putting all this together
+and finally
+=
+       and we have completed the square.
+This is the ‘completing the square’ form for a quadratic expression for which the coefficient of
+x2 is not 1. Exercises
+3 Completing the square for the following quadratic expressions
+a) 2x2 +4x−8 b) 5x2 +10x+15 c) 3x2 −27x+9 d) 2x2 +6x+1
+e) 3x2−12x+2 f) 15−10x−x2 g) 24+12x−2x2 h) 9+6x−3x2 www.mathcentre.ac.uk 6 ⃝c mathcentre 2009
+ 
+5. Summary of the process
+It will be useful if you can get used to doing this process automatically. The method can be summarised as follows:
+      Key Point
+1. factor out the coefficient of x2 - then work with the quadratic expression which has a coefficient of x2 equal to 1
+2. check the coefficient of x in the new quadratic expression and take half of it - this is the number that goes into the complete square bracket
+3. balance the constant term by subtracting the square of the number from step 2, and putting in the constant from the quadratic expression
+4. the rest is arithmetic that may often involve fractions
+  6. Solving a quadratic equation by completing the square
+Let us return now to a problem posed earlier. We want to solve the equation x2 + 6x = 4.
+We write this as x2 +6x−4 = 0. Note that the coefficient of x2 is 1 so there is no need to take out any common factor.
+Completing the square for quadratic expression on the left-hand side:
+x2+6x−4 = 0
+(x+3)2−9−4 = 0 (1)
+(x+3)2−13 = 0 (2) (x+3)2 = 13
+x+3 = ±√13
+x = −3±√13
+  We have solved the quadratic equation by completing the square.
+To produce equation (1) we have noted that the coefficient of x in the quadratic expression is 6 so the number in the ‘complete square’ bracket must be 3; then we have balanced the constant by subtracting the square of this number, 32, and putting in the constant from the quadratic, −4. To get equation (2) we just do the arithmetic which in this example is quite straightforward.
+www.mathcentre.ac.uk 7 ⃝c mathcentre 2009
+ 
+Exercises
+4 Use completing the square to solve the following quadratic equations
+a) x2 +4x−12=0 b) x2 +5x−6=0 c) 10x2 +7x−12=0
+d) x2 +4x−8=0 e) 10+6x−x2 =0 f) 2x2 +8x−25=0 Give your answers either as fractions or in the form p ± √q
+Answers
+   1. 2.
+3.
+4.
+a) ±5 b) ±√10 c) ±√2 d) 2,-4
+e) 1,-7 f) 12,-8 g) 1±√5 h) −4±√2
+a) (x+1)2 +1 b) (x+1)2 +4 c) (x+1)2 −2 d) (x+3)2 −1 2   1 2 3   1 2 5 2
+e)(x−3)−1 f)x+2+4g)x−2−4h)(x+5)−26
+      i)
+a)
+d) g)
+a) d)
+  5 2 9 2
+x + 2 − 4 j) (x + 3) k) (x − 1)
+2
+  3 2 5 + 5 l) x − 2 − 4
+      2     2      9 2 69  2(x+1)−5 b) 5(x+1)+2 c) 3 x−2 −4
+   3 2 7    2 10    2   2 x+2 −4 e) 3(x−2)−3 f) −(x+5)−40
+−2 (x−3)2 −21  h) −3 (x−1)2 −4  2,−6 b) 1,−6 c) −3,4
+       √ √ 2 5 33
