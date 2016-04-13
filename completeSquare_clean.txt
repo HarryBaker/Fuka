@@ -1,0 +1,379 @@
+some quadratics are fairly simple solve because they are the form somethingwithx squared equals some number and then you take the square root both sides. 
+
+example would sqrt 
+sqrt 
+sqrt and sqrt 
+
+unfortunately most quadratics dont come neatly squared like this. for your average everyday quadratic you first have use the technique completing the square rearrange the quadratic into the neat squared part equals number format demonstrated above. for example 
+
+find the xintercepts first off remember that finding the xintercepts means setting equal zero and solving for the xvalues this question really asking you solve this the original problem. move the loose number over the other side. divide through whatever multiplied the squared term. 
+take half the coefficient dont forget the sign the xterm and square it. add this square both sides the equation. 
+
+convert the lefthand side squared form and simplify the righthand side. this where you use that sign that you kept track earlier. you plug into the middle the parenthetical part. 
+
+squareroot both sides remembering the the righthand side. simplify necessary. sqrt 
+solve for sqrt 
+remember that the means that you have two values for sqrt and sqrt 
+the answer can also written rounded form advertisement 
+
+
+
+you will need rounded form for real life answers word problems and for graphing. but warning most other cases you should assume that the answer should exact form complete with all the square roots. 
+
+when you complete the square make sure that you are careful with the sign the xterm when you multiply onehalf. you lose that sign you can get the wrong answer the end because youll forget what goes inside the parentheses. also dont sloppy and wait the plusminus sign until the very end. your tests you wont have the answers the back and you will likely forget put the plusminus into the answer. besides theres reason ticking off your instructor doing something wrong when its simple right. the same note make sure you draw the square root sign necessary when you square root both sides. dont wait until the answer the back the book reminds you that you meant put the square root symbol there. you get the habit being sloppy youll only hurt yourself 
+
+solve completing the square. 
+the same procedure above exactly the same order. study tip always working these problems exactly the same way will help you remember the steps when youre taking your tests. copyright elizabeth stapel all rights reserved 
+
+this the original equation. move the loose number over the other side. take half the xterm that divide two and dont forget the sign and square it. add this square both sides the equation. completingthesquare animation 
+convert the lefthand side squared form. simplify the righthand side. squareroot both sides. remember the righthand side. solve for remember that the gives you two solutions. simplify necessary. 
+you are not consistent with remembering put your plusminus soon you squareroot both sides then this example the type exercise where youll get yourself trouble. youll write your answer and have idea how they got because you wont have square root symbol reminding you that you meant put the plusminus in. that youre sloppy these easier problems will embarrass you 
+elementary algebra completing the square technique for converting quadratic polynomial the form 
+
+the form 
+
+acdotscdots mboxconstant. 
+this context constant means not depending the expression inside the parenthesis the form constant. thus 
+
+converted for some values and completing the square used solving quadratic equations 
+graphing quadratic functions 
+evaluating integrals calculus such gaussian integrals with linear term the exponent 
+finding laplace transforms. 
+mathematics completing the square often applied any computation involving quadratic polynomials. completing the square also used derive the quadratic formula. 
+completing the square where ... 
+... take quadratic equation like this and turn into this 
+axd for those you hurry can tell you that 
+and 
+
+but you have time let show you how complete the square yourself. 
+
+completing the square 
+
+say have simple expression like bx. having twice the same expression can make life hard. what can well with little inspiration from geometry can convert like this 
+
+completing the square geometry 
+
+you can see can rearranged nearly into square ... 
+
+... and can complete the square with algebra looks like this 
+
+complete the square 
+adding can complete the square. 
+
+and has only once which easier use. 
+
+keeping the balance 
+
+now ... cant just add without also subtracting too otherwise the whole value changes. 
+
+lets see how properly with example 
+
+start with 
+this case 
+
+complete the square 
+
+
+also subtract the new term 
+
+
+simplify and are done. 
+
+
+the result 
+
+and now only appears once and our job done 
+
+shortcut approach 
+
+let look the result want when expand get now can force answer 
+
+know that must end must next see that must become must and get the same result above 
+
+
+
+now let look useful application solving quadratic equations ... 
+
+solving general quadratic equations completing the square 
+
+can complete the square solve quadratic equation find where equal zero. 
+
+but general quadratic equation can have coefficient front but that easy deal with ... just divide the whole equation first then carry bax steps 
+
+now can solve quadratic equation steps 
+
+step divide all terms the coefficient step move the number term the right side the equation. 
+step complete the square the left side the equation and balance this adding the same value the right side the equation. 
+now have something that looks like which can solved rather easily 
+
+step take the square root both sides the equation. 
+step subtract the number that remains the left side the equation find examples 
+
+here are two examples 
+
+example solve step can skipped this example since the coefficient step move the number term the right side the equation 
+
+step complete the square the left side the equation and balance this adding the same number the right side the equation. 
+
+step take the square root both sides the equation 
+
+decimals 
+step subtract from both sides 
+
+and here interesting and useful thing. 
+
+the end step had the equation 
+
+gives the vertex turning point graph 
+
+
+example solve step divide all terms step move the number term the right side the equation 
+
+step complete the square the left side the equation and balance this adding the same number the right side the equation 
+
+step take the square root both sides the equation 
+
+decimals 
+step subtract from both sides other words add why complete the square 
+
+why complete the square when can just use the quadratic formula solve quadratic equation 
+
+well one reason given above where the new form not only shows the vertex but makes easier solve. 
+
+there are also times when the form may part larger question and rearranging axd makes the solution easier because only appears once. 
+
+for example may itself function like cosz and rearranging may open path better solution. 
+
+also completing the square the first step the derivation the quadratic formula 
+
+just think another tool your mathematics toolbox. 
+
+equation which one side perfect square trinomial can easily solved taking the square root each side. 
+consider the example the right 
+
+
+
+
+this method solution that the basis process called completing the square. 
+
+consider the equation our solution strategy will force perfect square trinomial the form 
+
+the left hand side the equation. 
+this method forcing the existence perfect square trinomial completing the square. 
+
+steps for completing the square 
+
+sure that the coefficient the highest power one. 
+not divide each term that value create leading coefficient one. 
+
+
+move the constant term the right hand side. 
+
+
+prepare add the needed value create the perfect square trinomial. sure balance the equation. the boxes may help you remember balance. 
+find the needed value for the perfect square trinomial take half the coefficient the middle term xterm square and add that value both sides the equation. 
+
+factor the perfect square trinomial. 
+take the square root each side and solve. remember consider both plus and minus results. 
+
+
+
+
+
+
+examples solve each example completing the square. 
+
+
+
+keep all related terms one side. move the constant the right. 
+get ready create perfect square the left. balance the equation. 
+
+take half the xterm coefficient and square it. add this value both sides. 
+
+factor and write the perfect square the left. 
+
+take the square root both sides. sure allow for both plus and minus. 
+
+solve for this equation needs some rearranging. 
+divide through create the leading coefficient for keep all related terms one side. move the constant the right. 
+
+get ready create perfect square the left. balance the equation. 
+
+take half the pterm coefficient and square it. add this value both sides. 
+
+factor and write the perfect square the left. 
+
+take the square root both sides. sure allow for both plus and minus. 
+
+solve for sure express the negative radical imaginary number. 
+
+
+
+
+
+there are other applications completing the square. the section equations circles will see how completing the square used change the equation circle from general form centerradius form. 
+lesson saw technique called completing the square. will now see how apply solving quadratic equation. 
+completing the square 
+try solve this quadratic equation factoring 
+cannot. therefore will complete the square. will make the quadratic into the form 
+this technique valid only when the coefficient transpose the constant term the right 
+add square number both sides add the square half the coefficient this case add the square half that add the square which the lefthand side now the perfect square half the coefficient that equation has the form 
+which implies 
+square root. 
+therefore 
+square root 
+
+square root. 
+that the solutions are the conjugate pair 
+square root square root. 
+for method checking these roots see the theorem the sum and product the roots lesson topics precalculus 
+lesson there are examples and problems which the coefficient odd. also some the quadratics below have complex roots and some involve simplifying radicals. 
+problem solve each quadratic equation completing the square. 
+see the answer pass your cursor from left right 
+over the colored area. 
+cover the answer again click refresh reload. 
+the problem yourself first 
+
+square root square root 
+
+square root square root 
+square root 
+
+isquare root 
+square root square root 
+
+square root square root 
+problem find two numbers whose sum and whose product according the theorem the sum and products the roots they are the solutions problem the quadratic formula 
+here formula for finding the roots any quadratic. proved completing the squareexclamation other words the quadratic formula completes the square for us. 
+theorem. then 
+square root 
+the two roots are the right. one root has the plus sign the other the minus sign. the square root term irrational then the two roots are conjugate pair. 
+call those two roots and then the quadratic can factored will prove the quadratic formula below. 
+example use the quadratic formula solve this quadratic equation 
+solution. have therefore according the formula 
+square root 
+
+square root 
+
+square root 
+
+square root 
+that those are the two roots. and they are rational. when the roots are rational could have solved the equation factoring which always the simplest method. 
+completing the square 
+
+this another way solve quadratic equation the equation will not factorise. 
+often convenient write algebraic expression square plus another term. the other term found dividing the coefficient and squaring it. 
+any quadratic equation can rearranged that can solved this way. 
+have look this example. 
+example 
+rewrite square plus another term. 
+the coeffient dividing and squaring gives example 
+have seen the previous example that work out now try one for yourself. 
+question 
+solve toggle answer 
+
+example 
+rewrite rewrite get its own. 
+the coefficient divide and square get completing the square 
+mctycompletingsquare 
+this unit consider how quadratic expressions can written equivalent form using the technique known completing the square. this technique has applications number areas but will see example its use solving quadratic equation. 
+order master the techniques explained here vital that you undertake plenty practice exercises that all this becomes second nature. help you achieve this the unit includes substantial number such exercises. 
+after reading this text andor viewing the video tutorial this topic you should able write quadratic expression complete square plus minus constant 
+solve quadratic equation completing the square 
+this unit look process called completing the square. can used write quadratic expression alternative form. later the unit will see how can used solve quadratic equation. 
+some simple equations 
+example 
+consider the quadratic equation can solve this taking the square root both sides 
+remembering that when take the square root there will two possible answers one positive 
+and one negative. this often written the briefer form this process for solving very straightforward particularly because 
+square number complete square. this means that the result squaring another number term this case the result squaring complete square the result squaring simply squarerooting both sides solves the problem. 
+example 
+consider the equation again can solve this taking the square root both sides 
+this example the righthand side not square number. but can still solve the equation the same way. usually better leave your answer this exact form rather than use calculator give decimal approximation. 
+example 
+suppose wish solve the equation 
+again can solve this taking the square root both sides. the lefthand side complete 
+square because results from squaring adding each side can obtain the values for could write this the briefer form www.mathcentre.ac.uk 
+mathcentre 
+
+example 
+suppose wish solve 
+again the lefthand side complete square. taking the square root both sides 
+subtracting from each side can obtain the values for exercises 
+solve the following quadratic equations 
+the basic technique 
+now suppose wanted try apply the method used the three previous examples each the previous examples the lefthand side was complete square. this means that each case took the form this not the case now and cannot just take the squareroot. what try instead rewrite the expression that becomes complete square hence the name completing the square. 
+observe that complete squares such can expanded follows 
+complete squares 
+key point 
+xaxa xaxa 
+xaxa xaxa 
+www.mathcentre.ac.uk mathcentre 
+will use these expansions help complete the square the following examples. 
+example 
+consider the quadratic expression 
+compare this with the complete square 
+axa 
+clearly the coefficients both expressions are the same. 
+would like match the term with the term this note that must that recall that 
+terms have now written the expression complete square plus minus constant. have completed the square. important note that the constant term brackets half the coefficient the original expression. 
+example 
+suppose wish complete the square for the quadratic expression want try rewrite this that takes the form complete square plus minus constant. compare 
+with the standard form axa 
+the coefficients are the same. make the coefficients the same must choose recall that then with axa axa then with this means that when trying complete the square for can replace the first two 
+this means that when trying complete the square for can replace the first two terms have now written the expression complete square plus minus constant. have completed the square. again note that the constant term brackets half the coefficient the original expression. 
+www.mathcentre.ac.uk mathcentre 
+example 
+suppose wish complete the square for the quadratic expression this means want try rewrite that has the form complete square plus minus constant. the examples have just worked through have seen how this can done comparing with the standard forms and would like able complete the square without writing down all the working did the previous examples. the key point remember that the number the bracket the complete square half the coefficient the quadratic expression. 
+
+with know that the complete square will this has the same 
+and terms the given quadratic expression but the constant term different. must balance the constant term subtracting the extra constant that our complete square has 
+
+introduced that and putting the constant term from our quadratic that putting this together have 
+
+finish off just combine the two constants 
+and xxx 
+have now written the expression complete square plus minus constant. have completed the square. again note that the constant term brackets half the 
+
+coefficient the original expression. 
+the explanation given above really just outline our thought process when complete the square practice would not write all down. would probably straight equation the ability this will come with practice. 
+exercises 
+completing the square for the following quadratic expressions 
+cases which the coefficient not now know how complete the square for quadratic expressions for which the coefficient when faced with quadratic expression where the coefficient not can still use this technique but put extra step first factor out this coefficient. 
+www.mathcentre.ac.uk mathcentre 
+suppose wish complete the square for the expression begin factoring out the coefficient this case does not matter that not 
+factor can still this writing the expression now the expression brackets quadratic with coefficient equal and can proceed before. the number the complete square will half the coefficient will 
+
+use then must balance the constant term just did before subtracting 
+
+the extra constant have introduced that and putting the constant from the 
+quadratic expression that the arithmetic tidy the constants bit messy 
+
+
+
+xxx 
+putting all this together 
+and finally 
+
+and have completed the square. 
+this the completing the square form for quadratic expression for which the coefficient not exercises 
+completing the square for the following quadratic expressions 
+www.mathcentre.ac.uk mathcentre 
+
+summary the process 
+will useful you can get used doing this process automatically. the method can summarised follows 
+key point 
+factor out the coefficient then work with the quadratic expression which has coefficient equal check the coefficient the new quadratic expression and take half this the number that goes into the complete square bracket 
+balance the constant term subtracting the square the number from step and putting the constant from the quadratic expression 
+the rest arithmetic that may often involve fractions 
+solving quadratic equation completing the square 
+let return now problem posed earlier. want solve the equation write this note that the coefficient there need take out any common factor. 
+completing the square for quadratic expression the lefthand side 
+have solved the quadratic equation completing the square. 
+produce equation have noted that the coefficient the quadratic expression the number the complete square bracket must then have balanced the constant subtracting the square this number and putting the constant from the quadratic get equation just the arithmetic which this example quite straightforward. 
+www.mathcentre.ac.uk mathcentre 
+
+exercises 
+use completing the square solve the following quadratic equations 
+give your answers either fractions the form answers 
+fxgxhx 

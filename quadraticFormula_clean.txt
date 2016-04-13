@@ -1,0 +1,268 @@
+often the simplest way solve for the value factor the quadratic set each factor equal zero and then solve each factor. but sometimes the quadratic too messy doesnt factor all you just dont feel like factoring. while factoring may not always successful the quadratic formula can always find the solution. 
+
+the quadratic formula uses the and from where and are just numbers they are the numerical coefficients the quadratic equation theyve given you solve. the quadratic formula derived from the process completing the square and formally stated for the value given sqrtb for the quadratic formula work you must have your equation arranged the form quadratic also the the denominator the formula underneath everything above not just the square root. and its under there not just plain make sure that you are careful not drop the square root the plusminus the middle your calculations can guarantee that you will forget put them back your test and youll mess yourself up. remember that means the square all including its sign dont leave being negative even negative because the square negative positive. 
+
+other words dont sloppy and dont try take shortcuts because will only hurt you the long run. trust this 
+
+here are some examples how the quadratic formula works 
+
+solve this quadratic happens factor 
+
+...so already know that the solutions are and how would solution look the quadratic formula using and solution looks like this 
+
+then expected the solution suppose you have and you are told plug zero for the corresponding xvalues are the xintercepts the graph. solving for means among other things that you are trying find xintercepts. since there were two solutions for there must then two xintercepts the graph. graphing get the curve below 
+
+
+
+advertisement 
+
+
+
+you can see the xintercepts the red dots above match the solutions crossing the xaxis and this shows the connection between graphing and solving when you are solving quadratic you are finding the xintercepts the graph. this can useful you have graphing calculator because you can use the quadratic formula when necessary solve quadratic and then use your graphing calculator make sure that the displayed xintercepts have the same decimal values the solutions provided the quadratic formula. 
+
+note however that the calculators display the graph will probably have some pixelrelated roundoff error youd checking see that the computed and graphed values were reasonably close dont expect exact match. copyright elizabeth stapel all rights reserved 
+solve round your answer two decimal places necessary. 
+there are factors that add know that this quadratic cannot factored. will apply the quadratic formula. this case and then the answer rounded two decimal places. 
+
+warning the solution roots zeroes quadratic are usually required the exact form the answer. the example above the exact form the one with the square roots ten it. youll need get calculator approximation order graph the xintercepts simplify the final answer word problem. but unless you have good reason think that the answer supposed rounded answer always with the exact form. 
+
+
+
+compare the solutions with the xintercepts the graph 
+
+
+
+just the previous example the xintercepts match the zeroes from the quadratic formula. this always true. the solutions equation are also the xintercepts the corresponding graph. 
+elementary algebra the quadratic formula the solution the quadratic equation. there are other ways solve the quadratic equation instead using the quadratic formula such factoring completing the square graphing. using the quadratic formula often the most convenient way. 
+
+the general quadratic equation axbxc. 
+here represents unknown while and are constants with not equal one can verify that the quadratic formula satisfies the quadratic equation inserting the former into the latter. each the solutions given the quadratic formula called root the quadratic equation. 
+
+geometrically these roots represent the values which any parabola explicitly given crosses the xaxis. well being formula that will yield the zeros any parabola the quadratic equation will give the axis symmetry the parabola and can used immediately determine how many zeros expect the parabola have. 
+the solutions some quadratic equations are not rational and cannot obtained factoring. for such equations the most common method solution the quadratic formula. 
+
+note the quadratic formula can used solve any quadratic equation even those that can factored. sure you know this very useful formula 
+
+
+examples 
+
+factoring 
+this equation factorable 
+quadratic formula hints 
+careful with the signs the values and dont drop the sign when substituting into the formula. 
+
+also remember your rules for multiplying and adding signed numbers you solve the formula. 
+
+
+
+this equation cannot solved factoring. 
+quadratic formula hints 
+notice how the value for was substituted into the formula using parentheses this helps you remember deal with the negative value also notice how the actually positive value. when you square value the answer always positive. 
+
+needed these answers can estimated decimal values such rounded decimal places 
+the radical answers are the exact answers. 
+the decimal answers are approximate answers. 
+
+
+
+this equation cannot solved factoring. 
+quadratic formula hints 
+remember that negative value under the radical creating imaginary number number with factoring 
+this equation factorable 
+quadratic formula hints 
+when the value under the radical turns zero there will appear only one answer the problem since the plusminus option gone. this really means that the one root repeating itself seen the factoring solution. 
+
+
+whoa stop the presses 
+this problem cannot solved using the quadratic formula 
+until set equal zero. 
+
+quadratic formula hints 
+
+
+
+
+
+
+
+
+
+deriving the quadratic formula 
+
+the quadratic formula derived from the quadratic equation process called completing the square. here how was developed 
+
+the process used here explained more detail under completing the square isolate the variable terms. move the constant the right. 
+
+prepare form perfect square the left. 
+
+obtain the constant value needed for the perfect square take half the coefficient the xterm and square it. add this value both sides the equation. 
+
+find common denominator the right. 
+
+combine terms the right. 
+
+write the perfect square the left. 
+
+take the square root both sides. 
+
+simplify the denominator from the square root. 
+
+subtract the constant away from the finally the quadratic formula appears. whew 
+derivation quadratic formula 
+
+quadratic equation looks like this 
+
+quadratic equation 
+
+and can solved using the quadratic formula 
+
+quadratic formula 
+
+that formula looks like magic but you can follow the steps see how comes about. 
+
+complete the square 
+
+has twice which hard solve. 
+
+but there way rearrange that only appears once. called completing the square please read that first. 
+
+our aim get something like which can then simplified lets start with 
+divide the equation put other side 
+add both sides 
+
+the left hand side now the format where can rewrite this way 
+
+complete the square 
+now only appears once and are making progress. 
+
+now solve for now just need rearrange the equation leave the left 
+start with 
+square root 
+move right 
+
+that actually solved but lets simplify bit 
+
+multiply right simplify 
+
+which the quadratic formula all know and love 
+
+quadratic formula 
+using the quadratic formula 
+
+using the technique completing the square you can make formula which works for all quadratic equations. 
+the most general way write quadratic equation here and are numbers that vary for different equations. 
+the equation was 
+then the formula for the solution plus minus square root the power over this formula will work for all equations that can solved. 
+always try factorise first. the equation factorises this the easier method. exam any question that asks for answer quadratic equation correct decimal places should solved using this formula. take look this example 
+solve here substituting these values the formula gives you 
+solution 
+what the quadratic formula 
+
+the quadratic formula used solve very specific type equation called quadratic equation. these equations are usually written the following form 
+
+quadratic equations 
+
+may use the quadratic formula solve quadratic equations which are second order polynomials the highest exponent two. simple terms that means that theres term but terms etc. 
+
+they only have one variable which often named the equation shown above the letters abc represent numbers constants. for example this typical quadratic equation 
+
+notice that ive replaced with with and with now how would you solve that equation for theres way easily manipulate that equation into form. this where the quadratic formula comes handy. 
+
+the quadratic formula 
+
+the quadratic formula 
+
+looks really complicated know. once you use lot youll learn the formula heart but until then keep trying. actually using isnt that hard just plug your numbers stepbystep. just insert the values for abc and youll left with two possible answers for confused try follow this example 
+
+example 
+
+solve this equation for solution 
+
+what are the three coefficients abc remember that the coefficient front the term the coefficient front and that constant the end. 
+
+therefore for this equation and plug those values into the quadratic formula and solve for example quadratic formula 
+
+
+
+notice what happened the sign that example. because were adding subtracting both answers are the same. there are actually two answers for any quadratic formula and this case they are both check out another example using the quadratic formula where there are two different answers 
+
+example 
+
+solve for solution 
+
+this equation isnt the proper form first need subtract from each side theres the right 
+
+now can just use the quadratic formula get our answers given that another example 
+
+
+
+you can see got two answers for this equation. might seem weird that could two different answers but you look the graph for this type equation makes sense. quadratic equations look like parabolas when graphed and parabola can certainly cross the axis twice meaning two places. 
+
+what you get negative number inside the square root that means there are possible real answers. this also possible and something look out for. not larger than then the term will negative and you have real answers for the quadratic formula complicated but you just follow the steps youll have trouble. memorizing might take while but its something that will come very handy. 
+
+try some other lessons the quadratic formula available from other websites purplemath sosmath wikipedia. consider asking for more help from our free message board the beginning algebra category might best. 
+quadratic formula 
+the quadratic formula first discovered the babylonians four thousand years ago gives you surefire way solve quadratic equations the form 
+
+plugging the values and you will get the desired values the expression under the square root sign also called the discriminant negative then there are real solutions. you need complex numbers deal with this case properly. these are usually taught algebra the discriminant zero there only one solution. the discriminant positive then the symbol means you get two answers. 
+
+example 
+
+solve the quadratic equation. 
+
+here and substituting get 
+
+
+
+simplify. 
+
+
+
+the discriminant positive have two solutions 
+
+
+
+and this example the discriminant was perfect square ended with rational answers. often when using the quadratic formula you end with answers which still contain radicals. 
+
+example 
+
+solve the quadratic equation. 
+
+here and substituting get 
+
+
+
+simplify. 
+
+
+
+the discriminant negative this equation has real solutions. 
+
+
+
+example 
+
+solve the quadratic equation. 
+
+
+
+here and substituting get 
+
+
+
+simplify. 
+
+
+
+the discriminant positive but not perfect square have two real solutions 
+
+
+
+the quadratic formula 
+
+trinomials are not always easy factor. fact some trinomials cannot factored. thus need different way solve quadratic equations. herein lies the importance the quadratic formula 
+given quadratic equation the solutions are given the equation 
+example solve for and thus example solve for and thus example solve for and thus example solve for and since cannot take the square root negative number there are solutions. the graph this quadratic polynomial will therefore parabola that never touches the axis. 
+the discriminant 
+
+have seen there can solutions quadratic equation depending whether the expression inside the square root sign positive negative zero. this expression has special name the discriminant. 

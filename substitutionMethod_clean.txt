@@ -1,0 +1,286 @@
+systems linear equations 
+solving substitution page sections definitions solving graphing substitition eliminationaddition gaussian elimination. 
+
+
+solving systems equations substitution mathhelp.com 
+
+solving systems substitution 
+
+the method solving substitution works solving one the equations you choose which one for one the variables you choose which one and then plugging this back into the other equation substituting for the chosen variable and solving for the other. then you backsolve for the first variable. 
+
+here how works. ill use the same systems were previous page. 
+
+solve the following system substitution. 
+the idea here solve one the equations for one the variables and plug this into the other equation. does not matter which equation which variable you pick. there right wrong choice the answer will the same regardless. but some choices may better than others. 
+
+for instance this case can you see that would probably simplest solve the second equation for since there already floating around loose the middle there could solve the first equation for either variable but get fractions and solving the second equation for would also give fractions. wouldnt wrong make different choice but would probably more difficult. being lazy ill solve the second equation for now ill plug this substitute for the first equation and solve for copyright elizabeth stapel all rights reserved 
+
+now can plug this xvalue back into either equation and solve for but since already have expression for will simplest just plug into this 
+
+then the solution warning had substituted expression into the same equation used solve for would have gotten true but useless statement 
+
+twentyfour does equal twentyfour but who cares when using substitution make sure you substitute into the other equation youll just wasting your time. 
+
+solve the following system substitution. 
+already know from the previous lesson that these equations are actually both the same line that this dependent system. know what this looks like graphically get two identical line equations and graph with just one line displayed. but what does this look like algebraically 
+
+
+
+advertisement 
+
+
+
+the first equation already solved for ill substitute that into the second equation 
+
+well um... yes twelve does equal twelve but what 
+
+did substitute the first equation into the second equation this unhelpful result not because some screwup part. its just that this what dependent system looks like when you try find solution. remember that when youre trying solve system youre trying use the second equation narrow down the choices points the first equation. youre trying find the one single point that works both equations. but dependent system the second equation really just another copy the first equation and all the points the one line will work the other line. 
+
+other words got unhelpful result because the second line equation didnt tell anything new. this tells that the system actually dependent and that the solution the whole line 
+
+solution this always true the way. when you try solve system and you get statement like something thats true but unhelpful mean duh course twelve equals twelve then you have dependent system. already knew from the previous lesson that this system was dependent but now you know what the algebra looks like. 
+
+keep mind that your text may format the answer look something like something similar using some variable some parameter other than but this parametrized form the solution means the exact same thing the solution the line solve the following system substitution. 
+neither these equations particularly easier than the other for solving. ill get fractions matter which equation and which variable choose. um... guess ill take the first equation and ill solve for because least the from the will divide evenly into the now ill plug this into the other equation 
+
+um... dont think so.... 
+
+this case got nonsense result. all math was right but got obviously wrong answer. what happened 
+
+keep mind that when solving youre trying find where the lines intersect. what they dont intersect then youre going get some kind wrong answer when you assume that there solution did when tried find that solution. knew from the previous lesson that this system represents two parallel lines. but tried substitution find the intersection point anyway. and got garbage result. since there wasnt any intersection point attempt led utter nonsense. 
+
+solution solution inconsistent system 
+
+this always true the way. when you get nonsense result this the algebraic indication that the system equations inconsistent. 
+
+note that this quite different from the previous example. warning truebutuseless result like quite different from nonsense garbage result like just two identical lines are quite different from two parallel lines. dont confuse the two. useless result means dependent system which has solution the whole line nonsense result means inconsistent system which has solution any kind. 
+the substitution method most useful for systems equations unknowns. the main idea here that solve one the equations for one the unknowns and then substitute the result into the other equation. 
+substitution method can applied four steps 
+step 
+solve one the equations for either step 
+substitute the solution from step into the other equation. 
+step 
+solve this new equation. 
+step 
+solve for the second variable. 
+
+example solve the following system substitution 
+substitution method example 
+solution 
+step solve one the equations for either will solve second equation for solution step 
+step substitute the solution from step into the second equation. 
+solution step 
+step solve this new equation. 
+solution step 
+step solve for the second variable 
+solution step 
+the solution note does not matter which equation choose first and which second. just choose the most convenient one first 
+
+example solve substitution 
+substitution method example 
+solution 
+step solve one the equations for either since the coefficient equation easiest solve for equation solution step 
+step substitute the solution from step into the second equation. 
+solution step 
+step solve this new equation for solution step 
+step solve for the second variable 
+solution step 
+the solution exercise solve the following systems substitution 
+
+level 
+exercise answer 
+answer 
+answer 
+answer 
+level 
+exercise answer 
+answer 
+answer 
+answer 
+solving systems linear equations using substitution 
+systems linear equations 
+
+system linear equations just set two more linear equations. 
+
+two variables xandy 
+and 
+
+
+the graph system two equations pair lines the plane. 
+
+there are three possibilities 
+
+the lines intersect zero points. the lines are parallel. 
+the lines intersect exactly one point. most cases. 
+the lines intersect infinitely many points. the two equations represent the same line. 
+how solve system using the substitution method 
+
+step 
+
+first solve one linear equation for terms step 
+
+then substitute that expression for the other linear equation. youll get equation step 
+
+solve this and you have the coordinate the intersection. 
+step 
+
+then plug either equation find the corresponding coordinate. 
+note 
+
+its easier you can start solving equation for terms also same difference 
+
+example 
+
+solve the system xyxy 
+solve the second equation for substitute for the first equation and solve for xxxxxx 
+substitute 
+
+for and solve for the solution note 
+
+the lines are parallel your terms will cancel step 
+
+and you will get impossible equation something like 
+
+
+note 
+
+the two equations represent the same line everything will cancel step 
+
+and you will get redundant equation 
+
+
+.solving systems equations substitution method 
+substitution the most elementary all the methods solving systems equations. substitution method the method indicates involves substituting something into the equations make them much simpler solve. what substitute express one the variables terms the other until have only one equation with only one variable. then solve for that variable and after obtain its value perform what called back substitution solve for the other missing variables. 
+
+solving two variable equations substitution method 
+lets work some actual examples understand better how solve two variable equations using substitution method. 
+
+example 
+solve the following system equations 
+
+
+
+
+example 
+solve the following system equations substitution 
+
+
+
+
+solving three variable equations substitution method 
+similar solving two variable equations when solving for three variables express one variable terms another and substitute until obtain single equation with only one variable. the final equation tends rather large and times complicated making substitution method not very ideal method for solving three variable systems equations. however substitution methods simplicity overshadows all the complications and makes the method very fundamental method for solving systems equations. 
+
+lets try few examples see how the method actually works. 
+
+example 
+solve the following system equations 
+
+
+
+
+example 
+solve for the variables the following system equations 
+
+
+system linear equations can also solved using the substitution method.we will show with examples. 
+
+before you learn this lesson make sure you understand how solve linear equations 
+
+example solve the following system using the substitution method 
+
+step 
+
+you have two equations. pick either the first the second equation and solve for either since the one solving have decided choose the equation the bottom and will solve for add both sides 
+
+step 
+
+since you used the equation the bottom solve for you will substitute into the equation top using erase and write since get minus from both sides 
+
+divide both sides now you have you can replace its value into either equation get replacing into gives 
+
+minus from both sides 
+
+the solution the system and indeed and 
+
+example solve the following system using the substitution method 
+
+step 
+
+you have two equations. pick either the first the second equation and solve for either have decided choose the equation top and will solve for subtract from both sides 
+
+step 
+
+since you used the equation top solve for you will substitute into the equation the bottom using erase and write keeping mind that there multiplication between and get after multiplying and add both sides 
+
+divide both sides now you have you can replace its value into either equation get replacing into gives 
+
+minus from both sides 
+
+the solution the system and indeed and 
+
+you should have noticed that the reason call this method the substitution method because after you have solve for variable one equation you substitute the value that variable into the other equation 
+substitution method 
+
+when used the addition method solve system equations still had substitution solve for the remaining variable. with the substitution method solve one the equations for one variable terms the other and then substitute that into the other equation. this makes more sense with example 
+
+example 
+
+equation looks like would easy solve for take and isolate now can use this result and substitute for equation 
+
+
+
+now that have still need substitute back get could substitute back into any the previous equations but notice that equation already conveniently solved for and the solution rule the substitution method easier and quicker than the addition method when one the equations very simple and can readily solved for one the variables. 
+substitution method 
+
+one way solve systems equations substitution. this method solve equation for one variable then substitute that solution the other equation and solve. use substitution method for solving system equations when the number equations and variables equal two variables there must two equations three variables three equations etc. and one the equations can easily solved for one variable. there solution the system equations parallel lines the substitution method will result something nonsensical such one the strengths the substitution method that works for systems equations that are difficult impossible graph. 
+there are two basic ways solve equations with unknowns substitution and elimination. each them can have variations. for example matrix methods are extensions the elimination method. this section will explore substitution. 
+
+substitution method 
+
+three variables and three unknowns 
+
+let the variables and the equations are eq. eq. and eq.. the substitution method has these basic steps 
+
+solve eq. for substitute the whole righthand side the equation the one you just wrote place eq.. you should use parentheses around the substituted expression keep everything orderly. 
+solve the equation you wrote step for substitute the whole righthand side the equation you wrote step place eq.. then substitute the whole righthand side the equation you wrote step place eq.. 
+solve the equation you wrote step for you should get numeric value use this value the equation you wrote step solve for you should get numeric value use these values and the equation you wrote step solve for you should get numeric value now will apply these steps example and will label them you can understand what doing each step. 
+
+example three variables and three unknowns 
+
+xzy 
+xyz 
+
+step solve eq. for xzy 
+zxy 
+
+step substitute eq. 
+yxy 
+
+step solve the equation you wrote step for yxy 
+yxy 
+step substitute then substitute eq.. 
+xyz 
+xyxy 
+xxxx 
+
+step solve the equation you wrote step get the value xxxx 
+xxxx 
+step use this value the equation you wrote step solve for step use these values and the equation you wrote step solve for zxy 
+now you should check your answers the original equations. 
+
+xzy 
+
+
+
+true. 
+
+true. 
+
+xyz 
+
+
+true. 
+
+you should able see how this generalizes equations unknowns. you would solve the first equation for the first unknown then substitute this the second equation and solve for the second unknown. then substitute both variables the third equation and solve for the third unknown. then substitute all three variables the fourth equation and solve for the fourth unknown etc. when you get the last equation and solve for the last unknown you should down numeric answer. then work backwards through the oddnumbered steps getting numeric answers for each variable turn.now you can substitute what equals for the variable the first equation. when you replace with you get this 
+
+which you can then solve for and complete the problem you already know remember that you should get two answers for for more examples using the substitution method solve two simultaneous equations use our quick search and look for substitution. 
