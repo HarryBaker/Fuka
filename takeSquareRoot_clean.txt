@@ -1,0 +1,169 @@
+previously solved this factoring the difference squares and solving each factor the solution was however 
+
+can also try isolating the squared variable term putting the number over the other side like this 
+
+know that when solving equation can whatever like that equation long the same thing both sides the equation. the lefthand side this particular equation have and need plain turn into can take the square root each side the equation 
+
+sqrtx sqrt 
+
+then the solution why did need the plusminus sign the when took the square root the because might have been positive negative that was squared get that the original equation. 
+
+warning finding the solution above very different process from evaluating the square root when finding the square root number you know that youre dealing with positive result because that how the square root number defined. solving equation the other hand finding all the possible values the variable that will work the equation different from just evaluating expression that already defined have only one value. 
+
+remember squarerooted number has only one value but squarerooted equation has two because the variable. 
+
+
+
+advertisement 
+
+
+
+the answer got above with the sign matches the solution got when solved this equation using the differenceofsquares factoring formula. thus this result confirms the need use the sign when solving squarerooting. mathematics you need able get the same answer matter which valid method you happen have used order arrive that answer. 
+
+benefit this squarerooting process that allows solve some quadratics that could not have solved before. for instance 
+
+solve this quadratic has squared part and number part. ill start adding the numerical term the other side the equaion the squared part itself and then ill squareroot both sides. ill need remember simplify the square root 
+
+sqrt 
+
+then the solution sqrt 
+
+while could have gotten the previous integer solution factoring could never have gotten this radical solution factoring. factoring clearly useful but additional techniques can allow find solutions additional sorts equations. 
+
+solve this quadratic has squared part and number part. ill start adding the number the other side the equation the squared binomial itself. then ill squareroot both sides remembering simplify results 
+
+sqrt sqrt 
+since the equation after squarerooting did not contain any square roots was able simplify down simple values. copyright elizabeth stapel all rights reserved 
+
+the solution this example points out the importance remembering the when you squareroot both sides 
+
+warning many students develop the bad habit not bothering write the sign until they check their answers the back the book and remember that they meant put the there when they took the square roots either side their equation. however that generally only works when the solution involves square roots and only when you actually have the solution which isnt the case tests. the above example problem where the careless student will omit the and then have clue how the book got the answer dont that student always remember insert the the way since the solution the equation consisted nice neat whole numbers this quadratic could also have been solved multiplying out the square and simplifying get which then could have been factored solve this quadratic has squared part and number part. ill add the number the other side the squared part itself and then ill squareroot both sides remembering simplify 
+
+sqrt 
+
+then the solution sqrt 
+
+this quadratic equation unlike the previous one could not solved factoring. but how would have solved they had not given the quadratic already put into squared part minus number form this concern leads the next topic completing the square. 
+solving quadratic equations using square roots 
+the general form quadratic equation axbxc 
+the equation can solved putting the form 
+
+for some new constant and taking the square root both sides. both positive and negative square roots count. because want all the numbers that solve the equation. again this easy method solution only works the special case when example 
+
+solve for put the equation into the form start subtracting 
+
+from both sides. 
+
+divide both sides take square roots both sides. 
+
+xor 
+there are two solutions the equation. 
+
+the easiest possible quadratic equation solve would something like wont dealing with anything more complicated than that. 
+
+psych sorry. 
+
+the square then can the positive negative square root this simplifies all need remember keep both the positive and negative square roots. sometimes after taking the square root though need little more work. put your back into it. 
+
+sample problem 
+
+solve the square then can either the positive negative square root other words were taking the square root both sides knock out that exponent. 
+
+now need solve two equations. quickly before the amount work need doubles again 
+
+and for the first equation then were always paranoid that might have done something wrong well check make sure that this works. when plug the lefthand side the original equation find 
+
+
+
+yep thats true. solution the equation. halfway home. 
+
+now for the second equation. then uhoh. our paranoia setting again its time check see that this works. when plug the lefthand side the equation get 
+
+
+
+
+hey thats also true. therefore also solution the equation. 
+
+the final answer both and are solutions the equation. theres room this town for the both them. 
+
+the examples weve done far have had squared variable one side and number the other. have expression thats square multiplied divided something need undo that multiplication division before taking the square root. unfortunately cant just hit control sample problem 
+
+solve first divide both sides find equation that has square one side 
+
+then can take the square root sometimes might see equation has the square firstdegree polynomial one side but the square disguise and needs factored. watch for trench coats and lowbrimmed hats. 
+
+the last few sample problems were all well and good but solutions quadratic equations dont always result beautiful numbers. for example take the ugly side quadratic equations. try not look directly them though since dont want you blind. 
+
+course could put together all the things that can happen make something horribly complicated and trust will. cue maniacal laugh. 
+
+sample problem 
+
+solve first can factor the lefthand side 
+
+want square one side the equation divide both sides now that have square one side can take the square root both sides 
+
+
+
+solve the two equations 
+
+
+
+hit both individually get our two solutions 
+
+
+
+these solutions can rewritten simplified 
+
+
+
+these look like nightmare you might have after consuming too much dairy right before bed but theyre absolutely correct. fact check the first solution. plugging into the original equation would the ideal thing but this isnt ideal world and that arithmetic would too messy. instead since were confident rearranged the equation correctly the beginning plug the solution into and make sure get here goes 
+
+
+
+made top the world 
+
+the general plan attack for solving this sort equation attack quickly and aggressively from the left flank. wait thats the general plan for attacking righthanded enemy mountainous region. never mind us. 
+
+the real plan attack manipulate the equation theres something squared one side and number the other side even gives you something truly awful look at. take the appropriate square root and then solve each new equation you find. remember you can always check that your answers are right plugging them back into the original equation and making sure they work. they dont try replacing the batteries before giving up. they take tripleas. 
+
+course this wont work for quadratic equation that has real number solutions like the equation this cant possibly have real number solutions since theres way square real number and end with weve tried. lot. cant done. 
+some quadratic equations have only two terms like number subtracted from term with squared variable such examples equations 
+you have quadratic equation like one these its really easy solve. just follow these two easy steps. 
+
+first get the squared variable itself one side the equal side. 
+
+step solving quadratic equation 
+second take the square root both sides your equation. 
+
+solving quadratic equation step 
+why did have two answers for remember that you square you still get the square root includes both and quadratic equation can solved taking the square root both sides the equation. this method uses the square root property 
+yzyz 
+before taking the square root the equation must arranged with the term isolated the left hand side the equation and its coefficient reduced there are four steps solving quadratic equations this method 
+
+step isolate the and terms. use the addition and subtraction and isolate the and terms the lefthand side the equation. then use the multiplication and division axioms eliminate the coefficient from the term. 
+
+step make the coefficient the term equal use multiplication division eliminate the coefficient from the term. 
+
+step complete the square. complete the square take the coefficient the term square and divide step solve the equation step taking the square root both sides the equation. 
+
+example step isolate the and terms. 
+step make the coefficient the term equal already 
+
+step complete the square. 
+step solve the equation step taking the square root both sides the equation. 
+xxxxx 
+example step isolate the and terms. 
+step make the coefficient the term equal already 
+
+step complete the square. 
+step solve the equation step taking the square root both sides the equation. 
+xxxxx 
+example step isolate the and terms. 
+step make the coefficient the term equal step complete the square. 
+step solve the equation step taking the square root both sides the equation. 
+xxxxx 
+example step isolate the and terms. 
+step make the coefficient the term equal step complete the square. 
+step solve the equation step taking the square root both sides the equation. 
+
+xxxxx 

@@ -1,0 +1,396 @@
+theres magic solving quadratic equations. quadratic equations can solved factoring and also graphing. 
+
+
+the factoring method solution 
+lets quick review factoring. 
+you need more indepth look factoring check the factoring section this site. 
+
+there are primarily three types factoring 
+
+
+
+common monomial 
+difference squares quadratic trinomial you can factor you will able solve factorable quadratic equations. 
+lets see how done. 
+
+
+solve for here are the steps you should follow 
+
+move all terms the same side the equal sign the equation set equal this places the equation standard form. 
+factor the algebraic expression. 
+and are called factors. these are factors the expression 
+set each factor equal this process called the zero product property. the product two factors equals then either one both the factors must solve each resulting equation. 
+and are called roots. these are roots the equation example 
+
+solve for factor the common monomial. set each factor equal and solve for list all values example 
+
+solve for get all terms the same side. factor the difference squares. set each factor equal and solve for list all values example 
+
+solve for get all terms the same side. arrange the terms standard form. factor the quadratic trinomial. set each factor equal and solve for list all values example 
+
+solve for employ product the means product the extremes crossmultiply for this proportion. 
+get all terms the same side. factor the difference squares. set each factor equal and solve for list all values example 
+
+solve for employ product the means product the extremes crossmultiply for this proportion. 
+get all terms the same side. factor the common monomial. factor the quadratic trinomial. set each factor equal and solve for list all values example 
+
+write quadratic equation the form whose roots are and the simplest answer will equation where the factors the expression are 
+and create this equation. multiply. combine get answer equation. example 
+
+the square number exceeds times the number find the numbers. 
+
+translate the problem into mathematical equation. get all terms the same side. factor the difference squares. set each factor equal and solve for list all values example 
+
+football the height the football reached during pass can modeled the equation where the height feet and the time seconds. how long does take for this ball reach height feet 
+
+substitute into the equation for get all terms the same side. move terms the left side avoid working with negative leading coefficient. factor the quadratic trinomial. set each factor equal and solve for list all values that are positive. negative time should appear not considered answer. reaches height feet when time seconds ball going and seconds ball coming down. 
+
+
+
+
+
+
+
+the graphing method solution 
+quadratic equations can also solved graphing. graphing can done hand with the use graphing calculator. the locations where the graph intersects crosses the xaxis will the solutions the equation. these locations are called the roots the equation. 
+quadratic equation equation the form where and and are real numbers. 
+
+solving quadratic equations factoring 
+
+can often factor quadratic equation into the product two binomials. are then left with equation the form where and are integers. 
+
+the zero product property states that the product two quantities equal then least one the quantities must equal zero. thus either consequently the two solutions the equation are and example solve for thus the solution set example solve for thus the solution set example solve for thus the solution set index lessons purplemaths lessons offline form 
+forums print this page printfriendly version find local tutors 
+
+
+
+
+solving quadratic equations 
+solving factoring page sections solving factoring taking roots completing the square using the formula graphing 
+
+
+solving quadratic equations mathhelp.com 
+
+solving quadratic equations factoring 
+
+this lesson covers many ways solve quadratics such taking square roots completing the square and using the quadratic formula. but well start with solving factoring. 
+
+you should already know how factor quadratics. not review factoring quadratics. the new thing here that the quadratic part equation and youre told solve for the values that make the equation true. heres how works 
+
+solve okay this one already factored for me. but how solve this 
+
+think multiply two things together and the result zero what can say about those two things can say that least one them must also zero. that the only way multiply and get zero multiply zero. this sometimes called the zero factor property rule principle. 
+
+warning you cannot make this statement about any other number you can only make the conclusion about the factors one them must equal zero the product itself equals zero. the above product factors had been equal say then would still have idea what was the value either the factors would not have been able would not have been mathematically justified making any claim about the values the factors. because you can only make the conclusion one the factors must have equalled zero the product equals zero you must always have the equation the form quadratic equals zero before you can attempt solve it. 
+
+the zero factor principle tells that least one the factors must equal zero. since least one the factors must zero ill set them eachequal zero 
+
+this gives simple linear equations and theyre easy solve 
+
+and this the solution theyre looking for note that means the same thing the only difference the formatting. the format moretypically used. 
+
+one important issue should mentioned this point just with linear equations the solutions quadratic equations may verified plugging them back into the original equation and making sure that they work that they result true statement. for the above example would the following 
+
+
+
+advertisement 
+
+
+
+checking checking both solutions check and are thus verified being correct. 
+
+solve this equation already the form quadratic equals zero but unlike the previous example this isnt yet factored. the quadratic must first factored because only when you multiply and get zero that you can say anything about the factors and solutions. you cant conclude anything about the individual terms the unfactored quadratic like the the because you can add lots stuff that totals zero. 
+
+the first thing have factor 
+
+set this equal zero 
+
+solve each factor copyright elizabeth stapel all rights reserved 
+
+the solution checking and both solutions check. 
+
+solve this equation not quadratic equals zero form cant try solve yet. the first thing need get all the terms over one side with zero the other side. only then can factor and solve 
+
+then the solution solve very common for students see this type problem and say 
+
+cool its already factored ill set the factors equal and 
+solve get and that was easy 
+
+yeah was easy was also warning wrong. besides the fact that does not equal you should never forget that you must have quadratic equals zero before you can solve. 
+
+tempting though may cannot set each the factors above equal the other side the equation and solve. instead first have multiply out and simplify the lefthand side then subtract the over the lefthand side and refactor. only then can solve. 
+
+then the solution solve very common mistake that students make this type problem solve the equation for dividing off the but you cant divide zero dividing off the makes the implicit assumption that not zero. there justification for making that assumption and warning making that implicit assumption will cause you lose half your solution this problem. 
+
+even though you are used variable factors having variables and numbers like the other factor factor can contain only variable perfectly valid factor. set the factors equal zero and solve 
+
+then the solution solve this twoterm quadratic easier factor than were the previous quadratics can factor out both terms taking the out front. warning not divide the off not make magically disappear youll lose one your solutions 
+
+then the solution there one other case twoterm quadratics that you can factor 
+
+solve this equation quadratic equals zero form its ready solve. the quadratic itself difference squares ill apply the differenceofsquares formula 
+
+then the solution note this solution may also formatted there another way work this last problem which leads the next section... 
+
+
+set your expression. the standard format for the quadratic equation start ordering the terms your equation from highest lowest power just like this standard format. for example take 
+
+will reorder this expression its easier work with simply moving the terms around 
+
+find the factored form using one the methods below. factoring the polynomial will result two smaller expressions which can multiplied produce the original polynomial 
+
+this example and are factors the original expression check your work multiply the factors you identified. then combine like terms and youre done. start with 
+
+lets test multiplying the terms using foil first outer inner last obtaining 
+
+from here can add and together since theyre like terms. know our factors are correct because get the equation started with 
+
+learning objectives 
+solve quadratic equations using factoring techniques and express the solutions set. 
+
+introduction 
+
+when any polynomial set equal certain value whether integer another polynomial the result equation. equation that can written the form called quadratic equation. can solve these quadratic equations using the rules algebra applying factoring techniques where necessary and using the zero product property. 
+
+the zero product property 
+
+the zero product property states algebraic terms course something that all have known for long time the product two numbers then least one the factors zero product property 
+
+then either both and are this property may seem fairly obvious but has big implications for how solve quadratic equations means that have factored polynomial equal can sure that least one the factors also can use this method identify solutions for the equation. 
+
+but were getting ahead ourselves herelets start with example quadratic equation and think about how can solve it. the equation quadratic equation because can written which fits the form with example 
+problem 
+
+solve for the problem asks solve for lets begin factoring the left side the equation. 
+
+common factor and common factor and this point have fully factored the left side the equation. were just factoring the expression could stop here but remember that are solving the equation for heres where use the zero product property. since the entire expression equal zero know that least one the terms has equal zero. lets continue solve this problem setting each term equal zero and solving the 
+equations. 
+
+
+set each factor equal zero 
+
+solve each equation 
+answer 
+end with two possible values for and these values are also called the roots equation. check our answers can substitute both values directly into our original equation and see get true sentence for each. 
+
+checking checking substituting these values into the original equation produces two correct statements know that our values for are correct this quadratic equation has two roots and can use the same zero product property solve quadratic equations the form first factor the expression and then will solve for the roots. 
+
+
+example 
+problem 
+solve for expand the term using two coefficients whose sum and whose product group terms 
+
+pull out the common factors from each group. 
+
+use the distributive property pull out factor. 
+
+use the zero product property set each factor equal solve each equation. 
+answer 
+
+the roots the original equation are the solution this equation then both these values for will result true statement. skeptical substitute values and for the original equation. well wait. 
+
+solve for showhide answer 
+
+
+
+applying the zero product property 
+
+when use the zero product property solve quadratic equation need make sure that the equation itself has been set zero. sometimes this will require moving terms around order make one side zero. 
+
+example think about the equation could factor the trinomial the left side the equation but would left with the equation and this far could get all this new equation tells that two factors and when multiplied together equal setting each factor equal and then solving the equation does not help either are not looking for factors that are are looking for two factors that when multiplied together equal put another way cannot use the zero product property when there not zero one side the quadratic equation 
+
+whats the solution here order have zero one side the equation have subtract from both sides. this means our quadratic equation goes from can factor the trinomial the left and then use the zero product property find values for the example below shows how solve quadratic equation where neither side originally equal zero. note that the factoring sequence has been shortened. 
+
+example 
+problem 
+
+solve for the original equation has 
+the right. make this side equal add both sides. 
+
+combine like terms. 
+
+
+rewrite for easier grouping and factoring. 
+
+
+use the distributive property pull out the common factors the pairs terms. 
+
+
+use the distributive property pull out the common factor the quadratic now completely factored. 
+
+apply the zero product property. 
+answer 
+sometimes may factor quadratic equations that end looking like this know how apply the zero product property the factors and but what with the leading coefficient can apply the zero product property integer 
+
+this situation have three factors and the zero product rule tells that the product the three factors going equal the zero the right side the equation the only way that can happen least one the three factors the left side zero. lets check each them 
+
+the factor never going equal zero can effectively ignore one the choices. 
+
+the factor might equal zero and find that when then does. 
+
+the factor might equal zero and find that when then does. 
+
+our solutions the original equation are the factor did not contribute third solution. 
+
+solve for showhide answer 
+
+
+summary 
+
+can find the solutions roots quadratic equations setting one side equal zero factoring the polynomial and then applying the zero product property. the zero product property states that then either both and are when the product factors equals zero one more the factors must also equal zero. once the polynomial factored set each factor equal zero and solve them separately. the answers will the set possible solutions the original equation. 
+factoring quadratic equations gmat math study guide 
+table contents 
+
+definitions 
+basic factoring 
+examples basic factoring 
+reverse factoring 
+translating between factored and quadratic form 
+three common forms 
+difference squares 
+plus squared 
+minus squared 
+dividing zero 
+solutions summary 
+definitions 
+
+quadratic equation equation that can written the form for example quadratic equation while not quadratic equation. 
+factoring the process breaking apart equation into factors separate terms such that when the separate terms are multiplied together they produce the original equation. 
+for example xx. this case the equation can broken apart into two factors i.e. such that when these two separate terms i.e. factors are multiplied together the result the original equation. 
+basic factoring 
+
+factoring basic quadratic equation such you must find two numbers that add i.e. this case and multiply this case. the numbers and have the properties necessary. consequently and are the two factors. 
+
+summarize 
+
+factoring quadratic the form look for two numbers that add and multiply examples basic factoring 
+
+you have not done factoring years entirely new you may confused this point. however the following examples and explanation going between factored and quadratic form should clarify most confusion. 
+
+find two numbers that add and multiply two such numbers are and since each value satisfies the equation another example 
+
+find two numbers that add and multiply two such numbers are and since each value satisfies the equation another example 
+
+find two numbers that add and multiply two such numbers are and since each value satisfies the equation reverse factoring 
+
+the reverse factoring called foil which stands for first outer inner last. acquire the quadratic form from the factored form multiply the first terms then the outer terms then the inner terms and finally the last terms add each the terms together and simplify. for example 
+
+first outer inner last 
+translating between factored and quadratic form 
+
+factoring defined above the process breaking apart equation into factors separate terms such that when the separate terms are multiplied together they produce the original equation. factoring works the following fundamental relationship 
+
+where and are the roots solutions the quadratic equation 
+example 
+
+roots 
+consequently you saw question you could quickly solve factoring follows 
+
+since both these values make the equation true. 
+three common forms 
+
+there are three common forms that are easily factored. essential that you can recognize these three factored forms and quickly work with them 
+
+difference squares 
+
+for example 
+
+plus squared 
+
+for example 
+
+minus squared 
+
+for example 
+
+dividing zero undefined 
+
+the rules mathematics and division particular state that you cannot divide zero. consequently divided zero undefined just divided zero undefined and divided undefined. further you are factoring equation with variable the denominator any value that variable that makes the denominator zero not legitimate solution. this best explained and understood with examples. 
+
+
+begin factoring the equation much possible. 
+top two numbers that add and multiply are and bottom two numbers that add and multiply are and the solutions roots are since the denominator cannot equal zero both values that cause the entire denominator equal zero are not solutions but are instead values that cause the entire expression undefined. 
+another example 
+
+
+begin factoring the equation much possible. 
+top two numbers that add and multiply are and bottom two numbers that add and multiply are and the solutions roots are since the denominator cannot equal zero both values that cause the entire denominator equal zero are not solutions but are instead values that cause the entire expression undefined. 
+solutions summary 
+
+quadratic equations can have zero one two real solutions. 
+
+real solution 
+one real solution two real solutions quadratic eq. has two answers both which will correctly solve the equation remember the foil method and this will much easier. 
+
+learning objective edit 
+
+solve quadratic equations factoring 
+
+key points edit 
+
+quadratic equation polynomial equation the second degree. general quadratic equation can written the form lot easier solve quadratic equation you remember the foil method and try and reverse this process. 
+when you plug either your answers back into the original equation they both must work. this might seem like lot work right now but after trying few examples will lot easier quickly recognize patterns and much more quickly. the key practice practice practice. 
+terms edit 
+
+factor 
+find all the factors number other mathematical object the objects that divide evenly. 
+
+quadratic 
+quadratic polynomial function equation. 
+
+degree 
+the sum the exponents term the order polynomial. 
+
+example edit 
+
+for example can factored yielding give feedback this content 
+register for free remove ads and unlock more features learn more 
+full text edit 
+
+solving quadratic equations factoring 
+
+quadratic equation polynomial equation the second degree. general quadratic equation can written the form 
+
+
+
+where represents variable unknown and and are constants with the equation linear equation. some plots quadratic functions are shown below. 
+
+
+plots quadratic equations 
+
+plots the realvalued quadratic function varying each coefficient separately. 
+the constants and are called respectively the quadratic coefficient the linear coefficient and the constant term free term. the term quadratic comes from quadratus which the latin word for square. quadratic equations can solved factoring completing the square graphing newtons method and using the quadratic formula. 
+
+solve quadratic equations factoring lets remember the foil property. foil acronym for the order which multiply out function. stands for first outer inner last. before jump into factoring out quadratic equation lets try foil function 
+
+
+
+remembering this lets think about how need about factoring out quadratic equation. lets this using the same example 
+
+
+
+the first step set the format 
+now lets look how fill the variable slots this format. this need take the square root the first term find two terms that will multiply together the first term our quadratic. our example simple the square root lets input this into our format 
+now lets look the constants put our equation. need have two numbers that add the coefficient our middle term and multiple together give the same product our last term. good way this make list all the numbers whose product the last term and make note what they add to. this example our last term lets make list all the numbers that multiply can easily see that the only option here that adds lets put this into our equation 
+the last thing input the signs our equation. good thing remember that two negatives make positive. our last term has positive sign then both the signs our factored equation are the same. the last term has negative sign the one the equations will negative and one will positive. since have positive last term know that our equation going have the same signs both terms. since the middle term negative know that both our equations will have negative sign. now can complete the factored equation 
+now really need multiply this back out and make sure makes sense. always check your work when factored out this returns the original equation know correct. 
+now solve the equation set each term equal zero and and 
+when you plug either these terms back into the original equation they both work. this might seem like lot work right now but after trying few examples will lot easier quickly recognize patterns and much more quickly. the key practice practice practice. 
+
+factoring quadratics 
+
+factoring quadratics finds the roots xintercepts quadratic equation. factoring quadratic equations standard form can often accomplished finding two numbers that add give and multiply give ac. more complicated equations use the quadratic formula completing the square methods. use the quadratic formula change the standard form the quadratic equation find the roots solving for and substitute into the form tocomplete the square change the standard form the quadratic equation where and and then solve for solving quadratic equations 
+
+terminology 
+
+quadratic equations equation that contains seconddegree term and term higher degree. 
+
+the standard form quadratic equation quad.gif where are real numbers andequation image indicator steps for solving quadratic equations factoring 
+
+write the equation standard form 
+
+factor completely. 
+
+apply the zero product rule setting each factor containing variable zero. then solve the linear equations step check. 
+
+note most quadratic equations have solutions the solutions correspond the xintercepts the graph quadratic function. 

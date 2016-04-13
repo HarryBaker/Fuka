@@ -1,0 +1,802 @@
+the elimination method for solving linear systems 
+another way solving linear system use the elimination method. the elimination method you either add subtract the equations get equation one variable. 
+when the coefficients one variable are opposites you add the equations eliminate variable and when the coefficients one variable are equal you subtract the equations eliminate variable. 
+example 
+leftbeginmatrix endmatrixright 
+leftbeginmatrix endmatrixright 
+can eliminate the xvariable addition the two equations. 
+the value can now substituted into either the original equations find the value the solution the linear system avoid errors make sure that all like terms and equal signs are the same columns before beginning the elimination. 
+you dont have equations where you can eliminate variable addition subtraction you directly you can begin multiplying one both the equations with constant obtain equivalent linear system where you can eliminate one the variables addition subtraction. 
+example 
+leftbeginmatrix endmatrixright 
+leftbeginmatrix endmatrixright 
+begin multiplying the first equation that the coefficients are opposites 
+colorgreen cdot left xyright cdot colorgreen 
+colorgreen cdot left xyright cdot colorgreen 
+substitute either the original equations get the value the solution the linear system index lessons purplemaths lessons offline form 
+forums print this page printfriendly version find local tutors 
+
+
+
+
+systems linear equations 
+solving addition elimination page sections definitions solving graphing substitition eliminationaddition gaussian elimination. 
+
+
+solving systems equations addition mathhelp.com 
+
+solving systems addition 
+
+the addition method solving systems equations also called the method elimination. this method similar the method you probably learned for solving simple equations. 
+
+you had the equation you would write under either side the equation and then youd add down get the solution. 
+
+youll something similar with the addition method. 
+
+solve the following system using addition. 
+note that add down the will cancel out. ill draw equals bar under the system and add down 
+
+now can divide through solve for and then backsolve using either the original equations find the value the first equation has smaller numbers ill backsolve that one 
+
+then the solution doesnt matter which equation you use for the backsolving youll get the same answer either way. used the second equation have gotten 
+
+...which the same result before. 
+
+solve the following system using addition. 
+note that the xterms would cancel out only theyd had opposite signs. can create this cancellation multiplying either one the equations and then adding down usual. doesnt matter which equation choose long careful multiply the through the entire equation. that means both sides the equals sign 
+
+ill multiply the second equation. 
+
+the notation over the arrow indicates that multiplied row now can solve the equation get backsolving the first equation get 
+
+then the solution very common temptation write the solution the form first number found second number found. sometimes though this case you find the yvalue first and then the xvalue second and course points the xvalue comes first. just careful write the coordinates for your solutions correctly. copyright elizabeth stapel all rights reserved 
+
+solve the following system using addition. 
+nothing cancels here but can multiply create cancellation. can multiply the first equation and this will set the yterms cancel. 
+
+solving this get that ill use the first equation for backsolving because the coefficients are smaller. 
+
+the solution solve the following system using addition. 
+
+
+advertisement 
+
+
+
+hmm... nothing cancels. but can multiply create cancellation. this case neither variable the obvious choice for cancellation. can multiply convert the xterms the yterms ys. since lazy and smaller than ill multiply cancel the xterms. would get the same answer the end set the yterms cancel. its not that how doing the right way was just choice. you could make different choice and that would just correct. 
+
+will multiply the first row and the second row then ill add down and solve. 
+
+solving get that neither equation looks particularly better than the other for backsolving ill flip coin and use the first equation. 
+
+remembering put the xcoordinate first the solution get 
+
+usually when you are solving addition you will need create the cancellation. warning the most common mistake forget multiply all the way through the equation multiplying both sides the equals sign. careful this. 
+
+solve the following using addition. 
+think ill multiply the second equation this will least get rid the decimal place. 
+
+oops this result isnt true this inconsistent system two parallel lines with solution with intersection point. 
+
+solution 
+
+solve the following using addition. 
+think itll simplest cancel off the yterms ill multiply the second row well yes but... already knew that zero equals zero. this dependent system and solving for the solution your text may format the answer something like that. 
+
+remember the difference nonsense answer like the previous problem means inconsistent system with solution useless answer like above means dependent system where the whole line the solution. 
+
+some books use only and for their variables but many use additional variables. when you write the solution for xypoint you know that the xcoordinate goes first and the ycoordinate goes second. when you are dealing with other variables assume unless explicitly told otherwise that those variables are written alphabetical order. for instance the variables given system are and the solution point would would not unless otherwise specified the variables are written alphabetical order. 
+the elimination method solving systems equations also called the addition method. solve system equations elimination transform the system such that one variable cancels out. 
+example solve the system equations elimination 
+elimination method example 
+solution 
+this example will cancel out the term. can add the equations together. 
+elimination method solution 
+now can find order solve for take the value for and substitute back into either one the original equations. 
+elimination method solution 
+the solution example solve the system using elimination 
+elimination method step 
+solution 
+look the coefficients. multiply the first equation set the xcoefficients cancel. 
+elimination method step 
+now can find take the value for and substitute back into either one the original equations. 
+elimination method step 
+the solution example solve the system using elimination method 
+elimination method example 
+solution 
+this example will multiply the first row and the second row then will add down before. 
+elimination method solution 
+now can find substitute back into first equation 
+elimination method step 
+the solution learning objectives 
+solve system equations when multiplication necessary eliminate variable. 
+solve system equations when multiplication necessary eliminate variable. 
+recognize systems that have solution infinite number solutions. 
+solve application problems using the elimination method. 
+
+introduction 
+the elimination method for solving systems linear equations uses the addition property equality. you can add the same value each side equation. 
+
+you have system and you can add the left side the first equation and add the right side the equation. and since you are adding the same value each side the first equation. 
+
+using addition eliminate variable 
+you add the two equations and together noted above watch what happens. 
+
+
+
+you have eliminated the term and this equation can solved using the methods for solving equations with one variable. 
+
+lets see how this system solved using the elimination method. 
+
+
+example 
+problem 
+use elimination solve the system. 
+add the equations. 
+
+solve for substitute into one the original equations and solve for true 
+true 
+sure check your answer both equations 
+
+
+the answers check. 
+answer 
+the solution unfortunately not all systems work out this easily. how about system like and you add these two equations together variables are eliminated. 
+
+
+
+but you want eliminate variable. lets add the opposite one the equations the other equation. 
+
+you have eliminated the variable and the problem can now solved. see the example below. 
+
+
+example 
+problem 
+use elimination solve the system. 
+you can eliminate the yvariable you add the opposite one the equations the other equation. 
+
+rewrite the second equation its opposite. 
+add. 
+
+solve for substitute into one the original equations and solve for true 
+true 
+sure check your answer both equations 
+
+
+
+the answers check. 
+answer 
+the solution the following are two more examples showing how solve linear systems equations using elimination. 
+
+
+example 
+problem 
+use elimination solve the system. 
+notice the coefficients each variable each equation. you add these two equations the term will eliminated since 
+add and solve for substitute into one the original equations. 
+
+true 
+true 
+check solutions. 
+
+
+
+
+the answers check. 
+answer 
+the solution example 
+problem 
+use elimination solve for and notice the coefficients each variable each equation. you will need add the opposite one the equations eliminate the variable but 
+change one the equations its opposite add and solve for substitute into one the original equations and solve for answer 
+the solution ahead and check this last examplesubstitute into both equations. you get two true statements and 
+
+notice that you could have used the opposite the first equation rather than the second equation and gotten the same result. 
+
+using multiplication and addition eliminate variables 
+
+many times adding the equations adding the opposite one the equations will not result eliminating variable. look the system below. 
+
+you add the equations above add the opposite one the equations you will get equation that still has two variables. lets now use the multiplication property equality first. you can multiply both sides one the equations number that will result the coefficient one the variables being the opposite the same variable the other equation. 
+
+this where multiplication comes handy. notice that the first equation contains the term and the second equation contains the term you multiply the second equation when you add both equations the variables will add see the example below. 
+
+
+example 
+problem 
+solve for and equation equation look for terms that can eliminated. the equations not have any terms with the same coefficients. 
+
+
+
+multiply the second equation they have the same coefficient. 
+
+
+
+rewrite the system and add the equations. 
+
+
+
+solve for substitute into one the original equations find true 
+true 
+check your answer. 
+
+
+
+
+the answers check. 
+answer 
+the solution there are other ways solve this system. instead multiplying one equation order eliminate variable when the equations were added you could have multiplied both equations different numbers. 
+
+lets remove the variable this time. multiply equation and equation example 
+problem 
+solve for and look for terms that can eliminated. the equations not have any terms with the same coefficient. 
+
+
+
+order use the elimination method you have create variables that have the same coefficientthen you can eliminate them. multiply the top equation now multiply the bottom equation next add the equations and solve for substitute into one the original equations find answer 
+the solution you arrive the same solution before. 
+
+
+these equations were multiplied and respectively because that gave you terms that would add sure multiply all the terms the equation. 
+
+
+felix needs find and the following system. 
+equation equation wants use the elimination method eliminate one the variables which the most efficient way for him add equation and equation add both sides equation multiply equation multiply equation showhide answer 
+
+
+
+special situations 
+just with the substitution method the elimination method will sometimes eliminate both variables and you end with either true statement false statement. recall that false statement means that there solution. 
+
+lets look example. 
+
+
+example 
+problem 
+solve for and add the equations eliminate the 
+xterm. 
+answer 
+there solution. 
+
+
+
+graphing these lines shows that they are parallel lines and such not share any point common verifying that there solution. 
+
+
+
+both variables are eliminated and you are left with true statement this indicates that there are infinite number ordered pairs that satisfy both the equations. fact the equations are the same line. 
+
+
+example 
+problem 
+solve for and add the equations eliminate the 
+xterm. 
+answer 
+there are infinite number solutions. 
+
+
+graphing these two equations will help illustrate what happening. 
+
+
+
+solving application problems using the elimination method 
+
+the elimination method can applied solving systems equations that model real situations. two examples using the elimination method problem solving are shown below. 
+
+
+example 
+problem 
+the sum two numbers their difference what are the two numbers 
+
+write system equations model the situation. 
+one number 
+the other number 
+
+add the equations eliminate the yterm and then solve for substitute the value for into one the original equations find true 
+true 
+check your answer substituting and into the original system. 
+
+the answers check. 
+answer 
+the numbers are and example 
+problem 
+theater sold tickets for friday nights performance. one child ticket costs and one adult ticket costs ..the total amount collected was how many each type ticket were sold 
+
+the total number tickets sold the amount money collected system equations 
+write system equations model the ticket sale situation. 
+number adult tickets sold 
+number child tickets sold 
+
+use multiplication rewrite the first equation. 
+
+
+add the opposite the second equation eliminate term and solve for substitute for one the original equations. 
+
+true 
+
+true 
+check your answer substituting 
+and 
+into the original system. the answers check. 
+answer 
+adult tickets and child tickets were sold. 
+
+
+
+summary 
+combining equations powerful tool for solving system equations. adding subtracting two equations order eliminate common variable called the elimination addition method. once one variable eliminated becomes much easier solve for the other one. multiplication can used set matching terms equations before they are combined. when using the multiplication method important multiply all the terms both sides the equationnot just the one term you are trying eliminate. 
+elimination method 
+
+solve the simultaneous equations make the coefficients one the variables the same value both equations. then either add the equations subtract one equation from the other whichever appropriate form new equation that only contains one variable. this referred eliminating the variable. 
+solve the equation thus obtained. then substitute the value found for the variable one the given equations and solve for the other variable. write the solution ordered pair. 
+
+
+example 
+
+solve the following simultaneous equations using the elimination method 
+
+and solution 
+
+label the equations follows 
+
+... and notice that appears the lefthand side both equations. adding the lefthand side and and then the righthand sides gives 
+
+find note 
+
+have added equals equals and addition eliminates substituting gives 
+
+find the solution example 
+
+solve the following simultaneous equations using the elimination method 
+
+and solution 
+
+label the equations follows 
+
+... and ... 
+
+subtracting from gives 
+
+find substituting gives 
+
+find the solution example 
+
+solve the following simultaneous equations using the elimination method 
+
+and solution 
+
+label the equations follows 
+
+... and ... 
+
+multiplying and gives 
+
+... and ... 
+
+subtracting from gives 
+
+substituting gives find the solution equations containing fractions 
+
+either both equations contain fractions then desirable remove the denominators before solving them simultaneously. 
+
+example 
+
+solve the following simultaneous equations using the elimination method 
+
+and solution 
+
+label the equations follows 
+
+... and ... 
+
+simplify equation multiply both sides the lowest common denominator and ... equation replaces equation 
+
+the equations are now 
+
+... ... 
+
+multiplying gives 
+
+... equation replaces 
+
+adding and gives 
+
+substituting gives 
+
+the solution elimination method for solving equations 
+
+math elimination method used algebra course. algebra use elimination method for solving systems equations. there are two easy methods for solving systems equations. they are substitution method and elimination method. elimination method sometimes more convenient than the substitution method. 
+
+
+addition elimination methodback top 
+elimination method way solve also known addition subtraction method. elimination method one variable the equation eliminated adding subtracting the two equations. 
+this method eliminate one the unknowns. 
+
+step multiply the given equations suitable numbers make the coefficients one the unknowns numerically equal 
+
+step add the new equations the numerically equal coefficients are opposite sign otherwise subtract them. 
+
+step the resulting equation linear one unknown. solve obtain the value one the unknowns. 
+
+step substitute the value this unknown any the given equations. solve vet the value the other unknown. 
+
+along with elimination method for solving equations students can also learn solving simultaneous equations substitution method. 
+
+elimination method examplesback top 
+here more examples how use elimination method for solving equations 
+
+example 
+
+solve solution the given equations are 
+
+multiplying and get 
+
+iii 
+
+subtracting from iii get subtracting get 
+
+hence and the solution the given equations 
+
+
+example 
+
+solve solution the given equations are 
+
+putting and these equations become 
+
+iii 
+
+multiplying get subtracting from iii get subtracting iii get therefore and hence and the solution the given equations 
+the elimination method 
+
+click here you want instructions using the algebra coach carry out the elimination method. 
+
+this section explain the elimination method. this method makes use the fact that the solution equation not changed multiply both sides the equation the same factor. 
+
+subtract equal quantities from both sides equation. 
+this means that can take one equation and subtract multiple another equation from without changing the solution the equations. 
+
+the elimination method uses this fact solve system linear equations. suppose start with system equations unknowns. pick the first equation and subtract suitable multiples from the other equations. each case the multiple chosen that the subtraction cancels eliminates the same variable say the result that the equations contain only unknowns longer appears. 
+
+repeat this elimination process until get equation unknown which then easily solved. 
+
+the final step backsubstitute the solution already obtained for the unknown into the previous equations find the values all the other unknowns. 
+
+
+
+example solve this system equations elimination 
+
+solution lets take twice the first equation namely 
+and subtract from the second equation like this 
+
+the result one equation the one unknown the other unknown has been eliminated. solving this equation yields remains find backsubstitute into either the original equations get thus the solution note that could have found without backsubstitution had subtracted times the first equation from the second equation since this eliminates gauss and gaussjordan elimination 
+
+have explained the essence elimination. for larger systems need systematic procedure avoid getting mixed up. gauss elimination and gaussjordan elimination are two such procedures. 
+
+first some shorthand. system equations such will represented rectangular array numbers called augmented matrix 
+
+
+
+definitions 
+the individual numbers the matrix are called elements. 
+
+columns run down the matrix. e.g. the column contains the elements and rows run across. the row contains and note that the number columns augmented matrix always more than the number rows. 
+
+the diagonal the set elements that starts the top left corner the matrix and runs diagonally down and the right. the diagonal the above matrix consists the numbers and any numbers position are said the diagonal any position are above the diagonal and any position are below the diagonal. 
+
+
+
+
+the elementary row operations 
+
+have seen that the solution system equations not changed divide both sides equation constant subtract multiple one equation from another equation. 
+these same operations can applied the rows augmented matrix since each row just represents equation. they are then called elementary row operations. 
+
+
+
+the elementary row operations e.r.o.s are 
+e.r.o. choose row the augmented matrix and divide every element the row constant. 
+
+e.r.o. choose any row the augmented matrix and subtract multiple any other row from element element. 
+you may apply these e.r.o.s augmented matrix often you like without changing the solution the equations represented the matrix. 
+
+
+
+example this example shows how apply e.r.o. and the notation use indicate it. will divide the first row the augmented matrix the left produce the new augmented matrix the right 
+
+note means divide the row being pointed produce the new matrix. 
+
+
+example this example shows how apply e.r.o. and the notation use indicate it. the augmented matrix the left will take the second row and from subtract times the first row produce the new augmented matrix the right 
+
+note means take the row being pointed row and subtract times row from produce the new row the gauss elimination procedure certain sequence e.r.o.s which transforms the augmented matrix into gauss form also known triangular echelon form 
+
+this form characterized the diagonal below the diagonal and any numbers above the diagonal. this new augmented matrix represents the system equations 
+
+solved backsubstitution. plugging into the second equation gives then plugging both and into the first equation gives the gaussjordan elimination procedure slightly different sequence e.r.o.s which transforms the augmented matrix into gaussjordan form also known rowreduced echelon form 
+
+this form characterized the diagonal above and below the diagonal the lhs the vertical line and any numbers the rhs the vertical line. this new augmented matrix represents the system equations 
+
+this system already solved backsubstitution not required. however about twice many e.r.o.s are required produce the gaussjordan form the gauss form. 
+
+
+
+the gauss and the gaussjordan elimination procedures 
+
+transform one column time into the desired form either gauss gaussjordan. the column presently being transformed called the pivot column. proceed systematically letting the pivot column the first column then the second column etc. until the last column before the vertical line the augmented matrix. for each pivot column the following two steps before moving the next pivot column 
+first locate the diagonal element the pivot column. this element called the pivot. the row containing the pivot called the pivot row. divide every element the pivot row the pivot ie. use e.r.o. get new pivot row with the pivot position. 
+
+the second step differs for the two procedures. the gauss procedure get each position below the pivot position subtracting suitable multiple the pivot row from each the rows below ie. using e.r.o. the gaussjordan procedure get each position above and below the pivot position subtracting suitable multiple the pivot row from each the rows above and below it. 
+when all the columns before the vertical line have been transformed using the gauss procedure the augmented matrix will gauss form and solve the system backsubstitution. 
+
+when all the columns before the vertical line have been transformed using the gaussjordan procedure the augmented matrix will gaussjordan form and simply read the solution from the column the right the vertical line. 
+
+
+
+example use gauss elimination solve the system equations 
+
+solution perform this sequence e.r.o.s the augmented matrix 
+
+set the pivot column column get the diagonal position red 
+
+
+
+next get below the pivot red 
+
+
+now let pivot column second column. 
+
+first get the diagonal position 
+
+
+next get the position below the pivot 
+
+
+now let pivot column third column. get the diagonal position 
+
+
+this matrix which now gauss form represents this system equations 
+
+
+solved backsubstitution. plugging into the second equation get and plugging and into the first equation get thus the solution example use gaussjordan elimination solve the system equations 
+
+solution perform this sequence e.r.o.s the augmented matrix. set the pivot column column get the diagonal position red using e.r.o. 
+
+next get below the pivot red using e.r.o. 
+
+now let pivot column second column. first get the diagonal position using e.r.o. 
+
+next get the positions above and below the pivot red using e.r.o. 
+
+now let pivot column third column. get the diagonal position using e.r.o. 
+
+next get the positions above the pivot red using e.r.o. 
+
+this matrix which now gaussjordan rowreduced echelon form represents the solution 
+less equations than unknowns 
+
+the number equations the system less than the number unknowns then you will reach point the gauss gaussjordan procedure where you cannot transform the pivot column because you have run out pivot rows. here example 
+
+the third column has pivot and pivot row you have stop. this augmented matrix represents this system equations 
+
+the second form see that value given for then and can expressed terms it. the next matrix shows that giving value for say amounts having another row 
+
+try the exercises which contain examples systems with less equations than unknowns. 
+
+
+
+recognizing redundant inconsistent systems 
+
+the number equations greater than the number unknowns then the systems guaranteed either redundant inconsistent. but the number equations equal less than the number unknowns then you will generally not recognize system being redundant inconsistent until the very end the calculation. this especially true the system large. 
+
+you are solving the system equations the substitution method and the system redundant then you will end with final equation that states the system inconsistent then you will end with one that states contradiction like something similar happens when using gauss gaussjordan elimination. the system redundant then the end the elimination procedure when you have the augmented matrix gauss gaussjordan form the last row the augmented matrix will this last row represents the equation useless piece information. 
+
+the system inconsistent then the last row the augmented matrix will look something like 
+
+the last row represents the equation contradiction. try the exercises which contain examples redundant and inconsistent systems equations. 
+there are three ways find values and when dealing with systems two linear equations. this lesson will learning one these methods elimination. 
+systems linear equations what are solving for 
+system linear equations when have two three equations with two three variables. this lesson will working with twoequation system will solving for both and this answer graphically where the two lines cross. they not cross then have parallel lines and there will answer for and the equations are the same one have graphically one line sitting another and have infinite number solutions. 
+
+when dealing with systems linear equations there are three ways solve for and graphing substitution elimination. this lesson will looking the elimination method for solving system linear equations. 
+
+the elimination method solving system equations 
+the elimination method where you actually eliminate one the variables adding the two equations. this way you eliminate one variable you can solve for the other variable. twoequation system since you have two variables eliminating one makes the process solving for the other quite easy. lets try one 
+
+elimination method example 
+this example you can see you have two equations with two variables. the goal have one variable that positive and one negative the two equations easy eliminate. this instance have and can add the two equations which eliminates the yterm. once the yterm eliminated use our basic algebra skills solve for the xterm. 
+
+elimination method 
+now that have the xterm can use substitution solve for the yterm. plug into either the original equations solve for elimination method substitution step 
+from the graph you can see the two lines intersect the point this the solution for this system equations. 
+
+graph example solution 
+graph example 
+elimination method creating opposites 
+sometimes you will encounter system equations where you will need create system where you can eliminate variable. this done multiplying values through the entire equation set one positive variable and one negative variable. lets try this one 
+
+elimination example 
+you look this example think about which variable you want eliminate. want eliminate the xterm need make sure have positive and negative the same term. could multiply the first equation through which will allow eliminate the xterm. 
+
+step example 
+now can eliminate the xterm then solve for the yterm 
+
+solution example 
+here the graphic solution showing the two lines crossing the point graph example 
+graph ex. 
+when two lines intersect there least one solution this called consistent system. consistent solution with exactly one solution called independent. 
+
+system with infinite solutions 
+when solving for systems equations sometimes encounter equations that have infinite number solutions. these equations end being the exact same equation. perhaps one equation twice the other but when simplified the two equations are the same. using the same technique for elimination you will end with true statement and both variables will eliminated. lets try one 
+
+elimination method infinite solutions 
+using the same technique can multiply the second equation through eliminate the xterm. 
+
+elimination example step 
+notice now have exactly the same equation. took the next step adding the two equations would end with both variables eliminated and true statement. 
+
+example final step 
+the elimination method used eliminate variable order more simply solve for the remaining variables. 
+
+learning objective edit 
+
+solve systems equations two variables using elimination 
+
+key points edit 
+
+order easily solve the system equations helps first set the equations similar way. for example and should written and xy. 
+once the values for the remaining variables have been found successfully then back and plug that result into one the original equation and find the correct value for the other variable. 
+always check the work. this done plugging both values into one both the original equations. 
+terms edit 
+
+system equations 
+set equations with multiple variables which can solved using specific set values. 
+
+elimination method 
+method solving system equations eliminating one variable order more simply solve for the remaining variable. 
+
+example edit 
+
+given the following system equations and first set the system way that makes easier manipulate writing one equation immediately above the other. then choose variable eliminate. you can choose either variable but will choose because the easiest eliminate this system equations. looking the first equation find way express terms only and number. this case now plug that value wherever you see the second equation. which simplifies and now you can solve for therefore you can now use that value solve for and you find that check make sure these values satisfy the original equations. and they do. 
+give feedback this content 
+register for free remove ads and unlock more features learn more 
+full text edit 
+
+system equations also known simultaneous equations are set least two equations containing multiple variables. the system can solved using specific set values corresponding the variables. this section will focus systems equations with just two variables. important first learn how solve simple systems order understand the basic concept before moving more complex systems equations with more variables. the values the variables are often written the following notation xy. the most basic methods for solving system equations are 
+
+the graphical method 
+the substitution method 
+and the elimination method 
+this section the elimination method will explored. 
+
+the elimination method also known elimination addition way eliminate one the variables more simply evaluate the remaining variable. once the values for the remaining variables have been found successfully then back and plug that result into one the original equation and find the correct value for the other variable. 
+
+this elimination method can demonstrated using simple example 
+
+using two equations both with two variables and the first thing that needs done write the variables the same manner that the similar variables line like .in this example one variable can easily eliminate using the elimination method just subtract the bottom equation from the top equation. the remaining variable are minus equals .then back one the original equations and substitute the value found for easiest pick the simplest equation but either equation will work has been found using the method elimination that equal also easy back and check the answer plugging both these values for their respective variables into one the equations although this very simplified example make sure follow these steps and will easy solve any system equations with two variables. now imagine that there more difficult problem such and this system equations shown the best way start every problem simplify the equation. set the equation that one the variables will easily away. start making one the variables consistent both equations. this can done multiplying the second equation dont forget the same thing has done both sides the equation becomes .after the equations are placed top each other the equation will add the equations together the same way the first example. 
+
+interactive graph system equations with two variables 
+
+graph system equations with two variables with the equations and this graph demonstrates that the system equations has specific set values which will solve both equations. 
+also crucially important check the work especially when simple check for system equations. 
+
+
+
+source boundless. the elimination method. boundless algebra. boundless jul. retrieved apr. from httpswww.boundless.comalgebratextbooksboundlessalgebratextbooksystemsofequationsandmatricessystemsofequationsintwovariablestheeliminationmethod 
+elimination method 
+
+system linear equations can also solved using the elimination method.we will show with examples. 
+
+before you learn this lesson make sure you understand how solve linear equations 
+
+here are the steps follow 
+
+step 
+
+try eliminate variable you add the left sides and the right sides the two equations 
+
+step 
+
+set the sum resulting from adding the left sides equal the sum resulting from adding the right sides 
+
+step 
+
+solve for the variable that was not cancelled eliminated 
+
+step 
+
+use the answer found step solve for the other variable substituting this value one the two equations 
+
+example solve the following system using the elimination method 
+
+step 
+
+examine the two equations carefully.then you will try eliminate cancel variable adding the left sides and however since you are adding the left sides you have the right sides and the two equations also 
+
+for the equations above turns out that easy eliminate while adding the left sides since step 
+
+the sum for the left sides and the sum for the right sides setting them equal get step 
+
+solve for dividing both sides this equation step 
+
+you can substitute for either get choosing the first one get minus from both sides get now check yourself that the answer still the same you had chosen substitute for example solve the following system using the elimination method 
+
+step 
+
+first notice that nothing can eliminated when adding the left sides since 
+
+however can turn into could elimnate adding therefore turn into multiplying the whole equation gives the new equation adding the left side this equation the left side gives what you see below 
+
+adding the right gives step 
+
+the sum for the left sides and the sum for the right sides setting them equal get step 
+
+solve for dividing both sides this equation step 
+
+you can substitute for either get choosing the first one get minus from both sides get you should have noticed that the reason call this method the elimination method because the first thing you eliminate variable 
+linear equations solutions using elimination with three variables 
+
+systems equations with three variables are only slightly more complicated solve than those with two variables. the two most straightforward methods solving these types equations are elimination and using matrices. 
+
+use elimination solve system three equations with three variables follow this procedure 
+
+write all the equations standard form cleared decimals fractions. 
+
+choose variable eliminate then choose any two the three equations and eliminate the chosen variable. 
+
+select different set two equations and eliminate the same variable step solve the two equations from steps and for the two variables they contain. 
+
+substitute the answers from step into any equation involving the remaining variable. 
+
+check the solution with all three original equations. 
+
+example 
+
+solve this system equations using elimination. 
+
+equation 
+
+all the equations are already the required form. 
+
+choose variable eliminate say and select two equations with which eliminate say equations and equation 
+
+select different set two equations say equations and and eliminate the same variable. 
+
+equation 
+
+solve the system created equations and equation 
+
+now substitute into equation find equation 
+
+use the answers from step and substitute into any equation involving the remaining variable. 
+
+using equation equation 
+
+check the solution all three original equations. 
+
+equation 
+
+equation 
+
+equation 
+
+the solution example 
+
+solve this system equations using the elimination method. 
+
+equation 
+
+write all equations standard form. 
+
+equation 
+
+notice that equation already has the eliminated. therefore use equations and eliminate then use this result together with equation solve for and use these results and substitute into either equation find equation 
+
+equation 
+
+substitute into equation equation 
+
+substitute and into equation equation 
+
+use the original equations check the solution the check left you. 
+
+the solution 
