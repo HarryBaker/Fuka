@@ -1,0 +1,196 @@
+this article is about singlevariable quadratic equations and their solutions. for more general information about the singlevariable case see quadratic function.
+for the case of more than one variable see conic section or quadratic form.
+
+the quadratic formula for the roots of the general quadratic equation
+in elementary algebra a quadratic equation from the latin quadratus for square is any equation having the form where x represents an unknown and a b and c represent known numbers such that a is not equal to . if a   then the equation is linear not quadratic. the numbers a b and c are the coefficients of the equation and may be distinguished by calling them respectively the quadratic coefficient the linear coefficient and the constant or free term.
+
+because the quadratic equation involves only one unknown it is called univariate. the quadratic equation only contains powers of x that are nonnegative integers and therefore it is a polynomial equation and in particular it is a second degree polynomial equation since the greatest power is two.
+
+quadratic equations can be solved by a process known in american english as factoring and in other varieties of english as factorising by completing the square by using the quadratic formula or by graphing. solutions to problems equivalent to the quadratic equation were known as early as  bc.
+
+
+solving the quadratic equation.
+figure . plots of the quadratic function y  eh x squared plus b x plus c varying each coefficient separately while the other coefficients are fixed at values eh   b   c  . the left plot illustrates varying c. when c equals  the vertex of the parabola representing the quadratic function is centered on the origin and the parabola rises on both sides of the origin opening to the top. when c is greater than zero the parabola does not change in shape but its vertex is raised above the origin. when c is less than zero the vertex of the parabola is lowered below the origin. the center plot illustrates varying b. when b is less than zero the parabola representing the quadratic function is unchanged in shape but its vertex is shifted to the right of and below the origin. when b is greater than zero its vertex is shifted to the left of and below the origin. the vertices of the family of curves created by varying b follow along a parabolic curve. the right plot illustrates varying eh. when eh is positive the quadratic function is a parabola opening to the top. when eh is zero the quadratic function is a horizontal straight line. when eh is negative the quadratic function is a parabola opening to the bottom.
+figure . plots of quadratic function y  ax  bx  c varying each coefficient separately while the other coefficients are fixed at values a   b   c  .
+a quadratic equation with real or complex coefficients has two solutions called roots. these two solutions may or may not be distinct and they may or may not be real.
+
+factoring by inspection
+it may be possible to express a quadratic equation ax  bx  c   as a product px  qrx  s  . in some cases it is possible by simple inspection to determine values of p q r and s that make the two forms equivalent to one another. if the quadratic equation is written in the second form then the zero factor property states that the quadratic equation is satisfied if px  q   or rx  s  . solving these two linear equations provides the roots of the quadratic.
+
+for most students factoring by inspection is the first method of solving quadratic equations to which they are exposed. if one is given a quadratic equation in the form x  bx  c   the sought factorization has the form x  qx  s and one has to find two numbers q and s that add up to b and whose product is c this is sometimes called vietas rule and is related to vietas formulas. as an example x  x   factors as x  x  . the more general case where a does not equal  can require a considerable effort in trial and error guessandcheck assuming that it can be factored at all by inspection.
+
+except for special cases such as where b   or c   factoring by inspection only works for quadratic equations that have rational roots. this means that the great majority of quadratic equations that arise in practical applications cannot be solved by factoring by inspection.
+
+completing the square.
+main article completing the square.
+figure  illustrates an x y plot of the quadratic function f of x equals x squared minus x minus . the xcoordinate of the points where the graph intersects the xaxis x equals  and x equals  are the solutions of the quadratic equation x squared minus x minus  equals zero.
+figure . for the quadratic function y  x  x   the points where the graph crosses the xaxis x   and x   are the solutions of the quadratic equation x  x    .
+the process of completing the square makes use of the algebraic identity which represents a welldefined algorithm that can be used to solve any quadratic equation. starting with a quadratic equation in standard form ax  bx  c  .
+
+divide each side by a the coefficient of the squared term.
+subtract the constant term ca from both sides.
+add the square of onehalf of ba the coefficient of x to both sides. this completes the square converting the left side into a perfect square.
+write the left side as a square and simplify the right side if necessary.
+produce two linear equations by equating the square root of the left side with the positive and negative square roots of the right side.
+solve the two linear equations.
+we illustrate use of this algorithm by solving x  x    .
+
+the plusminus symbol  indicates that both x     and x     are solutions of the quadratic equation.
+
+quadratic formula and its derivation.
+quadratic formula.
+completing the square can be used to derive a general formula for solving quadratic equations called the quadratic formula. the mathematical proof will now be briefly summarized. it can easily be seen by polynomial expansion that the following equation is equivalent to the quadratic equation.
+
+taking the square root of both sides and isolating x gives.
+
+some sources particularly older ones use alternative parameterizations of the quadratic equation such as ax  bx  c   or ax  bx  c    where b has a magnitude one half of the more common one possibly with opposite sign. these result in slightly different forms for the solution but are otherwise equivalent.
+
+a number of alternative derivations can be found in the literature. these proofs are simpler than the standard completing the square method represent interesting applications of other frequently used techniques in algebra or offer insight into other areas of mathematics.
+
+a lesser known quadratic formula as used in mullers method and which can be found from vietas formulas provides the same roots via the equation.
+
+one property of this form is that it yields one valid root when a   while the other root contains division by zero because when a   the quadratic equation becomes a linear equation which has one root. by contrast in this case the more common formula has division by zero in both cases.
+
+reduced quadratic equation.
+it is sometimes convenient to reduce a quadratic equation so that its leading coefficient is one. this is done by dividing both sides by a which is always possible since a is nonzero. this produces the reduced quadratic equation.
+
+
+the quadratic formula for the solutions of the reduced quadratic equation written in terms of its coefficients is.
+
+figure . this figure plots three quadratic functions on a single cartesian plane graph to illustrate the effects of discriminant values. when the discriminant delta is positive the parabola intersects the xaxis at two points. when delta is zero the vertex of the parabola touches the xaxis at a single point. when delta is negative the parabola does not intersect the xaxis at all.
+figure . discriminant signs
+in the quadratic formula the expression underneath the square root sign is called the discriminant of the quadratic equation and is often represented using an upper case d or an upper case greek delta.
+
+a quadratic equation with real coefficients can have either one or two distinct real roots or two distinct complex roots. in this case the discriminant determines the number and nature of the roots. there are three cases
+
+if the discriminant is positive then there are two distinct roots
+both of which are real numbers. for quadratic equations with rational coefficients if the discriminant is a square number then the roots are rationalin other cases they may be quadratic irrationals.
+if the discriminant is zero then there is exactly one real root sometimes called a repeated or double root.
+if the discriminant is negative then there are no real roots. rather there are two distinct nonreal complex roots which are complex conjugates of each other. in these expressions i is the imaginary unit.
+thus the roots are distinct if and only if the discriminant is nonzero and the roots are real if and only if the discriminant is nonnegative.
+
+geometric interpretation.
+
+the trajectory of the cliff jumper is parabolic because horizontal displacement is a linear function of time xvx t while vertical displacement is a quadratic function of time ytfrac atvy th. as a result the path follows quadratic equation ytfracavx xtfracvyvx xh where vx and vy are horizontal and vertical components of the original velocity a is gravitational acceleration and h is original height. the a value should be considered negative here as its direction downwards is opposite to the height measurement upwards.
+the function fx  ax  bx  c is the quadratic function. the graph of any quadratic function has the same general shape which is called a parabola. the location and size of the parabola and how it opens depend on the values of a b and c. as shown in figure  if a   the parabola has a minimum point and opens upward. if a   the parabola has a maximum point and opens downward. the extreme point of the parabola whether minimum or maximum corresponds to its vertex. the xcoordinate of the vertex will be located at scriptstyle xtfracba and the ycoordinate of the vertex may be found by substituting this xvalue into the function. the yintercept is located at the point  c.
+
+the solutions of the quadratic equation ax  bx  c   correspond to the roots of the function fx  ax  bx  c since they are the values of x for which fx  . as shown in figure  if a b and c are real numbers and the domain of f is the set of real numbers then the roots of f are exactly the xcoordinates of the points where the graph touches the xaxis. as shown in figure  if the discriminant is positive the graph touches the xaxis at two points if zero the graph touches at one point and if negative the graph does not touch the xaxis.
+
+quadratic factorization.
+the term is a factor of the polynomial if and only if r is a root of the quadratic equation.
+
+it follows from the quadratic formula that.
+
+in the special case b  ac where the quadratic has only one distinct root i.e. the discriminant is zero the quadratic polynomial can be factored as.
+
+graphing for real roots.
+
+figure . graphing calculator computation of one of the two roots of the quadratic equation x  x    . although the display shows only five significant figures of accuracy the retrieved value of xc is . accurate to twelve significant figures.
+for most of the th century graphing was rarely mentioned as a method for solving quadratic equations in high school or college algebra texts. students learned to solve quadratic equations by factoring completing the square and applying the quadratic formula. recently graphing calculators have become common in schools and graphical methods have started to appear in textbooks but they are generally not highly emphasized.
+
+being able to use a graphing calculator to solve a quadratic equation requires the ability to produce a graph of y  fx the ability to scale the graph appropriately to the dimensions of the graphing surface and the recognition that when fx   x is a solution to the equation. the skills required to solve a quadratic equation on a calculator are in fact applicable to finding the real roots of any arbitrary function.
+
+since an arbitrary function may cross the xaxis at multiple points graphing calculators generally require one to identify the desired root by positioning a cursor at a guessed value for the root. some graphing calculators require bracketing the root on both sides of the zero. the calculator then proceeds by an iterative algorithm to refine the estimated position of the root to the limit of calculator accuracy.
+
+although the quadratic formula provides what in principle should be an exact solution it does not from a numerical analysis standpoint provide a completely stable method for evaluating the roots of a quadratic equation. if the two roots of the quadratic equation vary greatly in absolute magnitude b will be very close in magnitude to sqrtbac and the subtraction of two nearly equal numbers will cause loss of significance or catastrophic cancellation. a second form of cancellation can occur between the terms b and ac of the discriminant which can lead to loss of up to half of correct significant figures.
+
+the golden ratio is found as the solution of the quadratic equation xx.
+
+the equations of the circle and the other conic sectionsellipses parabolas and hyperbolasare quadratic equations in two variables.
+
+given the cosine or sine of an angle finding the cosine or sine of the angle that is half as large involves solving a quadratic equation.
+
+the process of simplifying expressions involving the square root of an expression involving the square root of another expression involves finding the two solutions of a quadratic equation.
+
+descartes theorem states that for every four kissing mutually tangent circles their radii satisfy a particular quadratic equation.
+
+the equation given by fuss theorem giving the relation among the radius of a bicentric quadrilaterals inscribed circle the radius of its circumscribed circle and the distance between the centers of those circles can be expressed as a quadratic equation for which the distance between the two circles centers in terms of their radii is one of the solutions. the other solution of the same equation in terms of the relevant radii gives the distance between the circumscribed circles center and the center of the excircle of an extangential quadrilateral.
+
+
+babylonian mathematicians as early as  bc displayed on old babylonian clay tablets could solve problems relating the areas and sides of rectangles. there is evidence dating this algorithm as far back as the third dynasty of ur. in modern notation the problems typically involved solving a pair of simultaneous equations of the form which are equivalent to the equation.
+
+the steps given by babylonian scribes for solving the above rectangle problem were as follows.
+
+compute half of p.
+square the result.
+subtract q.
+find the square root using a table of squares.
+add together the results of steps  and  to give x. this is essentially equivalent to calculating.
+geometric methods were used to solve quadratic equations in babylonia egypt greece china and india. the egyptian berlin papyrus dating back to the middle kingdom  bc to  bc contains the solution to a twoterm quadratic equation. in the indian sulba sutras circa th century bc quadratic equations of the form ax  c and ax  bx  c were explored using geometric methods. babylonian mathematicians from circa  bc and chinese mathematicians from circa  bc used geometric methods of dissection to solve quadratic equations with positive roots. rules for quadratic equations were given in the the nine chapters on the mathematical art a chinese treatise on mathematics. these early geometric methods do not appear to have had a general formula. euclid the greek mathematician produced a more abstract geometrical method around  bc. with a purely geometric approach pythagoras and euclid created a general procedure to find solutions of the quadratic equation. in his work arithmetica the greek mathematician diophantus solved the quadratic equation but giving only one root even when both roots were positive.
+
+in  ad brahmagupta an indian mathematician gave the first explicit although still not completely general solution of the quadratic equation ax  bx  c as follows to the absolute number multiplied by four times the coefficient of the square add the square of the coefficient of the middle term the square root of the same less the coefficient of the middle term being divided by twice the coefficient of the square is the value. brahmasphutasiddhanta colebrook translation  page  this is equivalent to
+
+the bakhshali manuscript written in india in the th century ad contained an algebraic formula for solving quadratic equations as well as quadratic indeterminate equations originally of type axc  y muhammad ibn musa alkhwarizmi persia th century inspired by brahmagupta developed a set of formulas that worked for positive solutions. alkhwarizmi goes further in providing a full solution to the general quadratic equation accepting one or two numerical answers for every quadratic equation while providing geometric proofs in the process. he also described the method of completing the square and recognized that the discriminant must be positive which was proven by his contemporary abd alhamd ibn turk central asia th century who gave geometric figures to prove that if the discriminant is negative a quadratic equation has no solution. while alkhwarizmi himself did not accept negative solutions later islamic mathematicians that succeeded him accepted negative solutions as well as irrational numbers as solutions. ab kmil shuj ibn aslam egypt th century in particular was the first to accept irrational numbers often in the form of a square root cube root or fourth root as solutions to quadratic equations or as coefficients in an equation. the th century indian mathematician sridhara wrote down rules for solving quadratic equations.
+
+the jewish mathematician abraham bar hiyya hanasi th century spain authored the first european book to include the full solution to the general quadratic equation. his solution was largely based on alkhwarizmis work. the writing of the chinese mathematician yang hui  ad is the first known one in which quadratic equations with negative coefficients of x appear although he attributes this to the earlier liu yi. by  gerolamo cardano compiled the works related to the quadratic equations. the quadratic formula covering all cases was first obtained by simon stevin in . in  ren descartes published la gomtrie containing the quadratic formula in the form we know today. the first appearance of the general solution in the modern mathematical literature appeared in an  paper by henry heaton.
+
+alternative methods of root calculation.
+figure . graph of the difference between vietas approximation for the smaller of the two roots of the quadratic equation x squared plus b x plus c equals zero compared with the value calculated using the quadratic formula. the difference is plotted as a function of b for two different values of c c equals  and c equals . the graph is a log log graph with the vertical axis the difference ranging from ten to the minus  at the bottom to ten to the minus  at the top. the horizontal axis b ranges from  at the left to ten to the eighth at the right. vietas approximation for the smaller root is not accurate for small b but is accurate for large b. the direct evaluation of the smaller root using the quadratic formula is accurate for small b with roots of comparable value but experiences loss of significance errors for large b and widely spaced roots. when c equals  vietas approximation starts off poorly at the left but gets better with larger b the difference between vietas approximation and the quadratic formula reaching a minimum at approximately b equals ten to the fifth. vietas approximation and the quadratic formula then start diverging again because the quadratic formula experiences loss of significance error. when c equals four hundred thousand the difference between vietas approximation and the quadratic formula reaches a minimum at approximately b equals ten to the seventh. the curves are both straight to the left of the minimum indicating a simple monomial power relationship between the difference and b. likewise the curves are both approximately straight to the right of the minimum indicating a power relationship except that the straight lines have squiggles in them due to the loss of significance errors in the quadratic formula.
+figure . graph of the difference between vietas approximation for the smaller of the two roots of the quadratic equation x  bx  c   compared with the value calculated using the quadratic formula. vietas approximation is inaccurate for small b but is accurate for large b. the direct evaluation using the quadratic formula is accurate for small b with roots of comparable value but experiences loss of significance errors for large b and widely spaced roots. the difference between vietas approximation versus the direct computation reaches a minimum at the large dots and rounding causes squiggles in the curves beyond this minimum.
+vietas formulas give a simple relation between the roots of a polynomial and its coefficients. in the case of the quadratic polynomial they take the following form
+
+
+
+these results follow immediately from the relation which can be compared term by term with.
+
+the first formula above yields a convenient expression when graphing a quadratic function. since the graph is symmetric with respect to a vertical line through the vertex when there are two real roots the vertexs xcoordinate is located at the average of the roots or intercepts. thus the xcoordinate of the vertex is given by the expression.
+
+the ycoordinate can be obtained by substituting the above result into the given quadratic equation giving.
+
+as a practical matter vietas formulas provide a useful method for finding the roots of a quadratic in the case where one root is much smaller than the other. if x  x then x  x  x and we have the estimate
+
+the second vietas formula then provides.
+
+these formulas are much easier to evaluate than the quadratic formula under the condition of one large and one small root because the quadratic formula evaluates the small root as the difference of two very nearly equal numbers the case of large b which causes roundoff error in a numerical evaluation. figure  shows the difference between i a direct evaluation using the quadratic formula accurate when the roots are near each other in value and ii an evaluation based upon the above approximation of vietas formulas accurate when the roots are widely spaced. as the linear coefficient b increases initially the quadratic formula is accurate and the approximate formula improves in accuracy leading to a smaller difference between the methods as b increases. however at some point the quadratic formula begins to lose accuracy because of round off error while the approximate method continues to improve. consequently the difference between the methods begins to increase as the quadratic formula becomes worse and worse.
+
+this situation arises commonly in amplifier design where widely separated roots are desired to ensure a stable operation see step response.
+
+
+in the days before calculators people would use mathematical tableslists of numbers showing the results of calculation with varying argumentsto simplify and speed up computation. tables of logarithms and trigonometric functions were common in math and science textbooks. specialized tables were published for applications such as astronomy celestial navigation and statistics. methods of numerical approximation existed called prosthaphaeresis that offered shortcuts around timeconsuming operations such as multiplication and taking powers and roots. astronomers especially were concerned with methods that could speed up the long series of computations involved in celestial mechanics calculations.
+
+it is within this context that we may understand the development of means of solving quadratic equations by the aid of trigonometric substitution. consider the following alternate form of the quadratic equation.
+
+
+where the sign of the  symbol is chosen so that a and c may both be positive. by substituting and then multiplying through by cos we obtain.
+
+
+
+where the subscripts n and p correspond respectively to the use of a negative or positive sign in equation . substituting the two values of n or p found from equations  or  into  gives the required roots of . complex roots occur in the solution based on equation  if the absolute value of sin p exceeds unity. the amount of effort involved in solving quadratic equations using this mixed trigonometric and logarithmic table lookup strategy was twothirds the effort using logarithmic tables alone. calculating complex roots would require using a different trigonometric form.
+
+to illustrate let us assume we had available sevenplace logarithm and trigonometric tables and wished to solve the following to sixsignificantfigure accuracy.
+a sevenplace lookup table might have only  entries and computing intermediate results to seven places would generally require interpolation between adjacent entries.
+
+solution for complex roots in polar coordinates.
+if the quadratic equation axbxc with real coefficients has two complex rootsthe case where bac requiring a and c to have the same sign as each otherthen the solutions for the roots can be expressed in polar form as.
+
+
+geometric solution.
+figure . geometric solution of eh x squared plus b x plus c   using lills method. the geometric construction is as follows draw a trapezoid s eh b c. line s eh of length eh is the vertical left side of the trapezoid. line eh b of length b is the horizontal bottom of the trapezoid. line b c of length c is the vertical right side of the trapezoid. line c s completes the trapezoid. from the midpoint of line c s draw a circle passing through points c and s. depending on the relative lengths of eh b and c the circle may or may not intersect line eh b. if it does then the equation has a solution. if we call the intersection points x  and x  then the two solutions are given by negative eh x  divided by s eh and negative eh x  divided by s eh.
+figure . geometric solution of ax  bx  c   using lills method. solutions are axsa axsa
+the quadratic equation may be solved geometrically in a number of ways. one way is via lills method. the three coefficients a b c are drawn with right angles between them as in sa ab and bc in figure . a circle is drawn with the start and end point sc as a diameter. if this cuts the middle line ab of the three then the equation has a solution and the solutions are given by negative of the distance along this line from a divided by the first coefficient a or sa. if a is  the coefficients may be read off directly. thus the solutions in the diagram are axsa and axsa.
+
+
+carlyle circle of the quadratic equation x  sx  p  .
+the carlyle circle named after thomas carlyle has the property that the solutions of the quadratic equation are the horizontal coordinates of the intersections of the circle with the horizontal axis. carlyle circles have been used to develop rulerandcompass constructions of regular polygons.
+
+generalization of quadratic equation.
+the formula and its derivation remain correct if the coefficients a b and c are complex numbers or more generally members of any field whose characteristic is not . in a field of characteristic  the element a is zero and it is impossible to divide by it.
+
+
+in the formula should be understood as either of the two elements whose square is b  ac if such elements exist. in some fields some elements have no square roots and some have two only zero has just one square root except in fields of characteristic . even if a field does not contain a square root of some number there is always a quadratic extension field which does so the quadratic formula will always make sense as a formula in that extension field.
+
+in a field of characteristic  the quadratic formula which relies on  being a unit does not hold. consider the monic quadratic polynomial over a field of characteristic . if b   then the solution reduces to extracting a square root so the solution is.
+
+and there is only one root since.
+
+see quadratic residue for more information about extracting square roots in finite fields.
+
+in the case that b   there are two distinct roots but if the polynomial is irreducible they cannot be expressed in terms of square roots of numbers in the coefficient field. instead define the root rc of c to be a root of the polynomial x  x  c an element of the splitting field of that polynomial. one verifies that rc   is also a root. in terms of the root operation the two roots of the nonmonic quadratic ax  bx  c are.
+
+
+
+for example let a denote a multiplicative generator of the group of units of f the galois field of order four thus a and a   are roots of x  x   over f. because a    a a   is the unique solution of the quadratic equation x  a  . on the other hand the polynomial x  ax   is irreducible over f but it splits over f where it has the two roots ab and ab  a where b is a root of x  x  a in f.
+i want to use.
+i want to use.
+sometimes youll need to complete the square.
+by completing or doing complete the square you can break down functions into factors.

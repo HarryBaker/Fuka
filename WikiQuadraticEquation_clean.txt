@@ -1,0 +1,182 @@
+this article about singlevariable quadratic equations and their solutions. for more general information about the singlevariable case see quadratic function. 
+for the case more than one variable see conic section quadratic form. 
+
+the quadratic formula for the roots the general quadratic equation 
+elementary algebra quadratic equation from the latin quadratus for square any equation having the form where represents unknown and and represent known numbers such that not equal then the equation linear not quadratic. the numbers and are the coefficients the equation and may distinguished calling them respectively the quadratic coefficient the linear coefficient and the constant free term. 
+
+because the quadratic equation involves only one unknown called univariate. the quadratic equation only contains powers that are nonnegative integers and therefore polynomial equation and particular second degree polynomial equation since the greatest power two. 
+
+quadratic equations can solved process known american english factoring and other varieties english factorising completing the square using the quadratic formula graphing. solutions problems equivalent the quadratic equation were known early bc. 
+
+
+solving the quadratic equation. 
+figure plots the quadratic function squared plus plus varying each coefficient separately while the other coefficients are fixed values the left plot illustrates varying when equals the vertex the parabola representing the quadratic function centered the origin and the parabola rises both sides the origin opening the top. when greater than zero the parabola does not change shape but its vertex raised above the origin. when less than zero the vertex the parabola lowered below the origin. the center plot illustrates varying when less than zero the parabola representing the quadratic function unchanged shape but its vertex shifted the right and below the origin. when greater than zero its vertex shifted the left and below the origin. the vertices the family curves created varying follow along parabolic curve. the right plot illustrates varying eh. when positive the quadratic function parabola opening the top. when zero the quadratic function horizontal straight line. when negative the quadratic function parabola opening the bottom. 
+figure plots quadratic function varying each coefficient separately while the other coefficients are fixed values quadratic equation with real complex coefficients has two solutions called roots. these two solutions may may not distinct and they may may not real. 
+
+factoring inspection 
+may possible express quadratic equation product qrx some cases possible simple inspection determine values and that make the two forms equivalent one another. the quadratic equation written the second form then the zero factor property states that the quadratic equation satisfied solving these two linear equations provides the roots the quadratic. 
+
+for most students factoring inspection the first method solving quadratic equations which they are exposed. one given quadratic equation the form the sought factorization has the form and one has find two numbers and that add and whose product this sometimes called vietas rule and related vietas formulas. example factors the more general case where does not equal can require considerable effort trial and error guessandcheck assuming that can factored all inspection. 
+
+except for special cases such where factoring inspection only works for quadratic equations that have rational roots. this means that the great majority quadratic equations that arise practical applications cannot solved factoring inspection. 
+
+completing the square. 
+main article completing the square. 
+figure illustrates plot the quadratic function equals squared minus minus the xcoordinate the points where the graph intersects the xaxis equals and equals are the solutions the quadratic equation squared minus minus equals zero. 
+figure for the quadratic function the points where the graph crosses the xaxis and are the solutions the quadratic equation the process completing the square makes use the algebraic identity which represents welldefined algorithm that can used solve any quadratic equation. starting with quadratic equation standard form divide each side the coefficient the squared term. 
+subtract the constant term from both sides. 
+add the square onehalf the coefficient both sides. this completes the square converting the left side into perfect square. 
+write the left side square and simplify the right side necessary. 
+produce two linear equations equating the square root the left side with the positive and negative square roots the right side. 
+solve the two linear equations. 
+illustrate use this algorithm solving the plusminus symbol indicates that both and are solutions the quadratic equation. 
+
+quadratic formula and its derivation. 
+quadratic formula. 
+completing the square can used derive general formula for solving quadratic equations called the quadratic formula. the mathematical proof will now briefly summarized. can easily seen polynomial expansion that the following equation equivalent the quadratic equation. 
+
+taking the square root both sides and isolating gives. 
+
+some sources particularly older ones use alternative parameterizations the quadratic equation such where has magnitude one half the more common one possibly with opposite sign. these result slightly different forms for the solution but are otherwise equivalent. 
+
+number alternative derivations can found the literature. these proofs are simpler than the standard completing the square method represent interesting applications other frequently used techniques algebra offer insight into other areas mathematics. 
+
+lesser known quadratic formula used mullers method and which can found from vietas formulas provides the same roots via the equation. 
+
+one property this form that yields one valid root when while the other root contains division zero because when the quadratic equation becomes linear equation which has one root. contrast this case the more common formula has division zero both cases. 
+
+reduced quadratic equation. 
+sometimes convenient reduce quadratic equation that its leading coefficient one. this done dividing both sides which always possible since nonzero. this produces the reduced quadratic equation. 
+
+
+the quadratic formula for the solutions the reduced quadratic equation written terms its coefficients is. 
+
+figure this figure plots three quadratic functions single cartesian plane graph illustrate the effects discriminant values. when the discriminant delta positive the parabola intersects the xaxis two points. when delta zero the vertex the parabola touches the xaxis single point. when delta negative the parabola does not intersect the xaxis all. 
+figure discriminant signs 
+the quadratic formula the expression underneath the square root sign called the discriminant the quadratic equation and often represented using upper case upper case greek delta. 
+
+quadratic equation with real coefficients can have either one two distinct real roots two distinct complex roots. this case the discriminant determines the number and nature the roots. there are three cases 
+
+the discriminant positive then there are two distinct roots 
+both which are real numbers. for quadratic equations with rational coefficients the discriminant square number then the roots are rationalin other cases they may quadratic irrationals. 
+the discriminant zero then there exactly one real root sometimes called repeated double root. 
+the discriminant negative then there are real roots. rather there are two distinct nonreal complex roots which are complex conjugates each other. these expressions the imaginary unit. 
+thus the roots are distinct and only the discriminant nonzero and the roots are real and only the discriminant nonnegative. 
+
+geometric interpretation. 
+
+the trajectory the cliff jumper parabolic because horizontal displacement linear function time xvx while vertical displacement quadratic function time ytfrac atvy th. result the path follows quadratic equation ytfracavx xtfracvyvx where and are horizontal and vertical components the original velocity gravitational acceleration and original height. the value should considered negative here its direction downwards opposite the height measurement upwards. 
+the function the quadratic function. the graph any quadratic function has the same general shape which called parabola. the location and size the parabola and how opens depend the values and shown figure the parabola has minimum point and opens upward. the parabola has maximum point and opens downward. the extreme point the parabola whether minimum maximum corresponds its vertex. the xcoordinate the vertex will located scriptstyle xtfracba and the ycoordinate the vertex may found substituting this xvalue into the function. the yintercept located the point the solutions the quadratic equation correspond the roots the function since they are the values for which shown figure and are real numbers and the domain the set real numbers then the roots are exactly the xcoordinates the points where the graph touches the xaxis. shown figure the discriminant positive the graph touches the xaxis two points zero the graph touches one point and negative the graph does not touch the xaxis. 
+
+quadratic factorization. 
+the term factor the polynomial and only root the quadratic equation. 
+
+follows from the quadratic formula that. 
+
+the special case where the quadratic has only one distinct root i.e. the discriminant zero the quadratic polynomial can factored as. 
+
+graphing for real roots. 
+
+figure graphing calculator computation one the two roots the quadratic equation although the display shows only five significant figures accuracy the retrieved value accurate twelve significant figures. 
+for most the century graphing was rarely mentioned method for solving quadratic equations high school college algebra texts. students learned solve quadratic equations factoring completing the square and applying the quadratic formula. recently graphing calculators have become common schools and graphical methods have started appear textbooks but they are generally not highly emphasized. 
+
+being able use graphing calculator solve quadratic equation requires the ability produce graph the ability scale the graph appropriately the dimensions the graphing surface and the recognition that when solution the equation. the skills required solve quadratic equation calculator are fact applicable finding the real roots any arbitrary function. 
+
+since arbitrary function may cross the xaxis multiple points graphing calculators generally require one identify the desired root positioning cursor guessed value for the root. some graphing calculators require bracketing the root both sides the zero. the calculator then proceeds iterative algorithm refine the estimated position the root the limit calculator accuracy. 
+
+although the quadratic formula provides what principle should exact solution does not from numerical analysis standpoint provide completely stable method for evaluating the roots quadratic equation. the two roots the quadratic equation vary greatly absolute magnitude will very close magnitude sqrtbac and the subtraction two nearly equal numbers will cause loss significance catastrophic cancellation. second form cancellation can occur between the terms and the discriminant which can lead loss half correct significant figures. 
+
+the golden ratio found the solution the quadratic equation xx. 
+
+the equations the circle and the other conic sectionsellipses parabolas and hyperbolasare quadratic equations two variables. 
+
+given the cosine sine angle finding the cosine sine the angle that half large involves solving quadratic equation. 
+
+the process simplifying expressions involving the square root expression involving the square root another expression involves finding the two solutions quadratic equation. 
+
+descartes theorem states that for every four kissing mutually tangent circles their radii satisfy particular quadratic equation. 
+
+the equation given fuss theorem giving the relation among the radius bicentric quadrilaterals inscribed circle the radius its circumscribed circle and the distance between the centers those circles can expressed quadratic equation for which the distance between the two circles centers terms their radii one the solutions. the other solution the same equation terms the relevant radii gives the distance between the circumscribed circles center and the center the excircle extangential quadrilateral. 
+
+
+babylonian mathematicians early displayed old babylonian clay tablets could solve problems relating the areas and sides rectangles. there evidence dating this algorithm far back the third dynasty ur. modern notation the problems typically involved solving pair simultaneous equations the form which are equivalent the equation. 
+
+the steps given babylonian scribes for solving the above rectangle problem were follows. 
+
+compute half square the result. 
+subtract find the square root using table squares. 
+add together the results steps and give this essentially equivalent calculating. 
+geometric methods were used solve quadratic equations babylonia egypt greece china and india. the egyptian berlin papyrus dating back the middle kingdom contains the solution twoterm quadratic equation. the indian sulba sutras circa century quadratic equations the form and were explored using geometric methods. babylonian mathematicians from circa and chinese mathematicians from circa used geometric methods dissection solve quadratic equations with positive roots. rules for quadratic equations were given the the nine chapters the mathematical art chinese treatise mathematics. these early geometric methods not appear have had general formula. euclid the greek mathematician produced more abstract geometrical method around bc. with purely geometric approach pythagoras and euclid created general procedure find solutions the quadratic equation. his work arithmetica the greek mathematician diophantus solved the quadratic equation but giving only one root even when both roots were positive. 
+
+brahmagupta indian mathematician gave the first explicit although still not completely general solution the quadratic equation follows the absolute number multiplied four times the coefficient the square add the square the coefficient the middle term the square root the same less the coefficient the middle term being divided twice the coefficient the square the value. brahmasphutasiddhanta colebrook translation page this equivalent the bakhshali manuscript written india the century contained algebraic formula for solving quadratic equations well quadratic indeterminate equations originally type axc muhammad ibn musa alkhwarizmi persia century inspired brahmagupta developed set formulas that worked for positive solutions. alkhwarizmi goes further providing full solution the general quadratic equation accepting one two numerical answers for every quadratic equation while providing geometric proofs the process. also described the method completing the square and recognized that the discriminant must positive which was proven his contemporary abd alhamd ibn turk central asia century who gave geometric figures prove that the discriminant negative quadratic equation has solution. while alkhwarizmi himself did not accept negative solutions later islamic mathematicians that succeeded him accepted negative solutions well irrational numbers solutions. kmil shuj ibn aslam egypt century particular was the first accept irrational numbers often the form square root cube root fourth root solutions quadratic equations coefficients equation. the century indian mathematician sridhara wrote down rules for solving quadratic equations. 
+
+the jewish mathematician abraham bar hiyya hanasi century spain authored the first european book include the full solution the general quadratic equation. his solution was largely based alkhwarizmis work. the writing the chinese mathematician yang hui the first known one which quadratic equations with negative coefficients appear although attributes this the earlier liu yi. gerolamo cardano compiled the works related the quadratic equations. the quadratic formula covering all cases was first obtained simon stevin ren descartes published gomtrie containing the quadratic formula the form know today. the first appearance the general solution the modern mathematical literature appeared paper henry heaton. 
+
+alternative methods root calculation. 
+figure graph the difference between vietas approximation for the smaller the two roots the quadratic equation squared plus plus equals zero compared with the value calculated using the quadratic formula. the difference plotted function for two different values equals and equals the graph log log graph with the vertical axis the difference ranging from ten the minus the bottom ten the minus the top. the horizontal axis ranges from the left ten the eighth the right. vietas approximation for the smaller root not accurate for small but accurate for large the direct evaluation the smaller root using the quadratic formula accurate for small with roots comparable value but experiences loss significance errors for large and widely spaced roots. when equals vietas approximation starts off poorly the left but gets better with larger the difference between vietas approximation and the quadratic formula reaching minimum approximately equals ten the fifth. vietas approximation and the quadratic formula then start diverging again because the quadratic formula experiences loss significance error. when equals four hundred thousand the difference between vietas approximation and the quadratic formula reaches minimum approximately equals ten the seventh. the curves are both straight the left the minimum indicating simple monomial power relationship between the difference and likewise the curves are both approximately straight the right the minimum indicating power relationship except that the straight lines have squiggles them due the loss significance errors the quadratic formula. 
+figure graph the difference between vietas approximation for the smaller the two roots the quadratic equation compared with the value calculated using the quadratic formula. vietas approximation inaccurate for small but accurate for large the direct evaluation using the quadratic formula accurate for small with roots comparable value but experiences loss significance errors for large and widely spaced roots. the difference between vietas approximation versus the direct computation reaches minimum the large dots and rounding causes squiggles the curves beyond this minimum. 
+vietas formulas give simple relation between the roots polynomial and its coefficients. the case the quadratic polynomial they take the following form 
+
+
+
+these results follow immediately from the relation which can compared term term with. 
+
+the first formula above yields convenient expression when graphing quadratic function. since the graph symmetric with respect vertical line through the vertex when there are two real roots the vertexs xcoordinate located the average the roots intercepts. thus the xcoordinate the vertex given the expression. 
+
+the ycoordinate can obtained substituting the above result into the given quadratic equation giving. 
+
+practical matter vietas formulas provide useful method for finding the roots quadratic the case where one root much smaller than the other. then and have the estimate 
+
+the second vietas formula then provides. 
+
+these formulas are much easier evaluate than the quadratic formula under the condition one large and one small root because the quadratic formula evaluates the small root the difference two very nearly equal numbers the case large which causes roundoff error numerical evaluation. figure shows the difference between direct evaluation using the quadratic formula accurate when the roots are near each other value and evaluation based upon the above approximation vietas formulas accurate when the roots are widely spaced. the linear coefficient increases initially the quadratic formula accurate and the approximate formula improves accuracy leading smaller difference between the methods increases. however some point the quadratic formula begins lose accuracy because round off error while the approximate method continues improve. consequently the difference between the methods begins increase the quadratic formula becomes worse and worse. 
+
+this situation arises commonly amplifier design where widely separated roots are desired ensure stable operation see step response. 
+
+
+the days before calculators people would use mathematical tableslists numbers showing the results calculation with varying argumentsto simplify and speed computation. tables logarithms and trigonometric functions were common math and science textbooks. specialized tables were published for applications such astronomy celestial navigation and statistics. methods numerical approximation existed called prosthaphaeresis that offered shortcuts around timeconsuming operations such multiplication and taking powers and roots. astronomers especially were concerned with methods that could speed the long series computations involved celestial mechanics calculations. 
+
+within this context that may understand the development means solving quadratic equations the aid trigonometric substitution. consider the following alternate form the quadratic equation. 
+
+
+where the sign the symbol chosen that and may both positive. substituting and then multiplying through cos obtain. 
+
+
+
+where the subscripts and correspond respectively the use negative positive sign equation substituting the two values found from equations into gives the required roots complex roots occur the solution based equation the absolute value sin exceeds unity. the amount effort involved solving quadratic equations using this mixed trigonometric and logarithmic table lookup strategy was twothirds the effort using logarithmic tables alone. calculating complex roots would require using different trigonometric form. 
+
+illustrate let assume had available sevenplace logarithm and trigonometric tables and wished solve the following sixsignificantfigure accuracy. 
+sevenplace lookup table might have only entries and computing intermediate results seven places would generally require interpolation between adjacent entries. 
+
+solution for complex roots polar coordinates. 
+the quadratic equation axbxc with real coefficients has two complex rootsthe case where bac requiring and have the same sign each otherthen the solutions for the roots can expressed polar form as. 
+
+
+geometric solution. 
+figure geometric solution squared plus plus using lills method. the geometric construction follows draw trapezoid line length the vertical left side the trapezoid. line length the horizontal bottom the trapezoid. line length the vertical right side the trapezoid. line completes the trapezoid. from the midpoint line draw circle passing through points and depending the relative lengths and the circle may may not intersect line does then the equation has solution. call the intersection points and then the two solutions are given negative divided and negative divided eh. 
+figure geometric solution using lills method. solutions are axsa axsa 
+the quadratic equation may solved geometrically number ways. one way via lills method. the three coefficients are drawn with right angles between them and figure circle drawn with the start and end point diameter. this cuts the middle line the three then the equation has solution and the solutions are given negative the distance along this line from divided the first coefficient sa. the coefficients may read off directly. thus the solutions the diagram are axsa and axsa. 
+
+
+carlyle circle the quadratic equation the carlyle circle named after thomas carlyle has the property that the solutions the quadratic equation are the horizontal coordinates the intersections the circle with the horizontal axis. carlyle circles have been used develop rulerandcompass constructions regular polygons. 
+
+generalization quadratic equation. 
+the formula and its derivation remain correct the coefficients and are complex numbers more generally members any field whose characteristic not field characteristic the element zero and impossible divide it. 
+
+
+the formula should understood either the two elements whose square such elements exist. some fields some elements have square roots and some have two only zero has just one square root except fields characteristic even field does not contain square root some number there always quadratic extension field which does the quadratic formula will always make sense formula that extension field. 
+
+field characteristic the quadratic formula which relies being unit does not hold. consider the monic quadratic polynomial over field characteristic then the solution reduces extracting square root the solution is. 
+
+and there only one root since. 
+
+see quadratic residue for more information about extracting square roots finite fields. 
+
+the case that there are two distinct roots but the polynomial irreducible they cannot expressed terms square roots numbers the coefficient field. instead define the root root the polynomial element the splitting field that polynomial. one verifies that also root. terms the root operation the two roots the nonmonic quadratic are. 
+
+
+
+for example let denote multiplicative generator the group units the galois field order four thus and are roots over because the unique solution the quadratic equation the other hand the polynomial irreducible over but splits over where has the two roots and where root want use. 
+want use. 
+sometimes youll need complete the square. 
+completing doing complete the square you can break down functions into factors. 

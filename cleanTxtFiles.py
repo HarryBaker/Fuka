@@ -7,15 +7,15 @@ print("Hello World")
 raw_file_name = raw_input("Enter the name of your file: ");
 file_name = raw_file_name + ".txt";
 f = open(file_name, "r")
-f2 = open((raw_file_name + "2.txt"), "w")
+f2 = open((raw_file_name + "_intermediary.txt"), "w")
 
 while 1:
     char = f.read(1)
     if not char: break
     if char.isalpha() or char.isspace() or char == '.' : f2.write(char.lower());
     
-f2 = open((raw_file_name + "2.txt"), "r")
-f3 = open((raw_file_name + "3.txt"), "w")
+f2 = open((raw_file_name + "_intermediary.txt"), "r")
+f3 = open((raw_file_name + "_clean.txt"), "w")
 
 wrote_word = False
 
