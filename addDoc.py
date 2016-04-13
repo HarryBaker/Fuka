@@ -65,16 +65,18 @@ class trainingCorpus:
         stop = stopwords.words('english')
 
 
+
         for line in lines:
             x = line.split(".")
             for sentance in x:
                 y = sentance.lower().split()
-                if y and y not in stop:
+                sentanceToAdd = []
+                for word in y:
+                    if word and word not in stop:
                     #y = gensim.models.doc2vec.TaggedDocument(words = y, labels = [""])
-                   #y = models.Doc2Vec.LabeledSentence(words = y)
-                    sentances.append(y)
-
-
+                    #y = models.Doc2Vec.LabeledSentence(words = y)
+                    sentanceToAdd.append(word)
+                sentances.append(sentanceToAdd)
 
         return sentances
 
