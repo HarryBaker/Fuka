@@ -1,7 +1,5 @@
 __author__ = 'loaner'
 from sys import argv
-#import nltk
-
 
 class Cleaner:
     def __init__(self, input):
