@@ -1,12 +1,11 @@
-some quadratics are fairly simple solve because they are the form somethingwithx squared equals some number and then you take the square root both sides. 
+some quadratics are fairly simple solve because they are the form with squared equals some number and then you take the square root both sides.
 
 example would sqrt 
 sqrt 
 sqrt and sqrt 
 
-unfortunately most quadratics dont come neatly squared like this. for your average everyday quadratic you first have use the technique completing the square rearrange the quadratic into the neat squared part equals number format demonstrated above. for example 
-
-find the xintercepts first off remember that finding the xintercepts means setting equal zero and solving for the xvalues this question really asking you solve this the original problem. move the loose number over the other side. divide through whatever multiplied the squared term. 
+unfortunately most quadratics dont come neatly squared like this. for your average everyday quadratic you first have use the technique completing the square rearrange the quadratic into the neat squared part equals number format demonstrated above.
+for example find the xintercepts first off remember that finding the xintercepts means setting equal to zero and solving for the xvalues. this question really asking you solve this the original problem. move the loose number over the other side. divide through whatever multiplied the squared term.
 take half the coefficient dont forget the sign the xterm and square it. add this square both sides the equation. 
 
 convert the lefthand side squared form and simplify the righthand side. this where you use that sign that you kept track earlier. you plug into the middle the parenthetical part. 

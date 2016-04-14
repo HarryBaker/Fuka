@@ -3,8 +3,9 @@ import gensim
 import nltk
 from nltk.corpus import stopwords
 from gensim import models
-#from doc2vec import TaggedLineDocument
+from gensim.models.doc2vec import TaggedDocument
 
+import re
 
 
 
@@ -13,12 +14,12 @@ class trainingCorpus:
         self.listOfDocs = []
         self.numberOfDocs = 0
 
-    def addDoc(self, doc):
+    def addDoc(self, doc, id):
         #add document to corpus. Clear stopwords, or will doc2vec do that for us?
         #mybe search threw and only include sentances that matter, ie, that include the word of one of the options?
         #like search threw doc, and only include sentances that include "Quadratic"
         #if we're only doing one document, then we shouldn't need to search.
-        self.listOfDocs.append(doc)
+        self.listOfDocs.append((doc,id))
         self.numberOfDocs +=1
         #break it up into sentances now or later? Later I think. this just compiles list of docs
 
@@ -26,13 +27,13 @@ class trainingCorpus:
         totalSentances = []
 
 
-        for doc in self.listOfDocs:
-            x = self.sentanceBreak(doc)
+        for doc,id in self.listOfDocs:
+            x = self.sentanceBreak(doc, id)
             totalSentances = totalSentances + x
 
         return totalSentances
 
-    def sentanceBreak(self, doc):
+    def sentanceBreak(self, doc, id):
         #break document into list of sentances to feed to word2doc
         #maybe label sentances that include the search.
         #Sentances must be lists of individual words. A document is a list of these lists
@@ -64,10 +65,28 @@ class trainingCorpus:
         nltk.download("stopwords")
         stop = stopwords.words('english')
 
+        pluralsList = {
+            'squares' : 'square',
+            'squaring' : 'square',
+            'squared' : 'square',
+            'quadratics' : 'quadratic',
+            'roots' : 'root',
+            'factors' : 'factor',
+            'factoring' : 'factor',
+            'factorize' : 'factor',
+            'factored' : 'factor',
+            'completes' : 'complete',
+            'completing' : 'complete',
+            'completed' : 'complete',
+
+
+        }
+
 
 
         for line in lines:
-            x = line.split(".")
+            #x = line.split(".")
+            x = filter(None, re.split("[,\-!?:]+", line))
             for sentance in x:
                 y = sentance.lower().split()
                 sentanceToAdd = []
@@ -75,8 +94,11 @@ class trainingCorpus:
                     if word and word not in stop:
                     #y = gensim.models.doc2vec.TaggedDocument(words = y, labels = [""])
                     #y = models.Doc2Vec.LabeledSentence(words = y)
+                        if word in pluralsList:
+                            word = pluralsList[word]
                         sentanceToAdd.append(word)
-                sentances.append(sentanceToAdd)
+                TD = TaggedDocument(tags=id, words=sentanceToAdd)
+                sentances.append(TD)
 
         return sentances
 
