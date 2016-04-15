@@ -11,7 +11,7 @@ errors. The program should take in textual input and return the name of a method
 
 No input needed to run the demo. There will be 5 prompts at the end of the demo to test the neural network analyzer with your 
 own strings. These prompts take a nonempty string of charactersm, for example: use the quadratic formula. Quotation marks need
-not be included. 
+not be included. A quick warning though that the results from the user's query might not be as accurate as our examples, because the neural networks require a larger training corpus to understand a broader range of querise. To a certain extent we based our training sentances around the inputs we use as examples; while this isn't the best way to design a real world application of this, it shows the potential of doc2vec to understand semantic word associations. 
 
 
 ### Algorithm: 
