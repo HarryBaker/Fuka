@@ -111,7 +111,8 @@ class trainingCorpus:
         self.listOfDocs = []
         self.numberOfDocs = 0
 
-        self.masterSentance = []
+        self.masterSentances = []
+        self.boosterSentances = []
 
     #add potential topic to list of topics to train for
     def addTopic(self, name):
@@ -129,7 +130,10 @@ class trainingCorpus:
         #ID's as a key in a hash table because their strings.
         for topic in self.topics:
             if id == topic.id:
-                self.masterSentance += topic.addDoc(doc)
+                newSentances = topic.addDoc(doc)
+                self.masterSentances += newSentances
+                if id == 'all':
+                    self.boosterSentances += newSentances
 
 
 

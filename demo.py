@@ -33,27 +33,6 @@ if __name__ == '__main__':
     model = SolutionTrainer(TC, .7)
 
 
-
-
-    # Help examples
-    print("\nInput indicating user is asking for help")
-    str = "i\'m not sure"
-    h = model.predictMethod(str)
-    print("\nInput: " + str + "\n-> Method: " + h[1][1] + "\nConfidence: ")
-    print h[1][0]
-
-    str = "i have no idea"
-    h = model.predictMethod(str)
-    print("\nInput: " + str + "\n-> Method: " + h[1][1] + "\nConfidence: ")
-    print h[1][0]
-
-    str = "help"
-    h = model.predictMethod(str)
-    print("\nInput: " + str + "\n-> Method: " + h[1][1] + "\nConfidence: ")
-    print h[1][0]
-
-
-
     # Examples
     print("Demonstrating some examples ... ")
     print("\nSample input and the method each is most closely associated with: ")

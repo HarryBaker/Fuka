@@ -26,17 +26,22 @@ class Model():
 #specifically with the topic, as well as the master list of sentances. This allows us to train on a broader base of
 #knowledge, while giving special influence to documents that are more closely associated with the topic.
 
-#
+#Booster sentances are sentances for uses that we believe will be more expected than otherwise found in an unstructured
+#corpus. For example, if you want to teach the model that "I want to break apart the function" is associated with
+#the method "factor the quadratic", then you would manually write language in the booster document to lead to this more
+#nuanced semantic understanding of the prompt. While our booster training can increase the similarity of these prompts
+#in intended ways, it does not have enough training to push the ranking above the threshold. This needs more work.
 class SolutionTrainer:
     def __init__(self, trainingMaterial, cutoff):
         self.unknownCutoff = cutoff
         self.trainingMaterial = trainingMaterial
 
         self.topics = trainingMaterial.topics
-        self.masterSentances = []
+        self.masterSentances = trainingMaterial.masterSentances
+        self.boosterSentances = trainingMaterial.boosterSentances
 
-        for topic in self.topics:
-            self.masterSentances += topic.allSentances
+        #for topic in self.topics:
+        #    self.masterSentances += topic.allSentances
 
         self.listOfModels = []
 
@@ -66,7 +71,7 @@ class SolutionTrainer:
         self.spellChecker = Corrector('big.txt')
 
         #For more information on size and mincounts, see the documentation for doc2vec
-        self.modelMaster = models.Doc2Vec(self.trainingMaterial.masterSentance, size=600, window=8, min_count=10)
+        self.modelMaster = models.Doc2Vec(self.masterSentances, size=600, window=8, min_count=10)
 
         for topic in self.topics :
             #Doesn't include the general topic, since that just stores documents that aren't saved to a particular topic
@@ -83,7 +88,7 @@ class SolutionTrainer:
         if topic.id == 'help':
             neuralModel = models.Doc2Vec(topic.allSentances * 1000, size=20, window=8, min_count = 1)
         else:
-            neuralModel = models.Doc2Vec(topic.allSentances * 7 + self.masterSentances *2, size=100, window=8, min_count = 5)
+            neuralModel = models.Doc2Vec(topic.allSentances * 7 + self.masterSentances + self.boosterSentances *10, size=100, window=8, min_count = 5)
         model = Model(topic.id, neuralModel)
         self.listOfModels.append(model)
 
