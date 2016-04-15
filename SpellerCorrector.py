@@ -38,7 +38,7 @@ class Corrector:
 if __name__ == '__main__':
     X = Corrector('big.txt')
     
-    print(X.correct('skware'))
+    print(X.correct('cumplit'))
     
 
 #print(correct('speling'))

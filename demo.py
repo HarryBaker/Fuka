@@ -75,50 +75,96 @@ if __name__ == '__main__':
     #stuff.possibleSolutions.append('elimination method')
     #stuff.possibleSolutions.append('substitution method')
 
+    # Examples
 
-    aa = model.predictMethod("I want to do the quadratic formula")
-    ab = model.predictMethod("I want to do the qudratic formula")
-    ac = model.predictMethod("I want to do the quadrtic formula")
-    ad = model.predictMethod("I want to do the queadrtic formula")
-    ae = model.predictMethod(("I want to do the quadratic formula, not factor the quadratic"))
-    af = model.predictMethod('lets do the square root')
+    # Quadratic formula examples
+    str = "I want to do the quadratic formula"
+    q = model.predictMethod(str)
+    print(str)
+    print (q)
+    
+    str = "I want to do the qudratic formula"
+    q = model.predictMethod(str)
+    print(str)
+    print (q)
+    
+    str = "I want to do the quadrtic formula"
+    q = model.predictMethod(str)
+    print(str)
+    print (q)
+    
+    str = "I want to do the queadrtic formula"
+    q = model.predictMethod(str)
+    print(str)
+    print (q)
+    
+    str = "I want to do the quadratic formula, not factor the quadratic"
+    q = model.predictMethod(str)
+    print(str)
+    print (q)
+    
+    #an = stuff.predictMethod('i\'d use the quadratic formula cuz itz my fave')
+    
+    # Square root method examples
+    str = "lets do the square root"
+    s = model.predictMethod(str)
+    print(str)
+    print (s)
+    
+    str = ""
+    s = model.predictMethod(str)
+    print(str)
+    print (s)
 
+    ag = model.predictMethod('lets do the square root')
+    ##ar = stuff.predictMethod('do a square root')
+    
 
+    # Complete the square method examples
+    str = ""
+    c = model.predictMethod(str)
+    print(str)
+    print (c)
 
     ag = model.predictMethod('complete-the-squares method')
     ah = model.predictMethod('complete-the-square method')
-    #ac = stuff.predictMethod('complete the squares method')
-    #ad = stuff.predictMethod('complete the square method')
-
-
-    #ae = stuff.predictMethod("i want to replace stuff in the equation")
-    bf = model.predictMethod("i want to break apart the equation")
-    #ag = stuff.predictMethod('lets do the square root')
-    #ah = stuff.predictMethod('i want to square it')
+    ac = model.predictMethod('complete the squares method')
+    ad = model.predictMethod('complete the square method')
     ai = model.predictMethod('use the complete the squares method')
-    #aj = stuff.predictMethod('i\'ll use the method of completing the squares')
-    #ak = stuff.predictMethod('komplete da skware')
-    #al = stuff.predictMethod('i\'m not sure')
+    aj = model.predictMethod('i\'ll use the method of completing the squares')
+    ak = model.predictMethod('komplete da skware')
     #am = stuff.predictMethod('complete-the-squares method')
-    #an = stuff.predictMethod('i\'d use the quadratic formula cuz itz my fave')
-    ##ao = stuff.predictMethod('dunno, maybe quadratic?')
-    ap = model.predictMethod('i\'ll factor quadratics')
     #aq = stuff.predictMethod('i plan to complete the squares')
-    ##ar = stuff.predictMethod('do a square root')
+    #z8 = stuff.predictMethod('i\'ll use the method of completing the squares')
+    #z8 = stuff.predictMethod('i\'ll use the method of completing the squares')
+    ##z8 = stuff.predictMethod('i\'ll use the method of completing the squares')
+    #z8 = stuff.predictMethod('i\'ll use the method of completing the squares')
+    
+
+    # Factor quadratic method examples
+    bf = model.predictMethod("i want to break apart the equation")
+    ap = model.predictMethod('i\'ll factor quadratics')
+    
+    
+    # High confidence in two methods examples
+    ah = model.predictMethod('i want to square it')
+    ah = model.predictMethod('quadratic')
+     ##ao = stuff.predictMethod('dunno, maybe quadratic?')
+    
+    # Help examples
+    #al = stuff.predictMethod('i\'m not sure')
     #at = stuff.predictMethod('i have no idea')
     #au = stuff.predictMethod('help')
+    
+    # Unknown examples
     #av = stuff.predictMethod('Xyzzy')
     #aw = stuff.predictMethod('Use Kolmolgorov Turbulence')
     #ax = stuff.predictMethod('Factor Third-order Partial Differential Equations')
     ay = model.predictMethod('Consult the i ching')
     #z23 = stuff.predictMethod('Read Tea Leaves')
 
-    #z8 = stuff.predictMethod('i\'ll use the method of completing the squares')
-    #z8 = stuff.predictMethod('i\'ll use the method of completing the squares')
-    ##z8 = stuff.predictMethod('i\'ll use the method of completing the squares')
-    #z8 = stuff.predictMethod('i\'ll use the method of completing the squares')
-
-
+    
+    # User input 
 
 
 
