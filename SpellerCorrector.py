@@ -2,6 +2,7 @@
 
 Copyright 2007 Peter Norvig.
 Open source code under MIT license: http://www.opensource.org/licenses/mit-license.php
+code taken from http://norvig.com/spell-correct.html and adapted to an object
 """
 
 import re, collections
@@ -34,11 +35,3 @@ class Corrector:
     def correct(self, word):
         candidates = self.known([word]) or self.known(self.edits1(word)) or self.known_edits2(word) or [word]
         return max(candidates, key=self.NWORDS.get)
-
-if __name__ == '__main__':
-    X = Corrector('big.txt')
-    
-    print(X.correct('cumplit'))
-    
-
-#print(correct('speling'))
