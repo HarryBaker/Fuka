@@ -52,7 +52,7 @@ class SolutionTrainer:
     def createModel(self,topic):
 
         if topic.id == 'help':
-            neuralModel = models.Doc2Vec(topic.allSentances + topic.allSentances, size=10, window=8, min_count = 1)
+            neuralModel = models.Doc2Vec(topic.allSentances + topic.allSentances + topic.allSentances + topic.allSentances, size=10, window=8, min_count = 1)
         else:
             neuralModel = models.Doc2Vec(topic.allSentances + topic.allSentances + self.masterSentances, size=100, window=8, min_count = 5)
         model = Model(topic.id, neuralModel)
@@ -81,13 +81,16 @@ class SolutionTrainer:
         for model in self.listOfModels:
             sim = self.compareSimilarity(query, model)
             #rank = self.compareSimilarity(query, solution)
-            predictList.append((sim, model.id))
+            predictList.append([sim, model.id])
 
 
         predictList = sorted(predictList,key=itemgetter(0),reverse=True)
-        prediction = [predictList[0]]
+        prediction = predictList[0]
+        if prediction[0] < self.unknownCutoff:
+            prediction[1] = "Unknown"
 
-        return (query, predictList)
+
+        return (query, prediction)
 
     def compareSimilarity(self, query, model):
         queryList = query
