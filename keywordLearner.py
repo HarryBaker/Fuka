@@ -31,7 +31,9 @@ class Model():
 #associated with the method "factor the quadratic", then you would manually write language in the booster document
 #to encourage this association in a more supervised fashion. While our booster training does increase the
 #similarity of certain prompts like this in intended ways, it does not have enough training to push the
-#similarity ranking above the designated threshold. This needs more work.
+#similarity ranking above the designated threshold in all cases. For example, "i want to break apart the function'
+#matches 'quadratic formula', which is close, but not totally ideal This needs more work, but seems like an effective.
+#way to identify common phrases and synonyms.
 class SolutionTrainer:
     def __init__(self, trainingMaterial, cutoff):
         self.unknownCutoff = cutoff
@@ -49,7 +51,7 @@ class SolutionTrainer:
 
         #Similar to the Topic class. Dictionary of commonly used words and their plurals,
         #to convert plurals into their singular equivalient.
-        self.pluralsList = {
+        self.varientList = {
             'squares' : 'square',
             'squaring' : 'square',
             'squared' : 'square',
@@ -62,6 +64,12 @@ class SolutionTrainer:
             'completes' : 'complete',
             'completing' : 'complete',
             'completed' : 'complete',
+            'substitute' : 'substitution',
+            'substituting' : 'substitution',
+            'substituted' : 'substitution',
+            'eliminate' : 'elimination',
+            'eliminated' : 'elimination',
+            'eliminating' : 'elimination',
         }
 
         #Object to spellcheck words. This also depends on the text you use to train it. Most of the text
@@ -89,7 +97,7 @@ class SolutionTrainer:
         if topic.id == 'help':
             neuralModel = models.Doc2Vec(topic.allSentances * 1000, size=20, window=8, min_count = 1)
         else:
-            neuralModel = models.Doc2Vec(topic.allSentances * 7 + self.masterSentances + self.boosterSentances *10, size=100, window=8, min_count = 5)
+            neuralModel = models.Doc2Vec(topic.allSentances * 7 + self.masterSentances + self.boosterSentances *20, size=100, window=8, min_count = 5)
         model = Model(topic.id, neuralModel)
         self.listOfModels.append(model)
 
@@ -104,7 +112,8 @@ class SolutionTrainer:
         #This is a very basic way of checking for negations, and could use more work to be more nuanced. This
         #is especially true if adapting to languages that have a different sentance structure than english
 
-        #doc2vec has a way to negatively
+        #as mentioned in addDoc.py, doc2vec has a way to affect the ranking the significance of a sentance by negatively
+        #weighing it against certain keywords. There might be some application here for that.
         query = query.split("not")
 
         tempQuery = []
@@ -165,8 +174,8 @@ class SolutionTrainer:
 
         for word in queryList:
             #Convert plural words to singular
-            if word in self.pluralsList:
-                    word = self.pluralsList[word]
+            if word in self.varientList:
+                    word = self.varientList[word]
             #If word is not recognized, try correcting it's spelling
             if word not in model.doc2vecModel.vocab:
                 correctedWord = self.spellChecker.correct(word)
