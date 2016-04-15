@@ -1,8 +1,13 @@
 GIT repository:  https://github.com/HarryBaker/Fukka.git
 
-Summary: (Mari) 
+Summary: 
 
-
+The problem presented deals with classifying user inputs into 4 different classes based on method the user wants to work 
+with in order to solve a quadratic equation. The possible classes are: CompleteSquare, QuadraticFormula, FactorQuadratic 
+and TakeSquareRoots, where each class is associated with specific mathematical approach. Input might yield two different 
+class solutions - in case the user has no preference between two methods. Also, user might ask as for instructions (help) 
+if any method is unclear. All other input is flagged as unrecognized. The algorithm should also account for spelling 
+errors. 
 
 
 Assumed Input: (Maddy)
@@ -17,12 +22,20 @@ Restrictions:
 
 Additional Package Installation instructions to be found in the README.
 
-The algorithm is trained with documents found online that have nothing to do with specific audience targeted (we didn't specify whether the input will be from a middle schooler, a PhD student and so forth). The performance of the algorithm should be significantly improved if more suited documents are used for its training (specific textbooks the users are learning from, user age etc.).
+The algorithm is trained with documents found online that have nothing to do with specific audience targeted 
+(we didn't specify whether the input will be from a middle schooler, a PhD student and so forth). The performance of the 
+algorithm should be significantly improved if more suited documents are used for its training (specific textbooks the users 
+are learning from, user age etc.).
 
-The training document for spellchecker is a corpus for Sherlock Holmes, so better results for misspelling math words would be attained if there were a larger pool of mathematical documents that could be used for the training. For example "cumplit" is corrected into "culprit" rather than "complete". 
+The training document for spellchecker is a corpus for Sherlock Holmes, so better results for misspelling math words would 
+be attained if there were a larger pool of mathematical documents that could be used for the training. For example "cumplit" 
+is corrected into "culprit" rather than "complete". 
 
-We haven't been able to develop an algorithm that would account for phonetic misspelling. For example, translating "da" into "the" ("cumplit da scware" into "complete the square") and such. 
+We haven't been able to develop an algorithm that would account for phonetic misspelling. For example, translating "da" into
+"the" ("cumplit da scware" into "complete the square") and such. 
 
-Also, the statements which contain a complete negation of a method will be accounted for ("I want to use quadratic formula and not the complete the square method"), but semantic negation hasn't been accounted for ("I want to use the quadratic formula because complete the square is too complicated") with the assumption that those inputs will be minimal. 
+Also, the statements which contain a complete negation of a method will be accounted for ("I want to use quadratic formula 
+and not the complete the square method"), but semantic negation hasn't been accounted for ("I want to use the quadratic formula 
+because complete the square is too complicated") with the assumption that those inputs will be minimal. 
 
  
