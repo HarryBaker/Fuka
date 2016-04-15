@@ -76,95 +76,155 @@ if __name__ == '__main__':
     #stuff.possibleSolutions.append('substitution method')
 
     # Examples
+    print("Sample input and the method each is most closely associated with. \n")
 
     # Quadratic formula examples
+    print("\n Input indicating quadratic formula \n")
     str = "I want to do the quadratic formula"
     q = model.predictMethod(str)
-    print(str)
-    print (q)
+    print("Input: " + str + "-> Method: " + q + "\n")
     
     str = "I want to do the qudratic formula"
     q = model.predictMethod(str)
-    print(str)
-    print (q)
+    print("Input: " + str + "-> Method: " + q[0] + "Confidence: " + q[1]  + "\n")
     
     str = "I want to do the quadrtic formula"
     q = model.predictMethod(str)
-    print(str)
-    print (q)
+    print("Input: " + str + "-> Method: " + q[0] + "Confidence: " + q[1]  + "\n")
     
     str = "I want to do the queadrtic formula"
     q = model.predictMethod(str)
-    print(str)
-    print (q)
+    print("Input: " + str + "-> Method: " + q[0] + "Confidence: " + q[1]  + "\n")
     
     str = "I want to do the quadratic formula, not factor the quadratic"
     q = model.predictMethod(str)
-    print(str)
-    print (q)
+    print("Input: " + str + "-> Method: " + q[0] + "Confidence: " + q[1]  + "\n")
     
-    #an = stuff.predictMethod('i\'d use the quadratic formula cuz itz my fave')
+    str = "i\'d use the quadratic formula cuz itz my fave"
+    q = model.predictMethod(str)
+    print("Input: " + str + "-> Method: " + q[0] + "Confidence: " + q[1]  + "\n")
+    
     
     # Square root method examples
+    print("\n Input indicating square root method \n")
     str = "lets do the square root"
     s = model.predictMethod(str)
-    print(str)
-    print (s)
+    print("Input: " + str + "-> Method: " + s[0] + "Confidence: " + s[1]  + "\n")
     
-    str = ""
+    str = "do a square root"
     s = model.predictMethod(str)
-    print(str)
-    print (s)
+    print("Input: " + str + "-> Method: " + s[0] + "Confidence: " + s[1]  + "\n")
 
-    ag = model.predictMethod('lets do the square root')
-    ##ar = stuff.predictMethod('do a square root')
-    
 
     # Complete the square method examples
-    str = ""
+    print("\n Input indicating complete the square \n")
+    str = "'complete-the-squares method'"
     c = model.predictMethod(str)
-    print(str)
-    print (c)
-
-    ag = model.predictMethod('complete-the-squares method')
-    ah = model.predictMethod('complete-the-square method')
-    ac = model.predictMethod('complete the squares method')
-    ad = model.predictMethod('complete the square method')
-    ai = model.predictMethod('use the complete the squares method')
-    aj = model.predictMethod('i\'ll use the method of completing the squares')
-    ak = model.predictMethod('komplete da skware')
-    #am = stuff.predictMethod('complete-the-squares method')
-    #aq = stuff.predictMethod('i plan to complete the squares')
-    #z8 = stuff.predictMethod('i\'ll use the method of completing the squares')
-    #z8 = stuff.predictMethod('i\'ll use the method of completing the squares')
-    ##z8 = stuff.predictMethod('i\'ll use the method of completing the squares')
-    #z8 = stuff.predictMethod('i\'ll use the method of completing the squares')
+    print("Input: " + str + "-> Method: " + c[0] + "Confidence: " + c[1]  + "\n")
+    
+    str = "complete-the-square method"
+    c = model.predictMethod(str)
+    print("Input: " + str + "-> Method: " + c[0] + "Confidence: " + c[1]  + "\n")
+    
+    str = "complete the squares method"
+    c = model.predictMethod(str)
+    print("Input: " + str + "-> Method: " + c[0] + "Confidence: " + c[1]  + "\n")
+    
+    str = "complete the square method"
+    c = model.predictMethod(str)
+    print("Input: " + str + "-> Method: " + c[0] + "Confidence: " + c[1]  + "\n")
+    
+    str = "use the complete the squares method"
+    c = model.predictMethod(str)
+    print("Input: " + str + "-> Method: " + c[0] + "Confidence: " + c[1]  + "\n")
+    
+    str = "i\'ll use the method of completing the squares"
+    c = model.predictMethod(str)
+    print("Input: " + str + "-> Method: " + c[0] + "Confidence: " + c[1]  + "\n")
+    
+    str = "komplete da skware"
+    c = model.predictMethod(str)
+    print("Input: " + str + "-> Method: " + c[0] + "Confidence: " + c[1]  + "\n")
+    
+    str = "i plan to complete the squares"
+    c = model.predictMethod(str)
+    print("Input: " + str + "-> Method: " + c[0] + "Confidence: " + c[1]  + "\n")
+    
+    str = "i\'ll use the method of completing the squares"
+    c = model.predictMethod(str)
+    print("Input: " + str + "-> Method: " + c[0] + "Confidence: " + c[1]  + "\n")
+   
     
 
     # Factor quadratic method examples
-    bf = model.predictMethod("i want to break apart the equation")
-    ap = model.predictMethod('i\'ll factor quadratics')
+    print("\n Input indicating factor the quadratic method \n")
+    str = "i want to break apart the equation"
+    f = model.predictMethod(str)
+    print("Input: " + str + "-> Method: " + f[0] + "Confidence: " + f[1]  + "\n")
     
+    str = "i\'ll factor quadratics"
+    f = model.predictMethod(str)
+    print("Input: " + str + "-> Method: " + f[0] + "Confidence: " + f[1]  + "\n")
+    
+    str = "i\'ll find what the factors are"
+    f = model.predictMethod(str)
+    print("Input: " + str + "-> Method: " + f[0] + "Confidence: " + f[1]  + "\n")
     
     # High confidence in two methods examples
-    ah = model.predictMethod('i want to square it')
-    ah = model.predictMethod('quadratic')
-     ##ao = stuff.predictMethod('dunno, maybe quadratic?')
+    print("\n Input indicating high confidence in two methods \n")
+    str = "i want to square it"
+    t = model.predictMethod(str)
+    print("Input: " + str + "-> Method: " + t[0] + "Confidence: " + t[1]  + "\n")
+    
+    str = "quadratic"
+    t = model.predictMethod(str)
+    print("Input: " + str + "-> Method: " + t[0] + "Confidence: " + t[1]  + "\n")
+    
+    str = "dunno, maybe quadratic?"
+    t = model.predictMethod(str)
+    print("Input: " + str + "-> Method: " + t[0] + "Confidence: " + t[1]  + "\n")
+    
     
     # Help examples
-    #al = stuff.predictMethod('i\'m not sure')
-    #at = stuff.predictMethod('i have no idea')
-    #au = stuff.predictMethod('help')
+    print("\n Input indicating user is asking for help \n")
+    str = "i\'m not sure"
+    h = model.predictMethod(str)
+    print("Input: " + str + "-> Method: " + h[0] + "Confidence: " + h[1]  + "\n")
+    
+    str = "i have no idea"
+    h = model.predictMethod(str)
+    print("Input: " + str + "-> Method: " + h[0] + "Confidence: " + h[1]  + "\n")
+    
+    str = "help"
+    h = model.predictMethod(str)
+    print("Input: " + str + "-> Method: " + h[0] + "Confidence: " + h[1]  + "\n")
+    
     
     # Unknown examples
-    #av = stuff.predictMethod('Xyzzy')
-    #aw = stuff.predictMethod('Use Kolmolgorov Turbulence')
-    #ax = stuff.predictMethod('Factor Third-order Partial Differential Equations')
-    ay = model.predictMethod('Consult the i ching')
-    #z23 = stuff.predictMethod('Read Tea Leaves')
+    print("\n Unknown input \n")
+    str = "Xyzzy"
+    u = model.predictMethod(str)
+    print("Input: " + str + "-> Method: " + u[0] + "Confidence: " + u[1]  + "\n")
+    
+    str = "Use Kolmolgorov Turbulence"
+    u = model.predictMethod(str)
+    print("Input: " + str + "-> Method: " + u[0] + "Confidence: " + u[1]  + "\n")
+    
+    str = "Factor Third-order Partial Differential Equations"
+    u = model.predictMethod(str)
+    print("Input: " + str + "-> Method: " + u[0] + "Confidence: " + u[1]  + "\n")
+    
+    str = "Consult the i ching"
+    u = model.predictMethod(str)
+    print("Input: " + str + "-> Method: " + u[0] + "Confidence: " + u[1]  + "\n")
+    
+    str = "Read Tea Leave"
+    u = model.predictMethod(str)
+    print("Input: " + str + "-> Method: " + u[0] + "Confidence: " + u[1]  + "\n")
 
     
-    # User input 
+    # User input examples
+    
 
 
 
