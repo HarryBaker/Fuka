@@ -42,6 +42,7 @@ class SolutionTrainer:
         self.modelMaster = models.Doc2Vec(self.trainingMaterial.masterSentance, size=600, window=8, min_count=10)
 
         for topic in self.topics :
+            #Doesn't include the general topic
             if topic.id != 'all':
                 self.createModel(topic)
 
@@ -82,7 +83,10 @@ class SolutionTrainer:
             #rank = self.compareSimilarity(query, solution)
             predictList.append((sim, model.id))
 
+
         predictList = sorted(predictList,key=itemgetter(0),reverse=True)
+        prediction = [predictList[0]]
+
         return (query, predictList)
 
     def compareSimilarity(self, query, model):
