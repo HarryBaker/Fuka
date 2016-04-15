@@ -5,46 +5,64 @@ from SpellerCorrector import Corrector
 
 
 if __name__ == '__main__':
+   # x = ('dog',3)
+   # y = (4,6)
+   # z = (7,)
 
+    ##list = []
+    #list.append(x)
+    #list.append(y)
+    #list.append(z)
+    z = 'dog and cat'
+    g = (z,)
+    t = {g : 0}
+    t = "a"
+#    z = list['dog']
+  #  CS = trainingCorpus()
+  #  FQ = trainingCorpus()
+  ##  QF = trainingCorpus()
+   # SR = trainingCorpus()
+   # EM = trainingCorpus()
+   # SM = trainingCorpus()
+   # BU = trainingCorpus()
 
-    CS = trainingCorpus()
-    FQ = trainingCorpus()
-    QF = trainingCorpus()
-    SR = trainingCorpus()
-    EM = trainingCorpus()
-    SM = trainingCorpus()
-    BU = trainingCorpus()
+    TC = trainingCorpus()
+    TC.addTopic('complete square')
+    TC.addTopic('factor quadratic')
+    TC.addTopic('take square root')
+    TC.addTopic('quadratic formula')
 
-    BU.addDoc('backup', ['All'])
-
-
-
-    CS.addDoc('completeSquare_clean.txt', ['complete', 'square'])
-    EM.addDoc('eliminationMethod_clean.txt', ['elimination', 'method'])
-    FQ.addDoc('factorQuadratic_clean.txt', ['factor', 'square'])
-    QF.addDoc('quadraticFormula_clean.txt', ['quadratic', 'formula'])
-    SM.addDoc('substitutionMethod_clean.txt', ['substitution', 'method'])
-    SR.addDoc('takeSquareRoot_clean.txt', ['take', 'square', 'root'])
-
-
-
-    sentencesCS = CS.createSentances()
-    sentencesFQ = FQ.createSentances()
-    sentencesQF = QF.createSentances()
-    sentencesSR = SR.createSentances()
-    sentencesSM = SM.createSentances()
-    sentencesEM = EM.createSentances()
-    sentencesBU = BU.createSentances()
+    TC.addTopic('all')
 
 
 
-    stuff = solutionTrainer(sentencesCS + sentencesFQ + sentencesQF + sentencesSR + sentencesBU + sentencesBU
-                            + sentencesBU, .3)
+    TC.addDoc('backup', 'all')
+    TC.addDoc('completeSquare_clean.txt', 'complete square')
+    TC.addDoc('factorQuadratic_clean.txt', 'factor quadratic')
+    TC.addDoc('quadraticFormula_clean.txt', 'quadratic formula')
+    TC.addDoc('takeSquareRoot_clean.txt', 'take square root')
 
-    stuff.createModel(sentencesCS, 'complete square')
-    stuff.createModel(sentencesFQ, 'factor quadratic')
-    stuff.createModel(sentencesQF, 'quadratic formula')
-    stuff.createModel(sentencesSR, 'square root')
+
+
+ #   sentencesCS = CS.createSentances()
+ #   sentencesFQ = FQ.createSentances()
+ #   sentencesQF = QF.createSentances()
+ #   sentencesSR = SR.createSentances()
+ #   sentencesSM = SM.createSentances()
+ #   sentencesEM = EM.createSentances()
+ #   sentencesBU = BU.createSentances()
+
+
+
+    #stuff = solutionTrainer(sentencesCS + sentencesFQ + sentencesQF + sentencesSR + sentencesBU + sentencesBU
+    #                        + sentencesBU, .3)
+
+    model = solutionTrainer(TC, .3)
+
+    #stuff.createModel(sentencesCS, 'complete square')
+    #stuff.createModel(sentencesFQ, 'factor quadratic')
+    #stuff.createModel(sentencesQF, 'quadratic formula')
+    #stuff.createModel(sentencesSR, 'square root')
     #stuff.createModel(sentencesSM, 'substitution method')
     #stuff.createModel(sentencesEM, 'elimination method')
 
@@ -60,28 +78,30 @@ if __name__ == '__main__':
     #a = stuff.predictMethod("I want to do the quadratic formula")
     ##b = stuff.predictMethod("I want to do the qudratic formula")
     #c = stuff.predictMethod("I want to do the quadrtic formula")
-    #d = stuff.predictMethod("I want to do the queadrtic formula")
-    e = stuff.predictMethod(("I want to do the quadratic formula, not factor the quadratic"))
+    d = model.predictMethod("I want to do the queadrtic formula")
+    e = model.predictMethod(("I want to do the quadratic formula, not factor the quadratic"))
+    ag = model.predictMethod('lets do the square root')
 
 
-    #aa = stuff.predictMethod('complete-the-squares method')
+
+    aa = model.predictMethod('complete-the-squares method')
     #ab = stuff.predictMethod('complete-the-square method')
     #ac = stuff.predictMethod('complete the squares method')
     #ad = stuff.predictMethod('complete the square method')
 
 
     #ae = stuff.predictMethod("i want to replace stuff in the equation")
-    #af = stuff.predictMethod("i want to break apart the equation")
+    af = model.predictMethod("i want to break apart the equation")
     #ag = stuff.predictMethod('lets do the square root')
     #ah = stuff.predictMethod('i want to square it')
-    #ai = stuff.predictMethod('use the complete the squares method')
+    ai = model.predictMethod('use the complete the squares method')
     #aj = stuff.predictMethod('i\'ll use the method of completing the squares')
     #ak = stuff.predictMethod('komplete da skware')
     #al = stuff.predictMethod('i\'m not sure')
     #am = stuff.predictMethod('complete-the-squares method')
     #an = stuff.predictMethod('i\'d use the quadratic formula cuz itz my fave')
     ##ao = stuff.predictMethod('dunno, maybe quadratic?')
-    #ap = stuff.predictMethod('i\'ll factor quadratics')
+    ap = model.predictMethod('i\'ll factor quadratics')
     #aq = stuff.predictMethod('i plan to complete the squares')
     ##ar = stuff.predictMethod('do a square root')
     #at = stuff.predictMethod('i have no idea')
@@ -89,7 +109,7 @@ if __name__ == '__main__':
     #av = stuff.predictMethod('Xyzzy')
     #aw = stuff.predictMethod('Use Kolmolgorov Turbulence')
     #ax = stuff.predictMethod('Factor Third-order Partial Differential Equations')
-    #ay = stuff.predictMethod('Consult the i ching')
+    ay = model.predictMethod('Consult the i ching')
     #z23 = stuff.predictMethod('Read Tea Leaves')
 
     #z8 = stuff.predictMethod('i\'ll use the method of completing the squares')
