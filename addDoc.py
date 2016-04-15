@@ -7,7 +7,7 @@ from gensim.models.doc2vec import TaggedDocument
 
 import re
 
-
+nltk.download("stopwords")
 
 #Class to hold onto list of topics and their associated documents. That is, the topic "quadratic equation" would have a
 #list of all documents associated into it. It will also store these documents as a list of sentances to be fed to
@@ -23,7 +23,7 @@ class Topic():
         self.allSentances = []
 
         #common stopwords to be removed from each sentance. Extra stopwords can be added
-        nltk.download("stopwords")
+        #nltk.download("stopwords")
         self.stop = stopwords.words('english')
 
         #Converts plurals to singulars to help with training. Since plural and singular words are considered completely
