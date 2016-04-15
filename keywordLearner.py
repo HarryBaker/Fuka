@@ -8,12 +8,26 @@ from cleanTxtFiles import Cleaner
 from SpellerCorrector import Corrector
 
 
+#Class to hold the doc2vecModel of each topic. The id's are the potential methods: ie, "factor the quadratic"
+#The model is the actual doc2vec neural network.
+#Gensim tutorials do a better job explaining how doc2vec works than I ever could
+#doc2vec works almost identically to word2vec, except the sentances are given tags
+# http://rare-technologies.com/word2vec-tutorial/
+#documentation
+#https://radimrehurek.com/gensim/models/doc2vec.html
 class Model():
     def __init__(self, id, model):
         self.id = id
         self.doc2vecModel = model
 
-class solutionTrainer:
+
+#SolutionTrainer holds all of the models that we want to use to analyze our queries with. Each topic has it's own
+# doc2vec neural network that it is trained with. These neural networks are trained on the documents that are associated
+#specifically with the topic, as well as the master list of sentances. This allows us to train on a broader base of
+#knowledge, while giving special influence to documents that are more closely associated with the topic.
+
+#
+class SolutionTrainer:
     def __init__(self, trainingMaterial, cutoff):
         self.unknownCutoff = cutoff
         self.trainingMaterial = trainingMaterial
@@ -68,7 +82,7 @@ class solutionTrainer:
             #rank = self.compareSimilarity(query, solution)
             predictList.append((sim, model.id))
 
-        return predictList
+        return (query, predictList)
 
     def compareSimilarity(self, query, model):
         queryList = query
