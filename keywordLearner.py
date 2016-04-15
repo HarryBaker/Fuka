@@ -82,6 +82,7 @@ class SolutionTrainer:
             #rank = self.compareSimilarity(query, solution)
             predictList.append((sim, model.id))
 
+        predictList = sorted(predictList,key=itemgetter(0),reverse=True)
         return (query, predictList)
 
     def compareSimilarity(self, query, model):
