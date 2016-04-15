@@ -26,11 +26,12 @@ class Model():
 #specifically with the topic, as well as the master list of sentances. This allows us to train on a broader base of
 #knowledge, while giving special influence to documents that are more closely associated with the topic.
 
-#Booster sentances are sentances for uses that we believe will be more expected than otherwise found in an unstructured
-#corpus. For example, if you want to teach the model that "I want to break apart the function" is associated with
-#the method "factor the quadratic", then you would manually write language in the booster document to lead to this more
-#nuanced semantic understanding of the prompt. While our booster training can increase the similarity of these prompts
-#in intended ways, it does not have enough training to push the ranking above the threshold. This needs more work.
+#Booster sentances are sentances for phrases that we believe will be more expected than otherwise found in an
+#unstructured corpus. For example, if you want to teach the model that "I want to break apart the function" is
+#associated with the method "factor the quadratic", then you would manually write language in the booster document
+#to encourage this association in a more supervised fashion. While our booster training does increase the
+#similarity of certain prompts like this in intended ways, it does not have enough training to push the
+#similarity ranking above the designated threshold. This needs more work.
 class SolutionTrainer:
     def __init__(self, trainingMaterial, cutoff):
         self.unknownCutoff = cutoff
