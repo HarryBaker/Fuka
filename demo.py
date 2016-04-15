@@ -31,7 +31,7 @@ if __name__ == '__main__':
     TC.addTopic('factor quadratic')
     TC.addTopic('take square root')
     TC.addTopic('quadratic formula')
-
+    TC.addTopic('help')
     TC.addTopic('all')
 
 
@@ -41,6 +41,7 @@ if __name__ == '__main__':
     TC.addDoc('factorQuadratic_clean.txt', 'factor quadratic')
     TC.addDoc('quadraticFormula_clean.txt', 'quadratic formula')
     TC.addDoc('takeSquareRoot_clean.txt', 'take square root')
+    TC.addDoc('Help.txt', 'help')
 
 
 
@@ -75,23 +76,23 @@ if __name__ == '__main__':
     #stuff.possibleSolutions.append('substitution method')
 
 
-    #a = stuff.predictMethod("I want to do the quadratic formula")
-    ##b = stuff.predictMethod("I want to do the qudratic formula")
-    #c = stuff.predictMethod("I want to do the quadrtic formula")
-    d = model.predictMethod("I want to do the queadrtic formula")
-    e = model.predictMethod(("I want to do the quadratic formula, not factor the quadratic"))
-    ag = model.predictMethod('lets do the square root')
+    aa = model.predictMethod("I want to do the quadratic formula")
+    ab = model.predictMethod("I want to do the qudratic formula")
+    ac = model.predictMethod("I want to do the quadrtic formula")
+    ad = model.predictMethod("I want to do the queadrtic formula")
+    ae = model.predictMethod(("I want to do the quadratic formula, not factor the quadratic"))
+    af = model.predictMethod('lets do the square root')
 
 
 
-    aa = model.predictMethod('complete-the-squares method')
-    #ab = stuff.predictMethod('complete-the-square method')
+    ag = model.predictMethod('complete-the-squares method')
+    ah = model.predictMethod('complete-the-square method')
     #ac = stuff.predictMethod('complete the squares method')
     #ad = stuff.predictMethod('complete the square method')
 
 
     #ae = stuff.predictMethod("i want to replace stuff in the equation")
-    af = model.predictMethod("i want to break apart the equation")
+    bf = model.predictMethod("i want to break apart the equation")
     #ag = stuff.predictMethod('lets do the square root')
     #ah = stuff.predictMethod('i want to square it')
     ai = model.predictMethod('use the complete the squares method')
@@ -116,6 +117,9 @@ if __name__ == '__main__':
     #z8 = stuff.predictMethod('i\'ll use the method of completing the squares')
     ##z8 = stuff.predictMethod('i\'ll use the method of completing the squares')
     #z8 = stuff.predictMethod('i\'ll use the method of completing the squares')
+
+
+
 
 
 
