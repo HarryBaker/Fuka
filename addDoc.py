@@ -54,8 +54,6 @@ class Topic():
 
         lines = [line.rstrip('\n') and line.rstrip(' ') for line in open(doc)]
 
-
-
         for line in lines:
             x = filter(None, re.split("[,\-!?:]+", line))
             for sentance in x:
@@ -66,14 +64,11 @@ class Topic():
                         if word in self.pluralsList:
                             word = self.pluralsList[word]
                         sentanceToAdd.append(word)
-                TD = TaggedDocument(tags=self.id, words=sentanceToAdd)
+                TD = TaggedDocument(tags=self.id.split(), words=sentanceToAdd)
                 sentances.append(TD)
 
         self.allSentances = self.allSentances + sentances
         return sentances
-
-
-
 
 
 class trainingCorpus:
@@ -94,10 +89,6 @@ class trainingCorpus:
         self.numberOfTopics += 1
 
 
-
-
-
-
     def addDoc(self, doc, id):
         self.listOfDocs.append((doc,id))
         self.numberOfDocs +=1
@@ -105,7 +96,6 @@ class trainingCorpus:
         for topic in self.topics:
             if id == topic.id:
                 self.masterSentance += topic.addDoc(doc)
-                self.numberOfDocs += 1
 
 
 

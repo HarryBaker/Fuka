@@ -27,16 +27,19 @@ class solutionTrainer:
         self.listOfModels = []
         self.modelMaster = models.Doc2Vec(self.trainingMaterial.masterSentance, size=600, window=8, min_count=10)
 
-        for topic in self.topics:
-
-            self.createModel(topic)
+        for topic in self.topics :
+            if topic.id != 'all':
+                self.createModel(topic)
 
 
 
     #def createModel(self, docs, prompt):
     def createModel(self,topic):
 
-        neuralModel = models.Doc2Vec(topic.allSentances + topic.allSentances + self.masterSentances, size=100, window=8, min_count = 5)
+        if topic.id == 'help':
+            neuralModel = models.Doc2Vec(topic.allSentances + topic.allSentances, size=10, window=8, min_count = 1)
+        else:
+            neuralModel = models.Doc2Vec(topic.allSentances + topic.allSentances + self.masterSentances, size=100, window=8, min_count = 5)
         model = Model(topic.id, neuralModel)
         self.listOfModels.append(model)
 
@@ -109,9 +112,6 @@ class solutionTrainer:
             if word in model.doc2vecModel.vocab:
                 optionListFinal.append(word)
 
-
-        print "Final Query"
-        print queryListFinal
 
         if queryListFinal:
             score = model.doc2vecModel.n_similarity(queryListFinal, optionListFinal)
