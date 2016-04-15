@@ -1,7 +1,8 @@
 __author__ = 'loaner'
 from addDoc import trainingCorpus
-from keywordLearner import solutionTrainer
+from keywordLearner import SolutionTrainer
 from SpellerCorrector import Corrector
+import string
   
 
 if __name__ == '__main__':
@@ -58,7 +59,7 @@ if __name__ == '__main__':
     #stuff = solutionTrainer(sentencesCS + sentencesFQ + sentencesQF + sentencesSR + sentencesBU + sentencesBU
     #                        + sentencesBU, .3)
 
-    model = solutionTrainer(TC, .3)
+    model = SolutionTrainer(TC, .3)
 
     #stuff.createModel(sentencesCS, 'complete square')
     #stuff.createModel(sentencesFQ, 'factor quadratic')
@@ -82,11 +83,12 @@ if __name__ == '__main__':
     print("\n Input indicating quadratic formula \n")
     str = "I want to do the quadratic formula"
     q = model.predictMethod(str)
-    print("Input: " + str + "-> Method: " + q + "\n")
-    
+    print("Input: " + str + "-> Method: " + q[1][0][1] + "Confidence ")
+    print q[1][0][0]
+
     str = "I want to do the qudratic formula"
     q = model.predictMethod(str)
-    print("Input: " + str + "-> Method: " + q[0] + "Confidence: " + q[1]  + "\n")
+    print("Input: " + str + "-> Method: " + q[1][1] + "Confidence: " + q[1][0]  + "\n")
     
     str = "I want to do the quadrtic formula"
     q = model.predictMethod(str)
