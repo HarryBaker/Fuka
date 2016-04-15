@@ -5,40 +5,45 @@ from operator import itemgetter
 import re
 
 from cleanTxtFiles import Cleaner
+from SpellerCorrector import Corrector
 
 
-#working with one model
-class solutionTrainer:
-    def __init__(self, sentences, cutoff):
-        self.sentences = sentences
-        self.possibleSolutions = []
-        self.listOfModels = [] #maybe should be a Hash?
+#Class to hold the doc2vecModel of each topic. The id's are the potential methods: ie, "factor the quadratic"
+#The model is the actual doc2vec neural network.
+#Gensim tutorials do a better job explaining how doc2vec works than I ever could
+#doc2vec works almost identically to word2vec, except the sentances are given tags
+# http://rare-technologies.com/word2vec-tutorial/
+#documentation
+#https://radimrehurek.com/gensim/models/doc2vec.html
+class Model():
+    def __init__(self, id, model):
+        self.id = id
+        self.doc2vecModel = model
+
+
+#SolutionTrainer holds all of the models that we want to use to analyze our queries with. Each topic has it's own
+# doc2vec neural network that it is trained with. These neural networks are trained on the documents that are associated
+#specifically with the topic, as well as the master list of sentances. This allows us to train on a broader base of
+#knowledge, while giving special influence to documents that are more closely associated with the topic.
+
+#
+class SolutionTrainer:
+    def __init__(self, trainingMaterial, cutoff):
         self.unknownCutoff = cutoff
+        self.trainingMaterial = trainingMaterial
 
-        #Question is do we want individual models for each possible, or one master model?
-        #Lest
-        self.modelMaster = models.Doc2Vec(self.sentences, size=600, window=8, min_count=10)
+        self.topics = trainingMaterial.topics
+        self.masterSentances = []
+
+        for topic in self.topics:
+            self.masterSentances += topic.allSentances
+
+        self.listOfModels = []
 
 
-    def createModel(self, docs, prompt):
-
-        model = models.Doc2Vec(docs + docs + self.sentences, size=100, window=8, min_count = 5)
-        self.listOfModels.append((prompt, model))
-
-    def compareSimilarity(self, query, option, model):
-        queryList = query
-        queryListFinal = []
-
-        #optionList = option.split()
-        optionList = option
-        optionListFinal = []
-
-        #I'm not sure why this doesn't wor. removing a word from the list skips a word
-        #for word in queryList:
-        #    if word not in self.model.vocab:
-        #        queryList.remove(word)
-
-        pluralsList = {
+        #Similar to the Topic class. Dictionary of commonly used words and their plurals,
+        #to convert plurals into their singular equivalient.
+        self.pluralsList = {
             'squares' : 'square',
             'squaring' : 'square',
             'squared' : 'square',
@@ -53,142 +58,130 @@ class solutionTrainer:
             'completed' : 'complete',
         }
 
-        for word in queryList:
-            if word in pluralsList:
-                    word = pluralsList[word]
-            if word in model.vocab:
-                queryListFinal.append(word)
+        #Object to spellcheck words. This also depends on the text you use to train it. Most of the text
+        #in our included file is general use--it is based off of Sherlock Holme's novels--so it might
+        #not recognize specific mathwords. This is easily fixed by including multiple instances of the specific
+        #word at the beginning of the document. For future uses it would probably be better to train this on
+        #more math oriented documents.
+        self.spellChecker = Corrector('big.txt')
+
+        #For more information on size and mincounts, see the documentation for doc2vec
+        self.modelMaster = models.Doc2Vec(self.trainingMaterial.masterSentance, size=600, window=8, min_count=10)
+
+        for topic in self.topics :
+            #Doesn't include the general topic, since that just stores documents that aren't saved to a particular topic
+            if topic.id != 'all':
+                self.createModel(topic)
 
 
+    #Create's a peronalized doc2vec model for each topic
+    def createModel(self,topic):
 
-        for word in optionList:
-            if word in model.vocab:
-                optionListFinal.append(word)
-
-        if queryListFinal:
-            score = model.n_similarity(queryListFinal, optionListFinal)
-            return score
+        #Run specialized run of the "help" topic. This one is more sentsative to specific key words, so we don't
+        #include the master sentances so as to not dilute the influence of specific key "help" words. This particular
+        #topic needs more work and training.
+        if topic.id == 'help':
+            neuralModel = models.Doc2Vec(topic.allSentances * 20, size=10, window=8, min_count = 1)
         else:
-            return 0
+            neuralModel = models.Doc2Vec(topic.allSentances * 2 + self.masterSentances, size=100, window=8, min_count = 5)
+        model = Model(topic.id, neuralModel)
+        self.listOfModels.append(model)
 
-
+    #Given a query, predicts which method it is most closely related to.
     def predictMethod(self, query):
 
         predictList = []
 
-        query = filter(None, re.split("[, \-!?:]+", query))
+        #Splits on "Not" so as to identify negations in the query
+        #Ie, i want to do the quadratic equation, not factor the quadratic
+        #The following two for loops go through and remove the parts of the sentance following not.
+        #This is a very basic way of checking for negations, and could use more work to be more nuanced. This
+        #is especially true if adapting to languages that have a different sentance structure than english
+        query = query.split("not")
 
-        #for solution in self.possibleSolutions:
-        for stuff in self.listOfModels:
-            sim = self.compareSimilarity(query, stuff[0].split(), stuff[1])
-            #rank = self.compareSimilarity(query, solution)
-            predictList.append((sim, stuff[0]))
+        tempQuery = []
+        for i in range(0,len(query)):
+            if i >= 1:
+                tempQuery.append("not" + query[i])
+            else:
+                tempQuery.append(query[i])
 
- #       outputlist = sorted(predictList, key=itemgetter(0), reverse=True)
+        for item in tempQuery:
+            if "not" in item:
+                tempQuery.remove(item)
 
+        query = " ".join(tempQuery)
 
-#        prediction = predictList[0]
-
-  #      if prediction[1] < self.unknownCutoff:
-   #         prediction = "Unknown"
-
-        return predictList
-
-
-
-
-if __name__ == '__main__':
-    CS = trainingCorpus()
-    FQ = trainingCorpus()
-    QF = trainingCorpus()
-    SR = trainingCorpus()
-    EM = trainingCorpus()
-    SM = trainingCorpus()
-    BU = trainingCorpus()
-    #t.addDoc('WikiQuadraticEquation')
-    #t.addDoc('CompleteSquareWiki')
-    #t.addDoc('FactorizationWiki')
-    #t.addDoc('SquareRootWiki')
-    BU.addDoc('backup', ['All'])
+        #Splits query into a list of words, removing puncuation
+        query = filter(None, re.split("[., \-!?:]+", query))
 
 
-
-    CS.addDoc('completeSquare_clean.txt', ['complete', 'square'])
-    EM.addDoc('eliminationMethod_clean.txt', ['elimination', 'method'])
-    FQ.addDoc('factorQuadratic_clean.txt', ['factor', 'square'])
-    QF.addDoc('quadraticFormula_clean.txt', ['quadratic', 'formula'])
-    SM.addDoc('substitutionMethod_clean.txt', ['substitution', 'method'])
-    SR.addDoc('takeSquareRoot_clean.txt', ['take', 'square', 'root'])
+        #Compares the similarity of the query to each potential method.
+        #It does this by running through each method's corresponging neural model.
+        for model in self.listOfModels:
+            sim = self.compareSimilarity(query, model)
+            predictList.append([sim, model.id])
 
 
+        #Sorts the possible methods in descending order from highest to lowest confidence. It returns the first element
+        #of the list, which is the most similar method to the query. It only returns one method; if you want to return
+        #multple methods (if the query is ambiguious--"i want to do quadratic", ie) you can implement a threshold
+        #that will only pass high enough confidence answers
+        predictList = sorted(predictList,key=itemgetter(0),reverse=True)
+        prediction = predictList[0]
 
-    sentencesCS = CS.createSentances()
-    sentencesFQ = FQ.createSentances()
-    sentencesQF = QF.createSentances()
-    sentencesSR = SR.createSentances()
-    sentencesSM = SM.createSentances()
-    sentencesEM = EM.createSentances()
-    sentencesBU = BU.createSentances()
-
-
-
-    stuff = solutionTrainer(sentencesCS + sentencesFQ + sentencesQF + sentencesSR + sentencesBU + sentencesBU
-                            + sentencesBU, .3)
-
-    stuff.createModel(sentencesCS, 'complete square')
-    stuff.createModel(sentencesFQ, 'factor quadratic')
-    stuff.createModel(sentencesQF, 'quadratic formula')
-    stuff.createModel(sentencesSR, 'square root')
-    #stuff.createModel(sentencesSM, 'substitution method')
-    #stuff.createModel(sentencesEM, 'elimination method')
+        #If the prediction doesn't have a high enough confidence, return that it's unknown.
+        #There are some issues here with the "help" class, because even when "help" is the most strongly associated
+        #choice, it doesn't make the threshold. This can probably be fixed by training more "help" documents
+        if prediction[0] < self.unknownCutoff:
+            prediction[1] = "Unknown"
 
 
-    #stuff.possibleSolutions.append('quadratic formula')
-    ##stuff.possibleSolutions.append('complete the square')
-    #stuff.possibleSolutions.append('take square root')
-    #stuff.possibleSolutions.append('factor the quadratic')
-    #stuff.possibleSolutions.append('elimination method')
-    #stuff.possibleSolutions.append('substitution method')
+        return (query, prediction)
+
+    #compares the similarity of the query to the method associated with each model.
+    #For example, self.compareSimilarity("quadraticMethod", squareRootModel) would find the similarity of
+    #"quadraticMethod" to "square root" using the square root neural network
+    def compareSimilarity(self, query, model):
+        queryList = query
+        queryListFinal = []
+
+        #the option is the method associated with the model, which is stored as it's ID
+        #splitting it into sentances allow's doc2vec to understand it
+        optionList = model.id.split()
+        optionListFinal = []
 
 
+        for word in queryList:
+            #Convert plural words to singular
+            if word in self.pluralsList:
+                    word = self.pluralsList[word]
+            #If word is not recognized, try correcting it's spelling
+            if word not in model.doc2vecModel.vocab:
+                correctedWord = self.spellChecker.correct(word)
+            else:
+                correctedWord = word
+            #If corrected word is in the model's vocabular, include it. You can't try to find the similarity of words
+            #that aren't in the model's vocabulary, or it will crash.
+            if correctedWord in model.doc2vecModel.vocab:
+                queryListFinal.append(correctedWord)
 
-    aa = stuff.predictMethod('complete-the-squares method')
-    ab = stuff.predictMethod('complete-the-square method')
-    ac = stuff.predictMethod('complete the squares method')
-    ad = stuff.predictMethod('complete the square method')
+        #Sanity check to make sure that the words for each method are included in the model's vocabulary. Since
+        #The method's name is used as a tag for each included sentance, they will probably always be found.
+        for word in optionList:
+            if word in model.doc2vecModel.vocab:
+                optionListFinal.append(word)
 
-
-    ae = stuff.predictMethod("i want to replace stuff in the equation")
-    af = stuff.predictMethod("i want to break apart the equation")
-    ag = stuff.predictMethod('lets do the square root')
-    ah = stuff.predictMethod('i want to square it')
-    ai = stuff.predictMethod('use the complete the squares method')
-    aj = stuff.predictMethod('i\'ll use the method of completing the squares')
-    ak = stuff.predictMethod('komplete da skware')
-    al = stuff.predictMethod('i\'m not sure')
-    am = stuff.predictMethod('complete-the-squares method')
-    an = stuff.predictMethod('i\'d use the quadratic formula cuz itz my fave')
-    ao = stuff.predictMethod('dunno, maybe quadratic?')
-    ap = stuff.predictMethod('i\'ll factor quadratics')
-    aq = stuff.predictMethod('i plan to complete the squares')
-    ar = stuff.predictMethod('do a square root')
-    at = stuff.predictMethod('i have no idea')
-    au = stuff.predictMethod('help')
-    av = stuff.predictMethod('Xyzzy')
-    aw = stuff.predictMethod('Use Kolmolgorov Turbulence')
-    ax = stuff.predictMethod('Factor Third-order Partial Differential Equations')
-    ay = stuff.predictMethod('Consult the i ching')
-    az = stuff.predictMethod('Read Tea Leaves')
-
-
-    #z8 = stuff.predictMethod('i\'ll use the method of completing the squares')
-    #z8 = stuff.predictMethod('i\'ll use the method of completing the squares')
-    ##z8 = stuff.predictMethod('i\'ll use the method of completing the squares')
-    #z8 = stuff.predictMethod('i\'ll use the method of completing the squares')
+        #If there are words left in the the query, find their similarity to the given method.
+        if queryListFinal:
+            score = model.doc2vecModel.n_similarity(queryListFinal, optionListFinal)
+            return score
+        #If there are no words recognized in the query, return 0, which will result in unknown.
+        else:
+            return 0
 
 
 
-    print "done"
-    print aa
+
 
 
