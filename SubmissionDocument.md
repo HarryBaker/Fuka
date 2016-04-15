@@ -1,22 +1,30 @@
-Summary: 
+### Summary: 
 
-The problem presented deals with classifying user inputs into 4 different classes based on method the user wants to work 
-with in order to solve a quadratic equation. The possible classes are: CompleteSquare, QuadraticFormula, FactorQuadratic 
-and TakeSquareRoots, where each class is associated with specific mathematical approach. Input might yield two different 
-class solutions - in case the user has no preference between two methods. Also, user might ask as for instructions (help) 
-if any method is unclear. All other input is flagged as unrecognized. The algorithm should also account for spelling 
-errors. 
+The problem presented deals with classifying textual user inputs into 4 different method classes which indicate which method the
+user wants to use to solve a quadratic equation. The possible classes are: CompleteSquare, QuadraticFormula, FactorQuadratic 
+and TakeSquareRoots, where each class is associated with specific mathematical approach. A user might ask as for instructions 
+(help) if any method is unclear. All other input is flagged as unrecognized. The algorithm should also account for spelling 
+errors. The program should take in textual input and return the name of a method, "help", or "unrecognized".
 
 
-Assumed Input: (Maddy)
+### Assumed Input:
 
-Algorithm: (Harry) 
+No input needed to run the demo. There will be 5 prompts at the end of the demo to test the neural network analyzer with your 
+own strings. These prompts take a nonempty string of charactersm, for example: use the quadratic formula. Quotation marks need
+not be included. 
 
-Resources: 
 
-Open source code for spelling checker: http://norvig.com/spell-correct.html
+### Algorithm: 
 
-Restrictions: 
+
+
+### Resources: 
+
+Open source code for spelling checker (http://norvig.com/spell-correct.html), various google searches. Pages used are cited at
+the bottom of the file to which their content contributed. 
+
+
+### Restrictions: 
 
 Additional Package Installation instructions to be found in the README.
 
