@@ -81,9 +81,9 @@ class SolutionTrainer:
         #include the master sentances so as to not dilute the influence of specific key "help" words. This particular
         #topic needs more work and training.
         if topic.id == 'help':
-            neuralModel = models.Doc2Vec(topic.allSentances * 20, size=10, window=8, min_count = 1)
+            neuralModel = models.Doc2Vec(topic.allSentances * 1000, size=25, window=8, min_count = 1)
         else:
-            neuralModel = models.Doc2Vec(topic.allSentances * 2 + self.masterSentances, size=100, window=8, min_count = 5)
+            neuralModel = models.Doc2Vec(topic.allSentances * 7 + self.masterSentances *2, size=100, window=8, min_count = 5)
         model = Model(topic.id, neuralModel)
         self.listOfModels.append(model)
 
@@ -97,6 +97,8 @@ class SolutionTrainer:
         #The following two for loops go through and remove the parts of the sentance following not.
         #This is a very basic way of checking for negations, and could use more work to be more nuanced. This
         #is especially true if adapting to languages that have a different sentance structure than english
+
+        #doc2vec has a way to negatively
         query = query.split("not")
 
         tempQuery = []
@@ -133,9 +135,12 @@ class SolutionTrainer:
         #If the prediction doesn't have a high enough confidence, return that it's unknown.
         #There are some issues here with the "help" class, because even when "help" is the most strongly associated
         #choice, it doesn't make the threshold. This can probably be fixed by training more "help" documents
-        if prediction[0] < self.unknownCutoff:
-            prediction[1] = "Unknown"
-
+        if prediction[1] == 'help':
+            if prediction[0] < .3:
+                prediction[1] = "Unknown"
+        else:
+            if prediction[0] < self.unknownCutoff:
+                prediction[1] = "Unknown"
 
         return (query, prediction)
 

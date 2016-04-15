@@ -26,6 +26,12 @@ class Topic():
         #nltk.download("stopwords")
         self.stop = stopwords.words('english')
 
+        if id == "help":
+            #self.stop.remove("not")
+            self.stop.remove("don")
+            #self.stop.remove("no")
+
+
         #Converts plurals to singulars to help with training. Since plural and singular words are considered completely
         #different words. Additional training might make this unnesesary if the neural network is taught to connect
         #plurals
