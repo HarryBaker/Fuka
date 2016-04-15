@@ -6,21 +6,6 @@ from SpellerCorrector import Corrector
 
 if __name__ == '__main__':
 
-    X = Corrector('big.txt')
-    print X.correct('quadratic')
-    print X.correct('qudratic')
-    print X.correct("quadrtic")
-    print X.correct("queadrtic")
-
-    print X.correct("equation")
-    print X.correct("want")
-    print X.correct("method")
-    print X.correct("factor")
-    print X.correct("formula")
-    print X.correct("formula")
-    print X.correct("formula")
-    print X.correct("formula")
-
 
     CS = trainingCorpus()
     FQ = trainingCorpus()
@@ -29,10 +14,7 @@ if __name__ == '__main__':
     EM = trainingCorpus()
     SM = trainingCorpus()
     BU = trainingCorpus()
-    #t.addDoc('WikiQuadraticEquation')
-    #t.addDoc('CompleteSquareWiki')
-    #t.addDoc('FactorizationWiki')
-    #t.addDoc('SquareRootWiki')
+
     BU.addDoc('backup', ['All'])
 
 
@@ -75,11 +57,11 @@ if __name__ == '__main__':
     #stuff.possibleSolutions.append('substitution method')
 
 
-    a = stuff.predictMethod("I want to do the quadratic formula")
-    b = stuff.predictMethod("I want to do the qudratic formula")
-    c = stuff.predictMethod("I want to do the quadrtic formula")
-    d = stuff.predictMethod("I want to do the queadrtic formula")
-    e = stuff.predictMethod(("I want to do the quadratic method, not factor the quadratic"))
+    #a = stuff.predictMethod("I want to do the quadratic formula")
+    ##b = stuff.predictMethod("I want to do the qudratic formula")
+    #c = stuff.predictMethod("I want to do the quadrtic formula")
+    #d = stuff.predictMethod("I want to do the queadrtic formula")
+    e = stuff.predictMethod(("I want to do the quadratic formula, not factor the quadratic"))
 
 
     #aa = stuff.predictMethod('complete-the-squares method')

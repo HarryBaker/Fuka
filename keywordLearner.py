@@ -7,16 +7,13 @@ import re
 from cleanTxtFiles import Cleaner
 from SpellerCorrector import Corrector
 
-#working with one model
 class solutionTrainer:
     def __init__(self, sentences, cutoff):
         self.sentences = sentences
         self.possibleSolutions = []
-        self.listOfModels = [] #maybe should be a Hash?
+        self.listOfModels = []
         self.unknownCutoff = cutoff
 
-        #Question is do we want individual models for each possible, or one master model?
-        #Lest
         self.modelMaster = models.Doc2Vec(self.sentences, size=600, window=8, min_count=10)
 
 
@@ -29,14 +26,8 @@ class solutionTrainer:
         queryList = query
         queryListFinal = []
 
-        #optionList = option.split()
         optionList = option
         optionListFinal = []
-
-        #I'm not sure why this doesn't wor. removing a word from the list skips a word
-        #for word in queryList:
-        #    if word not in self.model.vocab:
-        #        queryList.remove(word)
 
         pluralsList = {
             'squares' : 'square',
@@ -89,27 +80,25 @@ class solutionTrainer:
         predictList = []
         query = query.split("not")
 
-        for item in query:
+        tempQuery = []
+        for i in range(0,len(query)):
+            if i >= 1:
+                tempQuery.append("not" + query[i])
+            else:
+                tempQuery.append(query[i])
+
+        for item in tempQuery:
             if "not" in item:
-                query.remove(item)
+                tempQuery.remove(item)
 
-        newQuery = " ".join(query)
+        query = " ".join(tempQuery)
 
-        query = filter(None, re.split("[, \-!?:]+", newQuery))
+        query = filter(None, re.split("[, \-!?:]+", query))
 
-        #for solution in self.possibleSolutions:
         for stuff in self.listOfModels:
             sim = self.compareSimilarity(query, stuff[0].split(), stuff[1])
             #rank = self.compareSimilarity(query, solution)
             predictList.append((sim, stuff[0]))
-
- #       outputlist = sorted(predictList, key=itemgetter(0), reverse=True)
-
-
-#        prediction = predictList[0]
-
-  #      if prediction[1] < self.unknownCutoff:
-   #         prediction = "Unknown"
 
         return predictList
 
