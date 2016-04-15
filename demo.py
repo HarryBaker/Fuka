@@ -19,10 +19,12 @@ if __name__ == '__main__':
     TC.addTopic('elimination method')
     TC.addTopic('substitution method')
 
+    TC.addTopic('unknown')
+
 
  # Adding documents for each topic to training corpus
     print("Adding documents for each topic to training corpus ... ")
-    TC.addDoc('backup', 'all')
+    TC.addDoc('booster.txt', 'all')
     TC.addDoc('completeSquare_clean.txt', 'complete square')
     TC.addDoc('factorQuadratic_clean.txt', 'factor quadratic')
     TC.addDoc('quadraticFormula_clean.txt', 'quadratic formula')
@@ -30,11 +32,13 @@ if __name__ == '__main__':
     TC.addDoc('Help.txt', 'help')
     TC.addDoc('eliminationMethod_clean.txt', 'elimination method')
     TC.addDoc('substitutionMethod_clean.txt', 'substitution method')
+
+    TC.addDoc('unknown.txt', 'unknown')
     
     
     # Initializaing neural network model
     print("Initializing neural network model ... ")
-    model = SolutionTrainer(TC, .5)
+    model = SolutionTrainer(TC, .4)
 
 
     # Examples
@@ -43,10 +47,6 @@ if __name__ == '__main__':
 
 
 
-    str = "I might use the substitutittiion method"
-    sub = model.predictMethod(str)
-    print("\nInput: " + str + "\n-> Method: " + sub[1][1] + "\nConfidence: ")
-    print sub[1][0]
 
 
     # Elimination Method examples

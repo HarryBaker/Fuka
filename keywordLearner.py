@@ -109,8 +109,11 @@ class SolutionTrainer:
         #Splits on "Not" so as to identify negations in the query
         #Ie, i want to do the quadratic equation, not factor the quadratic
         #The following two for loops go through and remove the parts of the sentance following not.
-        #This is a very basic way of checking for negations, and could use more work to be more nuanced. This
-        #is especially true if adapting to languages that have a different sentance structure than english
+        #This is a very basic way of checking for negations, and could use more work to be more nuanced.
+        #For example, it doesn't handle sentances with multiple nots very well, and it doesn't recognize negative
+        #words other than not.
+
+        #This is all especially true if adapting to languages that have a different sentance structure than english.
 
         #as mentioned in addDoc.py, doc2vec has a way to affect the ranking the significance of a sentance by negatively
         #weighing it against certain keywords. There might be some application here for that.
@@ -147,7 +150,7 @@ class SolutionTrainer:
         predictList = sorted(predictList,key=itemgetter(0),reverse=True)
         prediction = predictList[0]
 
-        #If the prediction doesn't have a high enough confidence, return that it's unknown.
+        #If the prediction doesn't have a high enough confidence, return that it's unknown.txt.
         #There are some issues here with the "help" class, because even when "help" is the most strongly associated
         #choice, it doesn't make the threshold. This can probably be fixed by training more "help" documents
         if prediction[1] == 'help':
@@ -182,7 +185,24 @@ class SolutionTrainer:
             else:
                 correctedWord = word
             #If corrected word is in the model's vocabular, include it. You can't try to find the similarity of words
-            #that aren't in the model's vocabulary, or it will crash.
+            #that aren't in the model's vocabulary, or it will crash. One problem here though is that some gibberish
+            #words are simply cut out if they can't be properly spellchecked, so the query might give a false positive.
+            #This is what happens with the mispelled "I might use the substitutittiion method" query in the demo.
+            #It is not identified as supstitution, so the only significant words that are passed are "might" and
+            # "method", which match more closely to the elimination method in most cases.
+            # Adding some kind of "unknownWord" token might fix this by weighting down queries with a lot of
+            # unknown.txt words, or by measuring them against a document only including the word "unknownWord",
+            #  but we couldn't figure out how to implement it.
+            #
+            # For some reason however, leaving the documents and topics associated with "unknown.txt" seems to
+            # work for the cases we initially tested against (specifically the misspelled substitution query).
+            # We're not sure why this works; the additional noise might only specifically help in this case, or the
+            # additional noise might be just enough padding to prevent a query from becoming too closely associated with
+            # false positives. It seems worth looking into.
+            # One issue, however, is this noise prevents recognition of the inputs 'i want to break apart the equation'
+            # and i'll find what the factors are' if the threshold is too low. We believe it might also disturb
+            # similarly ambiguous inputs. We've left the "unknown.txt" in our demo, but more developed implementations
+            # of this code with more nuanced training documents should probably remove it.
             if correctedWord in model.doc2vecModel.vocab:
                 queryListFinal.append(correctedWord)
 
@@ -196,7 +216,7 @@ class SolutionTrainer:
         if queryListFinal:
             score = model.doc2vecModel.n_similarity(queryListFinal, optionListFinal)
             return score
-        #If there are no words recognized in the query, return 0, which will result in unknown.
+        #If there are no words recognized in the query, return 0, which will result in unknown.txt.
         else:
             return 0
 
