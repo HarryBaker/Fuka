@@ -81,7 +81,7 @@ class SolutionTrainer:
         #include the master sentances so as to not dilute the influence of specific key "help" words. This particular
         #topic needs more work and training.
         if topic.id == 'help':
-            neuralModel = models.Doc2Vec(topic.allSentances * 1000, size=25, window=8, min_count = 1)
+            neuralModel = models.Doc2Vec(topic.allSentances * 1000, size=20, window=8, min_count = 1)
         else:
             neuralModel = models.Doc2Vec(topic.allSentances * 7 + self.masterSentances *2, size=100, window=8, min_count = 5)
         model = Model(topic.id, neuralModel)
@@ -136,7 +136,7 @@ class SolutionTrainer:
         #There are some issues here with the "help" class, because even when "help" is the most strongly associated
         #choice, it doesn't make the threshold. This can probably be fixed by training more "help" documents
         if prediction[1] == 'help':
-            if prediction[0] < .3:
+            if prediction[0] < .2:
                 prediction[1] = "Unknown"
         else:
             if prediction[0] < self.unknownCutoff:

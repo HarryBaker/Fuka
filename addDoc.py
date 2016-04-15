@@ -27,7 +27,7 @@ class Topic():
         self.stop = stopwords.words('english')
 
         if id == "help":
-            #self.stop.remove("not")
+            self.stop.remove("not")
             self.stop.remove("don")
             #self.stop.remove("no")
 
