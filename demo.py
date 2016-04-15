@@ -6,27 +6,9 @@ import string
   
 
 if __name__ == '__main__':
-   # x = ('dog',3)
-   # y = (4,6)
-   # z = (7,)
-
-    ##list = []
-    #list.append(x)
-    #list.append(y)
-    #list.append(z)
-    z = 'dog and cat'
-    g = (z,)
-    t = {g : 0}
-    t = "a"
-#    z = list['dog']
-  #  CS = trainingCorpus()
-  #  FQ = trainingCorpus()
-  ##  QF = trainingCorpus()
-   # SR = trainingCorpus()
-   # EM = trainingCorpus()
-   # SM = trainingCorpus()
-   # BU = trainingCorpus()
-
+ 
+ # Compiling training corpus
+ print("Compiling training corpus ...")
     TC = trainingCorpus()
     TC.addTopic('complete square')
     TC.addTopic('factor quadratic')
@@ -36,54 +18,31 @@ if __name__ == '__main__':
     TC.addTopic('all')
 
 
-
+ # Adding documents for each topic to training corpus
+ print("Adding documents for each topic to training corpus ... ")
     TC.addDoc('backup', 'all')
     TC.addDoc('completeSquare_clean.txt', 'complete square')
     TC.addDoc('factorQuadratic_clean.txt', 'factor quadratic')
     TC.addDoc('quadraticFormula_clean.txt', 'quadratic formula')
     TC.addDoc('takeSquareRoot_clean.txt', 'take square root')
     TC.addDoc('Help.txt', 'help')
-
-
-
- #   sentencesCS = CS.createSentances()
- #   sentencesFQ = FQ.createSentances()
- #   sentencesQF = QF.createSentances()
- #   sentencesSR = SR.createSentances()
- #   sentencesSM = SM.createSentances()
- #   sentencesEM = EM.createSentances()
- #   sentencesBU = BU.createSentances()
-
-
-
-    #stuff = solutionTrainer(sentencesCS + sentencesFQ + sentencesQF + sentencesSR + sentencesBU + sentencesBU
-    #                        + sentencesBU, .3)
-
+    
+    
+    # Initializaing neural network model
+    print("Initializing neural network model ... ")
     model = SolutionTrainer(TC, .3)
 
-    #stuff.createModel(sentencesCS, 'complete square')
-    #stuff.createModel(sentencesFQ, 'factor quadratic')
-    #stuff.createModel(sentencesQF, 'quadratic formula')
-    #stuff.createModel(sentencesSR, 'square root')
-    #stuff.createModel(sentencesSM, 'substitution method')
-    #stuff.createModel(sentencesEM, 'elimination method')
-
-
-    #stuff.possibleSolutions.append('quadratic formula')
-    ##stuff.possibleSolutions.append('complete the square')
-    #stuff.possibleSolutions.append('take square root')
-    #stuff.possibleSolutions.append('factor the quadratic')
-    #stuff.possibleSolutions.append('elimination method')
-    #stuff.possibleSolutions.append('substitution method')
 
     # Examples
-    print("---Sample input and the method each is most closely associated with.--- \n")
+    print("Demonstrating some examples ... ")
+    print("\n Sample input and the method each is most closely associated with.")
+
 
     # Quadratic formula examples
-    print("\n Input indicating quadratic formula \n")
+    print("\n Input indicating quadratic formula")
     str = "I want to do the quadratic formula"
     q = model.predictMethod(str)
-    print("Input: " + str + "-> Method: " + q[1][0][1] + " Confidence ")
+    print("Input: " + str + "\n  Method: " + q[1][0][1] + " Confidence ")
     print q[1][0][0]
     print("\n")
 
@@ -119,7 +78,7 @@ if __name__ == '__main__':
     
     
     # Square root method examples
-    print("\n Input indicating square root method \n")
+    print("\n Input indicating square root method")
     str = "lets do the square root"
     s = model.predictMethod(str)
     print("Input: " + str + "-> Method: " + s[1][0][1] + " Confidence: ")
@@ -134,7 +93,7 @@ if __name__ == '__main__':
 
 
     # Complete the square method examples
-    print("\n Input indicating complete the square \n")
+    print("\n Input indicating complete the square")
     str = "'complete-the-squares method'"
     c = model.predictMethod(str)
     print("Input: " + str + "-> Method: " + c[1][0][1] + " Confidence: ")
@@ -189,10 +148,9 @@ if __name__ == '__main__':
     print c[1][0][0]  
     print("\n")
    
-    
-
+   
     # Factor quadratic method examples
-    print("\n Input indicating factor the quadratic method \n")
+    print("\n Input indicating factor the quadratic method")
     str = "i want to break apart the equation"
     f = model.predictMethod(str)
     print("Input: " + str + "-> Method: " + f[1][0][1] + " Confidence: ")
@@ -211,29 +169,9 @@ if __name__ == '__main__':
     print f[1][0][0]  
     print("\n")
     
-    # # High confidence in two methods examples
-    # print("\n Input indicating high confidence in two methods \n")
-    # str = "i want to square it"
-    # t = model.predictMethod(str)
-    # print("Input: " + str + "-> Method: " + t[1][0][1] + " Confidence: ")
-    # print t[1][0][0]  
-    # print("\n")
-    
-    # str = "quadratic"
-    # t = model.predictMethod(str)
-    # print("Input: " + str + "-> Method: " + t[1][0][1] + " Confidence: ")
-    # print t[1][0][0]  
-    # print("\n")
-    
-    # str = "dunno, maybe quadratic?"
-    # t = model.predictMethod(str)
-    # print("Input: " + str + "-> Method: " + t[1][0][1] + " Confidence: ")
-    # print t[1][0][0]  
-    # print("\n")
-    
     
     # Help examples
-    print("\n Input indicating user is asking for help \n")
+    print("\n Input indicating user is asking for help")
     str = "i\'m not sure"
     h = model.predictMethod(str)
     print("Input: " + str + "-> Method: " + h[1][0][1] + " Confidence: ")
@@ -254,7 +192,7 @@ if __name__ == '__main__':
     
     
     # Unknown examples
-    print("\n Unknown input \n")
+    print("\n Unknown input")
     str = "Xyzzy"
     u = model.predictMethod(str)
     print("Input: " + str + "-> Method: " + u[1][0][1] + " Confidence: ")
@@ -285,8 +223,9 @@ if __name__ == '__main__':
     print u[1][0][0]  
     print("\n")
     
+    
     # User input examples
-    print("\n Try out 5 inputs of your own \n")
+    print("\n Try out 5 inputs of your own")
     str = input("Enter your own sample input: ")
     i = model.predictMethod(str)
     print("Input: " + str + "-> Method: " + i[1][0][1] + " Confidence: ")
@@ -319,5 +258,3 @@ if __name__ == '__main__':
     
     
     print "done"
-
-
