@@ -1,4 +1,4 @@
-#H1 Summary: 
+### Summary: 
 
 The problem presented deals with classifying textual user inputs into 4 different method classes which indicate which method the
 user wants to use to solve a quadratic equation. The possible classes are: CompleteSquare, QuadraticFormula, FactorQuadratic 
@@ -7,20 +7,24 @@ and TakeSquareRoots, where each class is associated with specific mathematical a
 errors. The program should take in textual input and return the name of a method, "help", or "unrecognized".
 
 
-##H2 Assumed Input:
+### Assumed Input:
 
 No input needed to run the demo. There will be 5 prompts at the end of the demo to test the neural network analyzer with your 
 own strings. These prompts take a nonempty string of charactersm, for example: use the quadratic formula. Quotation marks need
 not be included. 
 
-##H2 Algorithm: (Harry) 
 
-##H2 Resources: 
+### Algorithm: 
+
+
+
+### Resources: 
 
 Open source code for spelling checker (http://norvig.com/spell-correct.html), various google searches. Pages used are cited at
 the bottom of the file to which their content contributed. 
 
-##H2 Restrictions: 
+
+### Restrictions: 
 
 Additional Package Installation instructions to be found in the README.
 
