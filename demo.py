@@ -2,7 +2,7 @@ __author__ = 'loaner'
 from addDoc import trainingCorpus
 from keywordLearner import solutionTrainer
 from SpellerCorrector import Corrector
-
+  
 
 if __name__ == '__main__':
    # x = ('dog',3)
