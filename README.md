@@ -1,3 +1,5 @@
+N.B. After running the demo, it may take a few seconds for the gensim to initialize. 
+
 Required before running the code: 
 
 1. Make sure you have a Python IDE. 
