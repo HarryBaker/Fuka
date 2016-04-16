@@ -7,8 +7,7 @@ and TakeSquareRoots, EliminationMethod, and SubstitutionMethod, where each class
 ### Assumed Input:
 
 No input needed to run the demo. There will be 5 prompts at the end of the demo to test the neural network analyzer with your 
-own strings. These prompts take a nonempty string of charactersm, for example: use the quadratic formula. Quotation marks need
-not be included. A quick warning though that the results from the user's query might not be as accurate as our examples, because the neural networks require a larger training corpus to understand a broader range of querise. To a certain extent we based our training sentances around the inputs we use as examples; while this isn't the best way to design a real world application of this, it shows the potential of doc2vec to understand semantic word associations. 
+own strings. These prompts take a nonempty string of charactersm, for example: "use the quadratic formula". The string must be inside quotation marks. A quick warning though that the results from the user's query might not be as accurate as our examples, because the neural networks require a larger training corpus to understand a broader range of querise. To a certain extent we based our training sentances around the inputs we use as examples; while this isn't the best way to design a real world application of this, it shows the potential of doc2vec to understand semantic word associations. 
 
 
 ### Algorithm: 
@@ -51,5 +50,3 @@ is corrected into "culprit" rather than "complete".
 * Complete negation has been addressed, but semeantic negation would require more training. For example, "I want to use quadratic formula and not the complete the square method" will produce the result "quadratic formula," but "I want to use the quadratic formula because complete the square is too complicated" will be associated with both quadratic formula and complete the square. 
  
 *If two methods receive a similarity scores that are close together (for example, "quadratic" would likely receive high similarity scores for "quadratic formula" and "factor quadratic"), the model will return whichever is higher. The model could be easily tweaked to return every method with a similarity score over a certain threshold. 
-
- 
