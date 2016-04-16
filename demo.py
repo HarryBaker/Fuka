@@ -16,47 +16,57 @@ if __name__ == '__main__':
     TC.addTopic('quadratic formula')
     TC.addTopic('help')
     TC.addTopic('all')
+    TC.addTopic('elimination method')
+    TC.addTopic('substitution method')
+
+    TC.addTopic('unknown')
 
 
  # Adding documents for each topic to training corpus
     print("Adding documents for each topic to training corpus ... ")
-    TC.addDoc('backup', 'all')
+    TC.addDoc('booster.txt', 'all')
     TC.addDoc('completeSquare_clean.txt', 'complete square')
     TC.addDoc('factorQuadratic_clean.txt', 'factor quadratic')
     TC.addDoc('quadraticFormula_clean.txt', 'quadratic formula')
     TC.addDoc('takeSquareRoot_clean.txt', 'take square root')
     TC.addDoc('Help.txt', 'help')
+    TC.addDoc('eliminationMethod_clean.txt', 'elimination method')
+    TC.addDoc('substitutionMethod_clean.txt', 'substitution method')
+
+    TC.addDoc('unknown.txt', 'unknown')
     
     
     # Initializaing neural network model
     print("Initializing neural network model ... ")
-    model = SolutionTrainer(TC, .7)
-
-
-
-
-    # Help examples
-    print("\nInput indicating user is asking for help")
-    str = "i\'m not sure"
-    h = model.predictMethod(str)
-    print("\nInput: " + str + "\n-> Method: " + h[1][1] + "\nConfidence: ")
-    print h[1][0]
-
-    str = "i have no idea"
-    h = model.predictMethod(str)
-    print("\nInput: " + str + "\n-> Method: " + h[1][1] + "\nConfidence: ")
-    print h[1][0]
-
-    str = "help"
-    h = model.predictMethod(str)
-    print("\nInput: " + str + "\n-> Method: " + h[1][1] + "\nConfidence: ")
-    print h[1][0]
-
+    model = SolutionTrainer(TC, .4)
 
 
     # Examples
     print("Demonstrating some examples ... ")
     print("\nSample input and the method each is most closely associated with: ")
+
+
+
+
+
+    # Elimination Method examples
+    print("\nInput indicating the elimination method")
+    str = "i\'ll use the elimination method"
+    e = model.predictMethod(str)
+    print("\nInput: " + str + "\n-> Method: " + e[1][1] + "\nConfidence: ")
+    print e[1][0]
+
+    # Substitution Method examples
+    print("\nInput indicating the substitution method")
+    str = "i\'ll use the substitution method"
+    sub = model.predictMethod(str)
+    print("\nInput: " + str + "\n-> Method: " + sub[1][1] + "\nConfidence: ")
+    print sub[1][0]
+
+    str = "I might use the substitutittiion method"
+    sub = model.predictMethod(str)
+    print("\nInput: " + str + "\n-> Method: " + sub[1][1] + "\nConfidence: ")
+    print sub[1][0]
 
 
     # Quadratic formula examples
@@ -170,6 +180,8 @@ if __name__ == '__main__':
     f = model.predictMethod(str)
     print("\nInput: " + str + "\n-> Method: " + f[1][1] + "\nConfidence: ")
     print f[1][0]
+
+
     
     
     # Help examples
@@ -188,6 +200,9 @@ if __name__ == '__main__':
     h = model.predictMethod(str)
     print("\nInput: " + str + "\n-> Method: " + h[1][1] + "\nConfidence: ")
     print h[1][0]
+
+
+
 
     
     

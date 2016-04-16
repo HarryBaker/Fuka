@@ -12,6 +12,12 @@ nltk.download("stopwords")
 #Class to hold onto list of topics and their associated documents. That is, the topic "quadratic equation" would have a
 #list of all documents associated into it. It will also store these documents as a list of sentances to be fed to
 #the doc2vec model
+
+#Topic.id must correspond to one of the potential methods you want to test against, unless it correspongs to a general
+#topic which is used to train all other topics. In this implementation 'all' is the only such topic, which provides
+#the booster sentances (see documentation for keywordLearner)
+
+#The tag for each document must also correspond to these ids
 class Topic():
     def __init__(self, id):
         self.id = id
@@ -27,7 +33,7 @@ class Topic():
         self.stop = stopwords.words('english')
 
         if id == "help":
-            #self.stop.remove("not")
+            self.stop.remove("not")
             self.stop.remove("don")
             #self.stop.remove("no")
 
@@ -36,7 +42,7 @@ class Topic():
         #different words. Additional training might make this unnesesary if the neural network is taught to connect
         #plurals
         #This should be moved to the training corpus class and passed to topics since it's common for all.
-        self.pluralsList = {
+        self.varientList = {
             'squares' : 'square',
             'squaring' : 'square',
             'squared' : 'square',
@@ -49,6 +55,12 @@ class Topic():
             'completes' : 'complete',
             'completing' : 'complete',
             'completed' : 'complete',
+            'substitute' : 'substitution',
+            'substituting' : 'substitution',
+            'substituted' : 'substitution',
+            'eliminate' : 'elimination',
+            'eliminated' : 'elimination',
+            'eliminating' : 'elimination',
 
 
         }
@@ -86,8 +98,8 @@ class Topic():
                         else:
                             addWord = word
                         #Converts plural key words to their singular form.
-                        if addWord in self.pluralsList:
-                            addWord = self.pluralsList[addWord]
+                        if addWord in self.varientList:
+                            addWord = self.varientList[addWord]
                         else:
                             addWord = addWord
 
@@ -111,7 +123,8 @@ class trainingCorpus:
         self.listOfDocs = []
         self.numberOfDocs = 0
 
-        self.masterSentance = []
+        self.masterSentances = []
+        self.boosterSentances = []
 
     #add potential topic to list of topics to train for
     def addTopic(self, name):
@@ -129,7 +142,10 @@ class trainingCorpus:
         #ID's as a key in a hash table because their strings.
         for topic in self.topics:
             if id == topic.id:
-                self.masterSentance += topic.addDoc(doc)
+                newSentances = topic.addDoc(doc)
+                self.masterSentances += newSentances
+                if id == 'all':
+                    self.boosterSentances += newSentances
 
 
 

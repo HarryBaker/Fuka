@@ -26,24 +26,32 @@ class Model():
 #specifically with the topic, as well as the master list of sentances. This allows us to train on a broader base of
 #knowledge, while giving special influence to documents that are more closely associated with the topic.
 
-#
+#Booster sentances are sentances for phrases that we believe will be more expected than otherwise found in an
+#unstructured corpus. For example, if you want to teach the model that "I want to break apart the function" is
+#associated with the method "factor the quadratic", then you would manually write language in the booster document
+#to encourage this association in a more supervised fashion. While our booster training does increase the
+#similarity of certain prompts like this in intended ways, it does not have enough training to push the
+#similarity ranking above the designated threshold in all cases. For example, "i want to break apart the function'
+#matches 'quadratic formula', which is close, but not totally ideal This needs more work, but seems like an effective.
+#way to identify common phrases and synonyms.
 class SolutionTrainer:
     def __init__(self, trainingMaterial, cutoff):
         self.unknownCutoff = cutoff
         self.trainingMaterial = trainingMaterial
 
         self.topics = trainingMaterial.topics
-        self.masterSentances = []
+        self.masterSentances = trainingMaterial.masterSentances
+        self.boosterSentances = trainingMaterial.boosterSentances
 
-        for topic in self.topics:
-            self.masterSentances += topic.allSentances
+        #for topic in self.topics:
+        #    self.masterSentances += topic.allSentances
 
         self.listOfModels = []
 
 
         #Similar to the Topic class. Dictionary of commonly used words and their plurals,
         #to convert plurals into their singular equivalient.
-        self.pluralsList = {
+        self.varientList = {
             'squares' : 'square',
             'squaring' : 'square',
             'squared' : 'square',
@@ -56,6 +64,12 @@ class SolutionTrainer:
             'completes' : 'complete',
             'completing' : 'complete',
             'completed' : 'complete',
+            'substitute' : 'substitution',
+            'substituting' : 'substitution',
+            'substituted' : 'substitution',
+            'eliminate' : 'elimination',
+            'eliminated' : 'elimination',
+            'eliminating' : 'elimination',
         }
 
         #Object to spellcheck words. This also depends on the text you use to train it. Most of the text
@@ -66,7 +80,7 @@ class SolutionTrainer:
         self.spellChecker = Corrector('big.txt')
 
         #For more information on size and mincounts, see the documentation for doc2vec
-        self.modelMaster = models.Doc2Vec(self.trainingMaterial.masterSentance, size=600, window=8, min_count=10)
+        self.modelMaster = models.Doc2Vec(self.masterSentances, size=600, window=8, min_count=10)
 
         for topic in self.topics :
             #Doesn't include the general topic, since that just stores documents that aren't saved to a particular topic
@@ -81,9 +95,9 @@ class SolutionTrainer:
         #include the master sentances so as to not dilute the influence of specific key "help" words. This particular
         #topic needs more work and training.
         if topic.id == 'help':
-            neuralModel = models.Doc2Vec(topic.allSentances * 1000, size=25, window=8, min_count = 1)
+            neuralModel = models.Doc2Vec(topic.allSentances * 1000, size=20, window=8, min_count = 1)
         else:
-            neuralModel = models.Doc2Vec(topic.allSentances * 7 + self.masterSentances *2, size=100, window=8, min_count = 5)
+            neuralModel = models.Doc2Vec(topic.allSentances * 7 + self.masterSentances + self.boosterSentances *20, size=100, window=8, min_count = 5)
         model = Model(topic.id, neuralModel)
         self.listOfModels.append(model)
 
@@ -95,10 +109,14 @@ class SolutionTrainer:
         #Splits on "Not" so as to identify negations in the query
         #Ie, i want to do the quadratic equation, not factor the quadratic
         #The following two for loops go through and remove the parts of the sentance following not.
-        #This is a very basic way of checking for negations, and could use more work to be more nuanced. This
-        #is especially true if adapting to languages that have a different sentance structure than english
+        #This is a very basic way of checking for negations, and could use more work to be more nuanced.
+        #For example, it doesn't handle sentances with multiple nots very well, and it doesn't recognize negative
+        #words other than not.
 
-        #doc2vec has a way to negatively
+        #This is all especially true if adapting to languages that have a different sentance structure than english.
+
+        #as mentioned in addDoc.py, doc2vec has a way to affect the ranking the significance of a sentance by negatively
+        #weighing it against certain keywords. There might be some application here for that.
         query = query.split("not")
 
         tempQuery = []
@@ -132,11 +150,11 @@ class SolutionTrainer:
         predictList = sorted(predictList,key=itemgetter(0),reverse=True)
         prediction = predictList[0]
 
-        #If the prediction doesn't have a high enough confidence, return that it's unknown.
+        #If the prediction doesn't have a high enough confidence, return that it's unknown.txt.
         #There are some issues here with the "help" class, because even when "help" is the most strongly associated
         #choice, it doesn't make the threshold. This can probably be fixed by training more "help" documents
         if prediction[1] == 'help':
-            if prediction[0] < .3:
+            if prediction[0] < .2:
                 prediction[1] = "Unknown"
         else:
             if prediction[0] < self.unknownCutoff:
@@ -159,15 +177,32 @@ class SolutionTrainer:
 
         for word in queryList:
             #Convert plural words to singular
-            if word in self.pluralsList:
-                    word = self.pluralsList[word]
+            if word in self.varientList:
+                    word = self.varientList[word]
             #If word is not recognized, try correcting it's spelling
             if word not in model.doc2vecModel.vocab:
                 correctedWord = self.spellChecker.correct(word)
             else:
                 correctedWord = word
             #If corrected word is in the model's vocabular, include it. You can't try to find the similarity of words
-            #that aren't in the model's vocabulary, or it will crash.
+            #that aren't in the model's vocabulary, or it will crash. One problem here though is that some gibberish
+            #words are simply cut out if they can't be properly spellchecked, so the query might give a false positive.
+            #This is what happens with the mispelled "I might use the substitutittiion method" query in the demo.
+            #It is not identified as supstitution, so the only significant words that are passed are "might" and
+            # "method", which match more closely to the elimination method in most cases.
+            # Adding some kind of "unknownWord" token might fix this by weighting down queries with a lot of
+            # unknown.txt words, or by measuring them against a document only including the word "unknownWord",
+            #  but we couldn't figure out how to implement it.
+            #
+            # For some reason however, leaving the documents and topics associated with "unknown.txt" seems to
+            # work for the cases we initially tested against (specifically the misspelled substitution query).
+            # We're not sure why this works; the additional noise might only specifically help in this case, or the
+            # additional noise might be just enough padding to prevent a query from becoming too closely associated with
+            # false positives. It seems worth looking into.
+            # One issue, however, is this noise prevents recognition of the inputs 'i want to break apart the equation'
+            # and i'll find what the factors are' if the threshold is too low. We believe it might also disturb
+            # similarly ambiguous inputs. We've left the "unknown.txt" in our demo, but more developed implementations
+            # of this code with more nuanced training documents should probably remove it.
             if correctedWord in model.doc2vecModel.vocab:
                 queryListFinal.append(correctedWord)
 
@@ -181,7 +216,7 @@ class SolutionTrainer:
         if queryListFinal:
             score = model.doc2vecModel.n_similarity(queryListFinal, optionListFinal)
             return score
-        #If there are no words recognized in the query, return 0, which will result in unknown.
+        #If there are no words recognized in the query, return 0, which will result in unknown.txt.
         else:
             return 0
 
